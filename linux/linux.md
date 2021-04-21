@@ -4,7 +4,7 @@
 从一个服务器传送某个文件到另外一个服务器上：
 
 ```
-[root@baize-server-a2d4d9ea ~]# scp /root/finwise-allinone-1.0.286.tar.gz root@172.16.15.117:/root/
+[root@baize-server-a2d4d9ea ~]# scp /root/finwise-allinone-1.0.286.tar.gz   root@172.16.15.117:/root/
 ```
 
 将某个文件夹压缩成zip压缩包：
@@ -50,4 +50,16 @@ ps -ef |grep 进程名
 
 
 
+
+查看某个机器的某个端口号是否可用
+
+```
+[root@baize-server-29057eb9 ~]# telnet 172.16.15.147 9080
+```
+
+连接某个ip：
+
+```
+[root@baize-server-659d96e6 ~]# ssh root@172.16.15.147
+```
 
