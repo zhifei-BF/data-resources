@@ -42,3 +42,10 @@ git push 远程分支名
 git branch -D 分支名
 ```
 
+# github DNS污染
+
+```
+github.com //网站无法访问
+raw.githubusercontent.com //图片无法显示
+```
+
