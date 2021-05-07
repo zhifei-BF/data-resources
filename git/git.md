@@ -42,11 +42,19 @@ git push 远程分支名
 git branch -D 分支名
 ```
 
-切换到指定远程分支：
+创建本地分支，连接到指定远程分支，并切换：
 
 ```
 git checkout -b 本地分支  origin/远程分支
 ```
+
+切换到指定的本地分支：
+
+```
+git checkout 本地分支
+```
+
+
 
 # github DNS污染
 
