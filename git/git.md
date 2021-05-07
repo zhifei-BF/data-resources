@@ -42,10 +42,22 @@ git push 远程分支名
 git branch -D 分支名
 ```
 
+切换到指定远程分支：
+
+```
+git checkout -b 本地分支  origin/远程分支
+```
+
 # github DNS污染
 
 ```
 github.com //网站无法访问
 raw.githubusercontent.com //图片无法显示
+```
+
+刷新本地DNS缓存：
+
+```
+ipconfig /flushdns
 ```
 
