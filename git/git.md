@@ -18,12 +18,6 @@ git branch
 git branch -a 
 ```
 
-切换分支：
-
-```
-git checkout 分支名
-```
-
 合并某个分支：
 
 ```

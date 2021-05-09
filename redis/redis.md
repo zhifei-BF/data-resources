@@ -67,6 +67,8 @@ Redis是一个开源的key-value存储系统。
 
 ## Redis安装
 
+redis官网：https://redis.io/
+
 - 下载redis安装包，上传到服务器的/opt目录下
 
 - 解压缩redis压缩包：tar -zxvf redis.tar.gz
@@ -160,7 +162,7 @@ redis和Memcached三点不同：支持多数据类型、支持持久化、单线
 查看所有的键：
 
 ```
-key *
+keys *
 ```
 
 判断某个键是否存在：
@@ -427,9 +429,243 @@ linsert  列表名   before/after  值1   值2
 
 ## redis-五大基本数据类型-set
 
+自动去重，无序，底层是value值为null的hash 表。
 
+向集合中添加多个元素，已经存在的元素将被忽略：
+
+```
+sadd <key> <value1> <value2> ......
+```
+
+获取集合中的元素：
+
+```
+smembers <key>
+```
+
+判断某个集合中是否含有某个元素，返回1表示有，返回0表示没有：
+
+```
+sismember <key> <value>
+```
+
+返回集合中元素的个数：
+
+```
+scard <key>
+```
+
+删除集合中的元素：
+
+```
+srem <key> <value1> <value2> ......
+```
+
+随机从集合中吐出一个值（会被删除）：
+
+```
+spop <key> 
+```
+
+随机从该集合中吐出n个值，不会从集合中删除：
+
+```
+srandmember <key> <n>
+```
+
+把集合中一个值从一个集合移动到另一个集合：
+
+```
+smove <source> <destination> <value>
+<source> 为要移动值的集合
+<destination> 为将要移动到的集合
+<value> 为要移动的值
+```
+
+返回两个集合的交集元素：
+
+```
+sinter <key1> <key2>
+```
+
+返回两个集合的并集元素：
+
+```
+sunion <key1> <key2>
+```
+
+返回两个集合的差集元素（key1中的，不包含key2中的）：
+
+```
+sdiff <key1> <key2>
+```
 
 ## redis-五大基本数据类型-hash
 
+KV模式不变，但V是一个键值对。
+
+
+
+向集合中设置值：
+
+```
+hset <key> <valueKey> <valueValue>
+<valueKey> 为值里面的键
+<valueValue> 为值里面的值
+```
+
+获取集合中的值里面的值：
+
+```
+hget 键  值里面的键
+```
+
+向集合中设置多个值：
+
+```
+hmset 键 值里面的键1  值里面的值1  值里面的键2  值里面的值2 ......
+```
+
+向集合中获取多个值里面的值：
+
+```
+hmget 键 值里面的键1 值里面的键2 值里面的键3 ......
+```
+
+获取集合中值里的所有键值对：
+
+```
+hgetall 键
+```
+
+删除集合中值里面的键值对：
+
+```
+hdel 键  值里面的键
+```
+
+查看集合中键包含键值对的长度：
+
+```
+hlen 键
+```
+
+判断集合中值里面的某个键是否存在（存在返回1，不存在返回0）：
+
+```
+hexists 键  值里面的键
+```
+
+获取集合里面所有值里的键：
+
+```
+hkeys 键
+```
+
+获取集合里面所有值里面的值：
+
+```
+hvals 键
+```
+
+向集合中值里面的值增加某个整数：
+
+```
+hincrby 键 值里面的键  n
+n表示为要增加的整数
+```
+
+向集合中值里面的值增加某个小数：
+
+```
+hincrbyfloat 键 值里面的键 n
+```
+
+集合中值里面的键如果不存在则设置值里面的值：
+
+```
+hsetnx 键 值里面的键  值里面的值
+```
+
 ## redis-五大基本数据类型-zset
+
+在set基础上，加一个score值。
+
+之前set是 k1 v1 v2 v3 ，现在zset是k1 score1 v1 score2 v2 。
+
+向zset中添加元素：
+
+```
+zadd k1 score1 v1 score2 v2 
+```
+
+向zset中取出值：
+
+```
+zrange k1 index0 index1
+index为索引，当index为-1时，表示取出全部。
+```
+
+向zset取出值，并且取出score值：
+
+```
+zrange k1 index0 index1 withscore
+```
+
+向zset取出值，根据score范围来：
+
+```
+zrangebyscore key score1 score2
+如果是(score1和(score2，则表示不包含score1和score2。
+zrangebyscore key score1 score2 limit index0 count
+表示获取score1到score2范围内，索引从index0开始的count个数。
+```
+
+删除集合中某个元素：
+
+```
+zrem 键  值
+```
+
+统计集合中的个数：
+
+```
+zcard 键
+```
+
+计算score在某个范围内的个数：
+
+```
+zcount 键 index0 index
+```
+
+获取集合中某个值的索引：
+
+```
+zrank 键 值
+```
+
+获取集合中某个值的score值：
+
+```
+zscore 键 值
+```
+
+逆向获取某个值的索引值：
+
+```
+zrevrank 键 值
+```
+
+逆向获取值：
+
+```
+zrevrange 键 index0 index1
+```
+
+逆向根据score值获取值：
+
+```
+zrevrangebyscore 键 score1 score2
+```
 
