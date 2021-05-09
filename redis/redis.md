@@ -669,3 +669,111 @@ zrevrange 键 index0 index1
 zrevrangebyscore 键 score1 score2
 ```
 
+## 配置文件介绍
+
+redis的配置文件默认是在redis的根目录下，名为redis.conf。
+
+redis默认不是以守护进程的方式运行，可以通过该配置项修改，使用yes启用守护进程：
+
+```
+daemonize no
+```
+
+当redis以守护进程方式运行时，redis默认会把pid写入/var/run/redis.pid文件，可以通过pidfile指定：
+
+```
+pidfile /var/run/redis.pid
+```
+
+指定redis监听端口，默认端口为6379，redis的开发者在自己的一篇博文中解释了为什么选用6379作为默认端口，因为6379在手机键上MERZ对应的号码，而MERZ取自意大利歌女Alessia Merz的名字。
+
+```
+port 6379
+```
+
+绑定的主机地址：
+
+```
+bind 127.0.0.1
+```
+
+当客户端闲置多长时间后关闭连接，如果指定为0，表示关闭该功能：
+
+```
+timeout  300
+```
+
+指定日志记录级别，redis总共支持四个级别：debug、verbose、notice、warning，默认是verbose。
+
+```
+loglevel verbose
+```
+
+日志记录方式，默认为标准输出，如果配置redis为守护进程方式运行，而这里又配置为日志记录方式为标准输出，则日志将会发送给/dev/null。
+
+```
+logfile stdout
+```
+
+设置数据库的数量，默认数据库为0，可以使用SELECT  < dbid > 命令在连接上指定数据库id：
+
+```
+databases 16
+```
+
+指定本地数据库文件名，默认值为dump.rdb
+
+```
+dbfilename dump.rdb
+```
+
+指定本地数据库存放目录：
+
+```
+dir ./
+```
+
+设置redis连接密码，如果配置了连接密码，客户端在连接redis时需要通过AUTH < PASSWROD >命令提供密码，默认关闭。
+
+```
+requirepass foobared
+```
+
+设置同一时间最大客户端连接数，默认无限制，redis可以同时打开的客户端连接数为redis进程可以打开的最大文件描述符数，如果设置maxclients 0，表示不作限制。当客户端连接数到达限制时，redis会关闭新的连接并向客户端返回max number of clients reached错误信息。
+
+```
+maxclients 128
+```
+
+指定redis最大内存限制，redis在启动时会把数据加载到内存中，达到最大内存后，redis会向尝试清除已到期或者即将到期的Key，当此方法处理后，仍然到达最大内存设置，将无法再进行写入操作，但仍然可以进行读取操作。redis新的vm机制，会把Key存放内存，Value会存放再swap区。
+
+```
+maxmemory <bytes>
+```
+
+
+
+当在某个路径下启动redis时，可以使用下面命令获取这个路径：
+
+```
+config get dir
+```
+
+当redis设置了密码时，可以使用以下命令获取密码：
+
+```
+config get requirepass
+```
+
+设置密码：
+
+```
+config set requirepass "密码"
+```
+
+进行密码登录：
+
+```
+auth 密码
+```
+
