@@ -18,3 +18,9 @@ insert into table_name values(value1,value2,value3 ......)；
 delete from table_name where column_name = vlaue;
 ```
 
+向表中添加一个列：
+
+```mysql
+alter table 表名 add 列名 数据类型 约束;
+```
+

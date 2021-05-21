@@ -35,6 +35,44 @@
 
 创建文件：touch  文件名
 
+## 用户
+
+添加用户：
+
+```
+adduser 用户名 -p 密码
+```
+
+切换用户：
+
+```
+su 用户名
+```
+
+## 防火墙
+
+对防火墙进行操作时，需要使用root用户。
+
+查看防火墙的状态：
+
+```
+systemctl status firewalld
+```
+
+关闭防火墙：
+
+```
+systemctl stop firewalld
+```
+
+打开防火墙：
+
+```
+systemctl start firewalld
+```
+
+## 端口号被占用
+
 查看某端口号被哪个进程占用：
 
 ```
@@ -75,8 +113,6 @@ cat filename
 ```
 chown user[:group] file...
 ```
-
-
 
 # 查询相关进程
 
