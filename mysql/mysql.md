@@ -24,3 +24,21 @@ delete from table_name where column_name = vlaue;
 alter table 表名 add 列名 数据类型 约束;
 ```
 
+显示所有的表：
+
+```mysql
+show tables;
+```
+
+查看表结构：
+
+```mysql
+desc table_name;
+```
+
+删除表：
+
+```mysql
+drop table database_name.table_name;
+```
+
