@@ -61,3 +61,20 @@ java -jar jenkins.war --httpPort=8080	//jenkins默认端口号为8080
 
 
 注意，如果还是进入不了系统，需要稍等一下，或者刷新页面，如果还是进入不了，需要重新启动jenkins服务器。
+
+如果界面提示Jenkins正在启动,请稍后…或者提示Please wait while Jenkins is getting ready to work…
+
+1. 此时，你需要使用清华的镜像。将安装目录下的hudson.model.UpdateCenter.xml换成如下：
+
+```xml
+<?xml version='1.1' encoding='UTF-8'?>
+<sites>
+  <site>
+    <id>default</id>
+    <url>https://updates.jenkins-zh.cn/update-center.json</url>
+  </site>
+</sites>
+```
+
+2. 将updates文件夹下的default.json 中所有`http://updates.jenkins-ci.org/download/`替换为`https://mirrors.tuna.tsinghua.edu.cn/jenkins/`，然后重启Jenkins，`http://localhost:8080/restart`即可。
+
