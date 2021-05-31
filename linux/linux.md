@@ -114,6 +114,14 @@ cat filename
 chown user[:group] file...
 ```
 
+## CURL命令
+
+```
+curl -X GET 接口路径
+```
+
+
+
 # 查询相关进程
 
 ps -ef |grep 进程名

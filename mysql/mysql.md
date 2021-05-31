@@ -42,3 +42,9 @@ desc table_name;
 drop table database_name.table_name;
 ```
 
+更新表中某一列的值：
+
+```mysql
+updae table_name set column_name=对应的值;
+```
+
