@@ -78,7 +78,7 @@ Nacos就是注册中心+配置中心的组合     等价于    <font color="red"
 
 下载nacos-server-1.1.4.zip后解压即可
 
-![1622471321283](SpringCloud Alibaba.assets/1622471321283.png)
+![1622471321283](SpringCloudAlibaba.assets/1622471321283.png)
 
 #### 启动Nacos
 
@@ -100,7 +100,7 @@ cmd startup.cmd
 
 或者双击startup.cmd运行文件。
 
-![1622471422281](SpringCloud Alibaba.assets/1622471422281.png)
+![1622471422281](SpringCloudAlibaba.assets/1622471422281.png)
 
 #### 访问Nacos
 
@@ -108,7 +108,7 @@ cmd startup.cmd
 
 会跳转到登录页面，账号密码默认都是nacos，端口号为8848
 
-![1622471453288](SpringCloud Alibaba.assets/1622471453288.png)
+![1622471453288](SpringCloudAlibaba.assets/1622471453288.png)
 
 注册中心已经准备完毕，我们再基于Nacos注册中心创建服务提供者和消费者
 
@@ -116,11 +116,11 @@ cmd startup.cmd
 
 新建工程: nacos-provider-movie
 
-![1622471492237](SpringCloud Alibaba.assets/1622471492237.png)
+![1622471492237](SpringCloudAlibaba.assets/1622471492237.png)
 
 引入模块 spring web
 
-![1622471504225](SpringCloud Alibaba.assets/1622471504225.png)
+![1622471504225](SpringCloudAlibaba.assets/1622471504225.png)
 
 pom文件添加依赖，注意：nacos版本 0.2.x.RELEASE 对应的是 Spring Boot 2.x 版本，版本 0.1.x.RELEASE 对应的是 Spring Boot 1.x 版本。
 
@@ -173,11 +173,11 @@ spring:
 
 多实例启动，查看Nacos控制台
 
-![1622471687491](SpringCloud Alibaba.assets/1622471687491.png)
+![1622471687491](SpringCloudAlibaba.assets/1622471687491.png)
 
 浏览器访问：<http://localhost:8488/nacos>
 
-![1622471704171](SpringCloud Alibaba.assets/1622471704171.png)
+![1622471704171](SpringCloudAlibaba.assets/1622471704171.png)
 
 ### 基于Nacos创建服务消费者
 
@@ -201,7 +201,7 @@ spring.cloud.nacos.discovery.server-addr=localhost:8848
 
 
 
-![1622471822917](SpringCloud Alibaba.assets/1622471822917.png)
+![1622471822917](SpringCloudAlibaba.assets/1622471822917.png)
 
 ### 使用Feign实现服务调用
 
@@ -244,9 +244,9 @@ nacos配置中心：系统配置的集中管理（编辑、存储、分发）、
 
 nacos创建统一配置
 
-![1622472013807](SpringCloud Alibaba.assets/1622472013807.png)
+![1622472013807](SpringCloudAlibaba.assets/1622472013807.png)
 
-![1622472020100](SpringCloud Alibaba.assets/1622472020100.png)
+![1622472020100](SpringCloudAlibaba.assets/1622472020100.png)
 
 dataId 的完整格式如下：
 
@@ -323,11 +323,11 @@ public class ProviderController {
 
 创建名称空间
 
-![1622472301364](SpringCloud Alibaba.assets/1622472301364.png)
+![1622472301364](SpringCloudAlibaba.assets/1622472301364.png)
 
 切换到配置列表：
 
-![1622472314021](SpringCloud Alibaba.assets/1622472314021.png)
+![1622472314021](SpringCloudAlibaba.assets/1622472314021.png)
 
 可以发现有四个名称空间：public（默认）以及我们自己添加的3个名称空间（prod、dev、test），可以点击查看每个名称空间下的配置文件，当然现在只有public下有一个配置。
 
@@ -339,15 +339,15 @@ public class ProviderController {
 
 **2** **直接通过clone方式添加配置，并修改即可。推荐**
 
-![1622472344422](SpringCloud Alibaba.assets/1622472344422.png)
+![1622472344422](SpringCloudAlibaba.assets/1622472344422.png)
 
-![1622472349913](SpringCloud Alibaba.assets/1622472349913.png)
+![1622472349913](SpringCloudAlibaba.assets/1622472349913.png)
 
-![1622472356408](SpringCloud Alibaba.assets/1622472356408.png)
+![1622472356408](SpringCloudAlibaba.assets/1622472356408.png)
 
 点击编辑：修改配置内容，以作区分
 
-![1622472367897](SpringCloud Alibaba.assets/1622472367897.png)
+![1622472367897](SpringCloudAlibaba.assets/1622472367897.png)
 
 在服务提供方nacos-provider-movie中切换命名空间
 
@@ -359,11 +359,11 @@ spring.cloud.nacos.config.namespace=dda09a20-c3f8-4a5d-a3c6-975bc4e273cc
 
 namespace的值为：
 
-![1622472428442](SpringCloud Alibaba.assets/1622472428442.png)
+![1622472428442](SpringCloudAlibaba.assets/1622472428442.png)
 
 重启服务提供方服务，在浏览器中访问测试：
 
-![1622472440343](SpringCloud Alibaba.assets/1622472440343.png)
+![1622472440343](SpringCloudAlibaba.assets/1622472440343.png)
 
 回滚配置
 
@@ -371,11 +371,11 @@ namespace的值为：
 
 1. 查看历史版本
 
-![1622472481107](SpringCloud Alibaba.assets/1622472481107.png)
+![1622472481107](SpringCloudAlibaba.assets/1622472481107.png)
 
 2. 回滚到某个历史版本
 
-![1622472495253](SpringCloud Alibaba.assets/1622472495253.png)
+![1622472495253](SpringCloudAlibaba.assets/1622472495253.png)
 
 
 
@@ -383,7 +383,7 @@ namespace的值为：
 
 偶尔情况下需要加载多个配置文件。假如现在dev名称空间下有三个配置文件：nacos-provider.properties、redis.properties、jdbc.properties。
 
-![1622472512542](SpringCloud Alibaba.assets/1622472512542.png)
+![1622472512542](SpringCloudAlibaba.assets/1622472512542.png)
 
 nacos-provider-movie.properties默认加载，怎么加载另外两个配置文件？
 
@@ -418,7 +418,7 @@ public class ProviderController {
 
 测试效果：
 
-![1622472567267](SpringCloud Alibaba.assets/1622472567267.png)
+![1622472567267](SpringCloudAlibaba.assets/1622472567267.png)
 
 问题：
 
@@ -436,7 +436,7 @@ public class ProviderController {
 
 新增一个redis.properties，所属分组为provider：
 
-![1622472603044](SpringCloud Alibaba.assets/1622472603044.png)
+![1622472603044](SpringCloudAlibaba.assets/1622472603044.png)
 
 现在开发环境中有两个redis.propertis配置文件，一个是默认分组（DEFAULT_GROUP），一个是provider组,默认情况下从DEFAULT_GROUP分组中读取redis.properties，如果要切换到provider分组下的redis.properties，需要添加如下配置：
 
@@ -473,7 +473,7 @@ Sentinel 具有以下特征:
 
 Sentinel 的主要特性：
 
-![img](SpringCloud Alibaba.assets/wps1.jpg)
+![img](SpringCloudAlibaba.assets/wps1.jpg)
 
 Sentinel 目前已经针对 Servlet、Dubbo、Spring Boot/Spring Cloud、gRPC 等进行了适配，用户只需引入相应依赖并进行简单配置即可非常方便地享受 Sentinel 的高可用流量防护能力。
 
@@ -503,7 +503,7 @@ Sentinel 分为两个部分:
 
 地址：<https://github.com/alibaba/Sentinel/releases/tag/1.7.2>
 
-![1622472847808](SpringCloud Alibaba.assets/1622472847808.png)
+![1622472847808](SpringCloudAlibaba.assets/1622472847808.png)
 
 **运行**
 
@@ -511,7 +511,7 @@ Sentinel 分为两个部分:
 java  -jar sentinel-dashboard-1.7.2.jar
 ```
 
-![1622472873623](SpringCloud Alibaba.assets/1622472873623.png)
+![1622472873623](SpringCloudAlibaba.assets/1622472873623.png)
 
 **访问sentinel控制台**
 
@@ -571,7 +571,7 @@ feign:
 
 **添加Nacos业务规则配置**
 
-![1622472978587](SpringCloud Alibaba.assets/1622472978587.png)
+![1622472978587](SpringCloudAlibaba.assets/1622472978587.png)
 
 · 内容解析
 
@@ -589,11 +589,11 @@ feign:
 ]
 ```
 
-![1622473013105](SpringCloud Alibaba.assets/1622473013105.png)
+![1622473013105](SpringCloudAlibaba.assets/1622473013105.png)
 
 启动8401后刷新sentinel发现业务规则有了
 
-![1622473040855](SpringCloud Alibaba.assets/1622473040855.png)
+![1622473040855](SpringCloudAlibaba.assets/1622473040855.png)
 
 快速访问测试接口
 
@@ -601,11 +601,11 @@ feign:
 
 默认
 
-![1622473070712](SpringCloud Alibaba.assets/1622473070712.png)
+![1622473070712](SpringCloudAlibaba.assets/1622473070712.png)
 
 停止8401再看sentinel
 
-![1622473095429](SpringCloud Alibaba.assets/1622473095429.png)
+![1622473095429](SpringCloudAlibaba.assets/1622473095429.png)
 
 重新启动8401再看sentinel
 
@@ -639,13 +639,13 @@ Zuul和Eureka进行整合，将Zuul自身注册为Eureka服务治理下的应用
 
 总体来说，Zuul提供了**代理**、**路由**和**过滤**的功能。
 
-![1622473189327](SpringCloud Alibaba.assets/1622473189327.png)
+![1622473189327](SpringCloudAlibaba.assets/1622473189327.png)
 
 **创建Zuul工程**
 
 Springboot项目：cloud-zuul ， 并引入Eureka client、config、zuul依赖
 
-![1622473207614](SpringCloud Alibaba.assets/1622473207614.png)
+![1622473207614](SpringCloudAlibaba.assets/1622473207614.png)
 
 创建后依赖如下：
 
