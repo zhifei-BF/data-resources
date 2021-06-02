@@ -35,7 +35,7 @@
   - [juc](juc/juc.md)
 
 - 微服务
-  - [springcloud alibaba](SpringCloudAlibaba/SpringCloudAlibaba.md)
+  - [springcloud alibaba](springcloud/SpringCloudAlibaba.md)
 
   - [zookeeper](zookeeper/zookeeper.md)
 
