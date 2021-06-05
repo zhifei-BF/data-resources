@@ -97,13 +97,11 @@
 
 - QPS(Query/Request Per Second)、 TPS（Transaction Per Second） 
 
-- 每秒查询（请求）数、每秒事务数
-  - 专业的测试工具
+  - 每秒查询（请求）数、每秒事务数
+- 专业的测试工具
 
   - Apache ab
-
   - Apache JMeter
-
 - 并发用户数
 
 - 承载的正常使用系统功能的用户的数量
@@ -272,7 +270,7 @@ Region和Zone就相当于大区和机房，一个Region（大区）可以有很�
 
 # SpringCloud-HelloWorld案例开发-注册中心
 
-## 注册中心
+**注册中心**
 
 （Eureka , jar工程）cloud-eureka-registry-center
 
@@ -531,7 +529,7 @@ eureka:
 
 <http://localhost:9000/buyMovie?id=1>
 
-# SpringCloud-HelloWorld案例开发-Ribbon-RestTemplate
+# SpringCloud-HelloWorld案例开发-Ribbon-RestTemplate-负载均衡
 
 Ribbon负载均衡，可以用于远程调用（用户服务 调用  电影服务 项目）
 
@@ -548,8 +546,8 @@ Spring Cloud Ribbon是基于Netflix Ribbon实现的一套客户端负载均衡�
 ```xml
 <!-- 引入ribbon实现远程调用和负载均衡功能 -->
 <dependency>
-<groupId>org.springframework.cloud</groupId>
-<artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
 </dependency>
 ```
 
@@ -599,8 +597,8 @@ return result;
 private String port;
  
 public Movie getNewMovie(){
-System.out.println("当前电影服务的端口："+port);
-return movieDao.getNewMovie();
+    System.out.println("当前电影服务的端口："+port);
+    return movieDao.getNewMovie();
 }
 ```
 
@@ -637,8 +635,8 @@ RoundRobinRule类
 
 ```xml
 <dependency>
-<groupId>org.springframework.cloud</groupId>
-<artifactId>spring-cloud-starter-openfeign</artifactId>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-openfeign</artifactId>
 </dependency>
 ```
 
@@ -654,9 +652,9 @@ RoundRobinRule类
 @EnableDiscoveryClient 
 @SpringBootApplication
 public class CloudConsumerUserFeignApplication {
-public static void main(String[] args) {
-SpringApplication.run(CloudConsumerUserFeignApplication.class, args);
-}
+    public static void main(String[] args) {
+    	SpringApplication.run(CloudConsumerUserFeignApplication.class, args);
+    }
 }
 ```
 
@@ -687,8 +685,8 @@ eureka:
  */
 @FeignClient(value="CLOUD-PROVIDER-MOVIE") //与被调用端的服务名称一致
 public interface MovieServiceFeign { 
-@GetMapping("/movie")
-public Movie getNewMovie(); //与被调用服务端的映射方法一致 
+    @GetMapping("/movie")
+    public Movie getNewMovie(); //与被调用服务端的映射方法一致 
 }
 ```
 
@@ -697,28 +695,28 @@ public Movie getNewMovie(); //与被调用服务端的映射方法一致 
 ```java
 @Service
 public class UserService {
+
+    @Autowired
+    UserDao userDao;
  
-@Autowired
-UserDao userDao;
+    //面向接口编程
+    @Autowired
+    MovieServiceFeign movieServiceFeign; //调用Feign接口；其实就是调用远程服务
  
-//面向接口编程
-@Autowired
-MovieServiceFeign movieServiceFeign; //调用Feign接口；其实就是调用远程服务
- 
-/**
- * 购买最新的电影票
- * 传入用户id
+	/**
+	 * 购买最新的电影票
+	 * 传入用户id
    */
-public Map<String, Object> buyMovie(Integer id){
-Map<String, Object>  result = new HashMap<>();
-//1、查询用户信息
-User userById = getUserById(id);
-//2、查到最新电影票  Feign方式发起远程调用
-Movie movie = movieServiceFeign.getNewMovie();
-result.put("user", userById);
-result.put("movie", movie);
-return result;
-}
+	public Map<String, Object> buyMovie(Integer id){
+    Map<String, Object>  result = new HashMap<>();
+    //1、查询用户信息
+    User userById = getUserById(id);
+    //2、查到最新电影票  Feign方式发起远程调用
+    Movie movie = movieServiceFeign.getNewMovie();
+    result.put("user", userById);
+    result.put("movie", movie);
+    return result;
+	}
 }
 ```
 
@@ -736,13 +734,13 @@ return result;
 
 ```java
 @Bean
-    public Logger.Level feignLoggerLevel(){
-        //NONE：默认不显示日志
-       //BASIC: 仅显示请求方法、RUL、响应状态码及执行时间
-       // HEADERS：除了BASIC中定义的信息之外，还包括请求和响应的头信息
-      // FULL: 除了HEADERS中定义的信息之外，还有请求和响应的正文及元数据
-return Logger.Level.FULL;
-    }
+public Logger.Level feignLoggerLevel(){
+    //NONE：默认不显示日志
+    //BASIC: 仅显示请求方法、RUL、响应状态码及执行时间
+    // HEADERS：除了BASIC中定义的信息之外，还包括请求和响应的头信息
+    // FULL: 除了HEADERS中定义的信息之外，还有请求和响应的正文及元数据
+    return Logger.Level.FULL;
+}
 ```
 
 2、在yml中设置feign客户端的日志级别
@@ -811,8 +809,8 @@ Hystrix能够保证在一个依赖出问题的情况下，不会导致整体服�
 ```xml
 <!--  引入hystrix进行服务熔断 -->
 <dependency>
-<groupId>org.springframework.cloud</groupId>
-<artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
 </dependency>
 ```
 
@@ -827,15 +825,15 @@ Hystrix能够保证在一个依赖出问题的情况下，不会导致整体服�
  */
 @HystrixCommand(fallbackMethod="hystrix")
 public Map<String, Object> buyMovie(Integer id){
-Map<String, Object>  result = new HashMap<>();
-//1、查询用户信息
-User userById = getUserById(id);
-//2、查到最新电影票  restTemplate使用java代码来模拟发请求
-Movie movie = restTemplate.getForObject("http://CLOUD-PROVIDER-MOVIE/movie", Movie.class);
- 
-result.put("user", userById);
-result.put("movie", movie);
-return result;
+    Map<String, Object>  result = new HashMap<>();
+    //1、查询用户信息
+    User userById = getUserById(id);
+    //2、查到最新电影票  restTemplate使用java代码来模拟发请求
+    Movie movie = restTemplate.getForObject("http://CLOUD-PROVIDER-MOVIE/movie", Movie.class);
+
+    result.put("user", userById);
+    result.put("movie", movie);
+    return result;
 }
 ```
 
@@ -843,16 +841,16 @@ return result;
 
 ```java
 public Map<String, Object> hystrix(Integer id){
-User user = new User();
-user.setId(-1);
-user.setUserName("未知用户");
-Movie movie = new Movie();
-movie.setId(-100);
-movie.setMovieName("无此电影");
-Map<String, Object>  result = new HashMap<>();
-result.put("user", user);
-result.put("movie", movie);
-return result;
+    User user = new User();
+    user.setId(-1);
+    user.setUserName("未知用户");
+    Movie movie = new Movie();
+    movie.setId(-100);
+    movie.setMovieName("无此电影");
+    Map<String, Object>  result = new HashMap<>();
+    result.put("user", user);
+    result.put("movie", movie);
+    return result;
 }
 ```
 
@@ -875,8 +873,8 @@ return result;
 ```xml
 <!--  引入hystrix进行服务熔断 -->
 <dependency>
-<groupId>org.springframework.cloud</groupId>
-<artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
 </dependency>
 ```
 
