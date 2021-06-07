@@ -48,3 +48,9 @@ drop table database_name.table_name;
 updae table_name set column_name=对应的值;
 ```
 
+创建数据库并设置字符集为UTF8：
+
+```mysql
+create DATABASE database_name CHARACTER set utf8 COLLATE utf8_general_ci;
+```
+
