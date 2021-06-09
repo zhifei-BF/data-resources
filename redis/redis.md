@@ -920,3 +920,72 @@ AOF的劣势：相同数据集的数据而言aof文件要远大于rdb文件，�
 redis的事务可以一次执行多个命令，本质是一组命令的集合。一个事务中的所有命令都会序列化，按顺序地串行化执行而不会被其他命令插入，不许加塞。
 
 在一个队列中，一次性、顺序性、排他性的执行一系列命令。
+
+## Jedis连接
+
+jedis所需要的架包：
+
+- commons-pool2-2.4.2.jar
+- jedis-2.8.1.jar
+
+连接redis注意事项：
+
+1. 禁用Linux的防火墙：Linux(CentOS7)里执行命令：`systemctl stop/disable firewalld.service  `
+
+2. redis.conf中注释掉bind 127.0.0.1 ,然后 `protected-mode no`
+
+
+
+在maven项目中的pom文件引入依赖：
+
+```xml
+<dependencies>
+    <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-pool2</artifactId>
+        <version>2.6.1</version>
+    </dependency>
+    <dependency>
+        <groupId>redis.clients</groupId>
+        <artifactId>jedis</artifactId>
+        <version>2.9.0</version>
+    </dependency>
+</dependencies>
+```
+
+然后代码测试连接是否成功：
+
+```java
+
+package com.atguigu.jedis;
+ 
+import redis.clients.jedis.Jedis;
+ 
+public class JedisTest {
+    /**
+     * JedisConnectionException: java.net.SocketTimeoutException:
+     *      错误排查：
+     *             1.1  检查reids是否启动
+     *                  xhsell中： ps -aux|grep redis
+     *             1.2 检查虚拟机防火墙是否关闭
+     *             1.3 redis保护模式必须关闭
+     *                  vim  /myredis/redis.conf
+     *                     69行 ， 注释bind 127.0.0.1
+     *                      88行，protected-mode yes改为no
+     *                      重启redis服务
+     */
+    public static void main(String[] args) {
+        //java代码连接redis步骤
+        //1、获取连接
+        Jedis jedis = new Jedis("192.168.1.130", 6379);
+        //2、使用连接对象发送命名操作redis
+        String ping = jedis.ping();
+        System.out.println("ping = " + ping);
+        //3、关闭连接
+        jedis.close();
+ 
+    }
+
+}
+```
+
