@@ -1,6 +1,17 @@
 # data-resouces
 整理大集,用于整理各种笔记资料。
 
+- java
+  - [juc](juc/juc.md)
+  - [git](git/git.md)
+  - [redis](java/redis/redis.md)
+  - [shiro](shiro/shiro.md)
+  - [linux](linux/linux.md)
+  - [docker](docker/docker.md)
+  - [jenkins](jenkins/jenkins.md)
+  - [springcloud alibaba](springcloud/SpringCloudAlibaba.md)
+  - [springcloud eureka](springcloud/SpringCloudEureka.md)
+
 - 数据访问层框架
   - [hibernate]()
   - [mybatis]()
@@ -11,40 +22,12 @@
 
   - [spring]()
 
-- 容器
-
-  - [docker](docker/docker.md)
-
 - 脚本
 
   - [shell](shell/shell.md)
 
-- 操作系统
-
-  - [linux](linux/linux.md)
-
-- 自动化部署
-
-  - [jenkins](jenkins/jenkins.md)
-- 内存数据库
-
-  - [redis](redis/redis.md)
-
-- 多线程
-
-  - [juc](juc/juc.md)
-
 - 微服务
-  - [springcloud alibaba](springcloud/SpringCloudAlibaba.md)
-
   - [zookeeper](zookeeper/zookeeper.md)
-
-- 定时任务
-
-  - [shiro](shiro/shiro.md)
-- 代码管理工具
-
-  - [git](git/git.md)
 
 - 理财
   - [基金](基金理财课/基金理财课.md)
