@@ -1140,3 +1140,110 @@ public class JedisTest {
 }
 ```
 
+使用代码向redis插入数据**(其他数据类型也是类似)**：
+
+```java
+ public static void main(String[] args) {
+     //java代码连接redis步骤
+     //1、获取连接
+     Jedis jedis = new Jedis("192.168.1.130", 6379);
+     //插入
+     jedis.set("k1","v1");
+     jedis.set("k2","v2");
+     //获取
+     System.out.println(jedis.get("k1"));
+     //获取所有
+     Set<String> sets = jedis.keys("*");
+     System.out.println(sets.size());
+}
+```
+
+**jedis事务：**
+
+```java
+ public static void main(String[] args) {
+        Jedis jedis = new Jedis("192.168.1.130", 6379);
+        Transaction transaction = jedis.multi();
+ 		transaction.set("k4","v4");
+ 		transaction.set("k5","v5");
+ 		//transaction.exec();提交
+     	transaction.discard();//放弃
+}
+```
+
+**jedis主从复制：**
+
+```java
+public static void main(String[] args){
+    Jedis jedis_M = new Jedis("192.168.1.130",6379);
+    Jedis jedis_S = new Jedis("192.168.1.130",6380);
+    jedis_S.slaveof("192.168.1.130",6379);
+    jedis_M.set("class","1122");
+    String result = jedis_S.get("class");
+    System.out.println(result);
+}
+```
+
+## JedisPool
+
+```java
+public class JedisPoolUtil{
+    private static volatile  JedisPool jedisPool = null;
+    
+    private JedisPoolUtil(){}
+    
+    public static JedisPool getJedisPoolInstance(){
+        if(null == jedisPool){
+            synchronized(JedisPoolUtil.class){
+                if(null == jedisPool){
+                	JedisPoolConfig poolConfig = new JedisPoolConfig();
+                	poolConfig.setMaxActive(1000);
+                	poolConfig.setMaxIdle(32);
+                	poolConfig.setMaxWait(100 * 1000);
+                	poolConfig.setTestOnBorrow(true);
+                	
+                    jedisPool = new JedisPool(poolConfig,"127.0.0.1",6379);
+                }
+            }
+        }
+        return jedisPool;
+    }
+    
+    public static void release(JedisPool jedisPool, Jedis jedis){
+        if(null != jedis){
+            jedisPool.returnResourceObject(jedis);
+        }
+    }
+}
+```
+
+
+
+```java
+public static void main(String[] args){
+    JedisPool jedisPool = JedisPoolUtil.getJedisPoolInstance();
+    //JedisPool jedisPool2 = JedisPoolUtil.getJedisPoolInstance();
+    //System.out.println(jedisPool == jedisPool2);
+    
+    Jedis jedis = null;
+    try{
+        jedis = jedisPool.getResouce();
+        jedis.set("k1","v1");
+    }catch(Exception e){
+        e.printStackTrace();
+    }finally{
+        jedisPoolUtil.release(jedisPool,jedis);
+    }
+}
+```
+
+maxActive: 控制一个pool可分配多少个jedis实例，通过pool.getResource()来获取；如果赋值为-1，则表示不限制；如果pool已经分配了maxActive个jedis实例，则此时pool的状态为exhausted。
+
+maxIdle：控制一个pool最多有多少个状态为Idle（空闲）的jedis实例；
+
+maxWait：表示当borrow一个jedis实例时，最大的等待时间，如果超过等待时间，则直接抛JedisConnectionException；
+
+testOnBorrow：获得一个jedis实例的时候是否检查连接可用性（ping（））；如果为true，则得到的jedis实例均是可用的；
+
+testOnReturn：return一个jedis实例给pool时，是否检查连接可用性（ping（））;
+
