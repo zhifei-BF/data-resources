@@ -191,3 +191,54 @@ cls
 - Sublime Text3是一个纯文本编辑器。
 - Package Control（Sublime的包管理器）
   - Sublime Text3中的插件，通过该插件可以向Sublime中安装新的包
+
+## 安装包管理器
+
+- 使用快捷键ctrl+shift+p，在搜素框中输入`install Package Control`回车即可。
+- 在`install Package Control`里最常用的就是install package 和remove package。
+
+![1623855674517](windows.assets/1623855674517.png)
+
+- 点击Preferences,如果看到Package Control代表安装成功。
+- 安装完毕之后，最好关掉软件，重启一下。
+
+## 安装中文语言包
+
+- 点击Package Control，在搜索框中搜索`chineseLocalizations`回车之后，英文变中文即安装成功。
+
+![1623856009469](windows.assets/1623856009469.png)
+
+![1623856095022](windows.assets/1623856095022.png)
+
+练习：
+
+1. 安装Sublime Text3
+2. 在Sublime中安装Package Control
+3. 通过Package Control安装Sublime的中文语言包
+4. 尝试为你的Sublime安装新的主题（通过搜索引擎搜索）
+
+
+
+## 字体大小和字体类型
+
+- 在首选项-》设置里面，可以对默认设置进行修改
+
+![1623856551183](windows.assets/1623856551183.png)
+
+如下是配置字体大小和字体类型：
+
+![1623856859176](windows.assets/1623856859176.png)
+
+需要注意font_face里所选的字体要求必须在你电脑上安装了的。若没安装，则先去下载安装。
+
+
+
+## 主题
+
+ctrl+shift+p，在install package 里面搜索ayu，回车即可下载安装。
+
+安装完以后，在首选项里面选择主题，找到你想要的即可。
+
+## 改变编辑器
+
+首选项里面选择配色方案，然后选择ayu-light即可。

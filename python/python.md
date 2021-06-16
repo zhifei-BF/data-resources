@@ -87,7 +87,7 @@ Python的解释器分类：
         用Java编写的Python解释器
 
 步骤：
-    1.下载安装包 python-3.6.5.exe
+    1.下载安装包 python-3.6.5.exe（版本之间互不兼容，在3.x开发的代码不能在2.x上运行，反之也是）
         - 3.x
         - 2.x    
     2.安装（傻瓜式安装） 
@@ -102,7 +102,7 @@ Python的解释器分类：
 ## Python的交互界面
 
 ```
-当我们通过命令行来输入Python，所进入到的界面就是Python的交互界面
+当我们通过命令行来输入Python，所进入到的界面就是Python的交互界面，exit() 用于退出
 结构：
     版本和版权声明：
     Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 16:07:46) [MSC v.1900 32 bit (Intel)] on win32
@@ -135,7 +135,7 @@ Python的解释器分类：
     这种执行方式，在某些版本的Sublime中对中文支持不好，并且不能使用input()函数
 
 2.使用SublimeREPL来运行python代码    
-    安装完成，设置快捷键，希望按f5则自动执行当前的Python代码
+    安装完成，首选项-》设置快捷键，希望按f5则自动执行当前的Python代码
     { "keys": ["f5"], "caption": "SublimeREPL:Python","command": "run_existing_window_command", "args":{"id": "repl_python_run","file": "config/Python/Main.sublime-menu"}},
 ```
 
@@ -335,7 +335,7 @@ python hello.py
 Hello, World!
 ```
 
-# Python3 安装
+## Python3 安装
 
 - Python 官网：https://www.python.org/
 
