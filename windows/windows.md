@@ -13,6 +13,11 @@ ipconfig
 ```
 dir
 ```
+运行exe文件：
+
+```
+start  xxx.exe
+```
 
 进入指定目录：
 
