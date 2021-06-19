@@ -18,6 +18,18 @@ git branch
 git branch -a 
 ```
 
+新建分支：
+
+```
+git branch 分支名
+```
+
+将新建的分支推送到远端：
+
+```
+git push origin 分支名
+```
+
 合并某个分支：
 
 ```
