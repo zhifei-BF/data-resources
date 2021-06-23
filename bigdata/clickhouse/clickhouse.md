@@ -157,3 +157,261 @@ SELECT 1
 1 rows in set. Elapsed: 0.003 sec. 
 ```
 
+# 分片
+
+ClickHouse的集群由分片 ( Shard ) 组成，而每个分片又通过副本 ( Replica ) 组成。这种分层的概念，在一些流行的分布式系统中十分普遍。例如，在Elasticsearch的概念中，一个索引由分片和副本组成，副本可以看作一种特殊的分片。如果一个索引由5个分片组成，副本的基数是1，那么这个索引一共会拥有10个分片 ( 每1个分片对应1个副本 )。
+
+如果你用同样的思路来理解ClickHouse的分片，那么很可能会在这里栽个跟头。ClickHouse的某些设计总是显得独树一帜，而集群与分片就是其中之一。这里有几个与众不同的特性。
+
+ClickHouse的1个节点只能拥有1个分片，也就是说如果要实现1分片、1副本，则至少需要部署2个服务节点。
+
+注意：一个节点通常就是一台机器。
+
+分片只是一个逻辑概念(类似于Hbase中的region的概念,表的范围数据)，其物理承载还是由副本承担的。
+
+# 分区
+
+ClickHouse支持PARTITION BY子句，在建表时可以指定按照任意合法表达式进行数据分区操作，比如通过toYYYYMM()将数据按月进行分区、toMonday()将数据按照周几进行分区、对Enum类型的列直接每种取值作为一个分区等。
+
+类似于hive中的分区表 。
+
+# 集群安装
+
+clickhouse的集群安装就是在每台机器上安装CH的服务端以及客户端!!所以在每台机器上重复单机安装步骤!
+
+1) 修改/etc/clickhouse-server/目录下的config.xml
+
+```xml
+<listen_host>::</listen_host>
+<!-- <listen_host>::1</listen_host> -->
+<!-- <listen_host>127.0.0.1</listen_host> -->
+```
+
+2) 将修改好的配置文件分发到其他CH节点上
+
+3) 在/etc/下创建集群配置文件metrika.xml文件(这个文件需要创建),在CH启动的时候会加载这个配置文件以集群的形式启动CH
+
+```xml
+<yandex>
+<clickhouse_remote_servers>
+    <doit_ch_cluster1>
+        <shard>
+            <internal_replication>true</internal_replication>
+            <replica>
+                <host>doit01</host>
+                <port>9000</port>
+            </replica>
+        </shard>
+        <shard>
+            <replica>
+                <internal_replication>true</internal_replication>
+                <host>doit02</host>
+                <port>9000</port>
+            </replica>
+        </shard>
+        <shard>
+            <internal_replication>true</internal_replication>
+            <replica>
+                <host>doit03</host>
+                <port>9000</port>
+            </replica>
+        </shard>
+    </doit_ch_cluster1>
+</clickhouse_remote_servers>
+
+<zookeeper-servers>
+  <node index="1">
+    <host>doit01</host>
+    <port>2181</port>
+  </node>
+
+  <node index="2">
+    <host>doit02</host>
+    <port>2181</port>
+  </node>
+  <node index="3">
+    <host>doit03</host>
+    <port>2181</port>
+  </node>
+</zookeeper-servers>
+
+<macros>
+    <replica>doit01</replica> //这里每个节点的配置添加当前节点ip
+</macros>
+<networks>
+   <ip>::/0</ip>
+</networks>
+
+<clickhouse_compression>
+<case>
+  <min_part_size>10000000000</min_part_size>                                        
+  <min_part_size_ratio>0.01</min_part_size_ratio>                                           <method>lz4</method>
+</case>
+</clickhouse_compression>
+</yandex>
+```
+
+4) 将配置文件分发到其他的CH节点上,并修改< macros> < /macros>内为自己的主机映射名!
+
+在每台机器上启动CH服务.以集群的形式启动 , 如果想要再以单节点的形式启动那么就删除/etc/下的metrika.xml文件即可单节点的形式启动!
+
+5) 查看CH的集群情况
+
+```sql
+select * from system.clusters
+```
+
+![1624460627899](clickhouse.assets/1624460627899.png)
+
+# ClickHouse数据类型
+
+![1624460676061](clickhouse.assets/1624460676061.png)
+
+**整型**
+
+固定长度的整型，包括有符号整型或无符号整型。
+
+整型范围（-2n-1~2n-1-1）：
+
+Int8 - [-128 : 127]
+
+Int16 - [-32768 : 32767]
+
+Int32 - [-2147483648 : 2147483647]
+
+Int64 - [-9223372036854775808 : 9223372036854775807]
+
+无符号整型范围（0~2n-1）：
+
+UInt8 - [0 : 255]
+
+UInt16 - [0 : 65535]
+
+UInt32 - [0 : 4294967295]
+
+UInt64 - [0 : 18446744073709551615]
+
+**浮点型**
+
+Float32 - float
+
+Float64 – double
+
+建议尽可能以整数形式存储数据。例如，将固定精度的数字转换为整数值，如时间用毫秒为单位表示，因为浮点型进行计算时可能引起四舍五入的误差。
+
+```sql
+:) select 1-0.9
+┌───────minus(1, 0.9)─┐
+│ 0.09999999999999998 │
+└─────────────────────┘
+```
+
+与标准SQL相比，ClickHouse 支持以下类别的浮点数：
+
+Inf-正无穷：
+
+```sql
+:) select 1/0
+┌─divide(1, 0)─┐
+│          inf │
+└──────────────┘
+```
+
+-Inf-负无穷：
+
+```sql
+:) select -1/0
+┌─divide(1, 0)─┐
+│          -inf│
+└──────────────┘
+```
+
+NaN-非数字：
+
+```sql
+:) select 0/0
+┌─divide(0, 0)─┐
+│          nan │
+└──────────────┘
+```
+
+**布尔型**
+
+没有单独的类型来存储布尔值。可以使用 UInt8 类型，取值限制为 0 或 1。
+
+**字符串**
+
+1）String
+
+字符串可以任意长度的。它可以包含任意的字节集，包含空字节。
+
+2）FixedString(N)
+
+固定长度 N 的字符串，N 必须是严格的正自然数。当服务端读取长度小于 N 的字符串时候，通过在字符串末尾添加空字节来达到 N 字节长度。 当服务端读取长度大于 N 的字符串时候，将返回错误消息。
+
+与String相比，极少会使用FixedString，因为使用起来不是很方便。
+
+**枚举类型**
+
+包括 Enum8 和 Enum16 类型。Enum 保存 'string'= integer 的对应关系。
+
+Enum8 用 'String'= Int8 对描述。
+
+Enum16 用 'String'= Int16 对描述。
+
+用法演示：
+
+创建一个带有一个枚举 Enum8('hello' = 1, 'world' = 2) 类型的列：
+
+```sql
+CREATE TABLE t_enum
+(
+    x Enum8('hello' = 1, 'world' = 2)
+)
+ENGINE = TinyLog
+```
+
+这个 x 列只能存储类型定义中列出的值：'hello'或'world'。如果尝试保存任何其他值，ClickHouse 抛出异常。
+
+```sql
+:) INSERT INTO t_enum VALUES ('hello'), ('world'), ('hello')
+
+INSERT INTO t_enum VALUES
+
+Ok.
+
+3 rows in set. Elapsed: 0.002 sec.
+
+:) insert into t_enum values('a')
+
+INSERT INTO t_enum VALUES
+
+
+Exception on client:
+Code: 49. DB::Exception: Unknown element 'a' for type Enum8('hello' = 1, 'world' = 2)
+```
+
+从表中查询数据时，ClickHouse 从 Enum 中输出字符串值。
+
+```sql
+SELECT * FROM t_enum
+
+┌─x─────┐
+│ hello │
+│ world │
+│ hello │
+└───────┘
+```
+
+如果需要看到对应行的数值，则必须将 Enum 值转换为整数类型。
+
+```sql
+SELECT CAST(x, 'Int8') FROM t_enum
+
+┌─CAST(x, 'Int8')─┐
+│               1 │
+│               2 │
+│               1 │
+└─────────────────┘
+```
+
