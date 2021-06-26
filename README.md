@@ -2,15 +2,15 @@
 整理大集,用于整理各种笔记资料。
 
 - java
-  - [juc](juc/juc.md)
-  - [git](git/git.md)
+  - [juc](java/juc/juc.md)
+  - [git](java/git/git.md)
   - [redis](java/redis/redis.md)
   - [shiro](shiro/shiro.md)
-  - [linux](linux/linux.md)
+  - [linux](java/linux/linux.md)
   - [docker](docker/docker.md)
-  - [jenkins](jenkins/jenkins.md)
-  - [springcloud alibaba](springcloud/SpringCloudAlibaba.md)
-  - [springcloud eureka](springcloud/SpringCloudEureka.md)
+  - [jenkins](java/jenkins/jenkins.md)
+  - [springcloud alibaba](java/springcloud/SpringCloudAlibaba.md)
+  - [springcloud eureka](java/springcloud/SpringCloudEureka.md)
 
 - 数据访问层框架
   - [hibernate]()
@@ -24,7 +24,7 @@
 
 - 脚本
 
-  - [shell](shell/shell.md)
+  - [shell](bigdata/shell/shell.md)
 
 - 微服务
   - [zookeeper](zookeeper/zookeeper.md)
