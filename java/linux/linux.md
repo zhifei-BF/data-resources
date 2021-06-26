@@ -126,7 +126,7 @@ curl -X GET 接口路径
 
 ps -ef |grep 进程名
 
-![在这里插入图片描述](./linux.assets/2020122916271564.png)
+![在这里插入图片描述](linux.assets/2020122916271564.png)
 
 
 
