@@ -49,6 +49,23 @@ o SpringBoot不是对Spring功能上的增强，而是提供了一种快速使�
 **o** **自动配置**
 Spring Boot的自动配置是一个运行时（更准确地说，是应用程序启动时）的过程，考虑了众多因素，才决定Spring配置应该用哪个，不该用哪个。该过程是Spring自动完成的。
 
+# SpringBoot版本说明
+
+```
+/**
+其中2：表示的主版本号，表示是我们的SpringBoot第二代产品
+其中1：表示的是次版本号，增加了一些新的功能但是主体的架构没有变化的，是兼容的
+其中6：表示的是bug修复版
+所以2.1.6合起来就是SpringBoot的第二代版本的第一个小版本的第6次bug修复版本
+RELEASE：存在哪些取值了①snapshot（开发版本）②M1...M2(里程碑版本，在正式版发布之前，会出几个里程碑的版本)③：release（正式版本）
+**/
+<parent>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-parent<artifactId>
+	<version>2.1.6.RELEASE</version>
+</parent>
+```
+
 # 环境要求
 
 https://docs.spring.io/spring-boot/docs/2.2.2.BUILD-SNAPSHOT/reference/htmlsingle/#getting-started-system-requirements#getting-started-system-requirements

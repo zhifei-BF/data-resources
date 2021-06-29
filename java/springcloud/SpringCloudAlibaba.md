@@ -1,6 +1,4 @@
-# SpringCloud Alibaba
-
-## 简介
+# SpringCloudAlibaba简介
 
 由于性能关系，Eureka停止更新，Hystrix和Ribbon进入维护模式，不再继续更新。
 
@@ -34,7 +32,57 @@ Nacos 可以与 Spring, Spring Boot, Spring Cloud 集成，并能代替 Spring C
 
 nacos在阿里巴巴内部有超过10万的实例运行，已经过了类似双十一等各种大型流量的考验。
 
-## Nacos主要功能
+# SpringCloudAlibaba的版本说明
+
+第一代版本:Angle 
+
+第二代版本:Brixton 
+
+第三代版本:Camden 
+
+第四代版本:Edgware
+
+第五代版本:Finchley 
+
+第六代版本:GreenWich 
+
+第七代版本:Hoxton(还在酝酿中，没正式版本) 
+
+**这种发布的版本是 以伦敦地铁站发行地铁的站。**
+
+**为什么我们的SpringCloud会以这种方式来发布版本,因为假如我们传统的5.1.5release这种发布的而 SpringCloud会包含很多子项目的版本就会给人造成混淆.**
+
+**SNAPSHOT**： 快照版本，随时可能修改 
+
+**M**： MileStone，M1表示第1个里程碑版本，一般同时标注PRE，表示预览版。
+
+**RC** 版本英文版名字叫Release Candidate（候选版本）一般标注PRE表示预览版
+
+**SR**： Service Release，SR1表示第1个正式版本，一般同时标注GA：(GenerallyAvailable),表示稳定版本。 
+
+**比如还有一种RELEASE版本（正式版本） 比如 Greenwich版本顺序Greenwich.release----->发现bug----->Greenwich.SR1------>发现bug---->Greenwich.SR2。** 
+
+**SpringCloud的发布计划** 
+
+https://github.com/spring-cloud/spring-cloud-release/milestones 
+
+**SpringCloud曾经发布的版本:** 
+
+https://github.com/spring-cloud/spring-cloud-release/releases 
+
+**③:Springboot SpringCloud SpringCloudalibaba 的版本对应关系**
+
+https://github.com/alibaba/spring-cloud-alibaba/wiki/%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E 
+
+**④：生产版本选择** 
+
+**a:打死不用 非稳定版本/ end-of-life（不维护）版本** 
+
+**b:release版本先等等(等别人去探雷)** 
+
+**c:推荐 SR2以后的可以放心使用.** 
+
+# Nacos主要功能
 
 Nacos主要提供以下四大功能：
 
@@ -49,10 +97,15 @@ Nacos主要提供以下四大功能：
 面试题：微服务间远程交互的过程？
 
 - 先去注册中心查询服务的服务器地址
-
 - 调用方给对方发送http请求
 
-## Nacos-Helloworld案例开发
+
+
+如果没有服务中心，我们只能通过RestTemplate调用方式来进行调用。
+
+缺点：①调用的时候，请求的ip地址和端口都是硬编码的，不能随意更换，一旦更换需要修改代码重新部署②当被调用方服务压力过大，我们需要把被调用方服务作为集群，那么意味着被调用方是多节点部署的，比如原来是一台服务器，现在有多台服务器，那么作为运维人员需要在服务消费方进行手工维护一份注册表（容易出错）③有人马上回驳我说，我可以通过ng来做负载均衡,对，我首先认为这 是可行的，当时微服务成百上千的服务，难道我们要那成百上千 ng么？或者使用一个Ng 那么我们能想一下哪个ng的配置文件有多么 复杂。
+
+# Nacos-Helloworld案例开发
 
 ### 案例分析
 
