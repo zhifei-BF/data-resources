@@ -125,7 +125,7 @@ clickhouse-server --config-file=/etc/clickhouse-server/config.xml
 ```
 
 在这种情况下，日志将被打印到控制台中，这在开发过程中很方便。
-如果配置文件在当前目录中，你可以不指定’–config-file’参数。它默认使用’./config.xml’。
+如果配置文件在当前目录中，你可以不指定’–-config-file’参数。它默认使用’./config.xml’。
 
 
 
@@ -133,6 +133,8 @@ clickhouse-server --config-file=/etc/clickhouse-server/config.xml
 
 ```shell
 clickhouse-client
+或
+clickhouse-client --host ch201 --port 9000
 ```
 
 ```sql
@@ -194,17 +196,18 @@ clickhouse的集群安装就是在每台机器上安装CH的服务端以及客�
 ```xml
 <yandex>
 <clickhouse_remote_servers>
-    <doit_ch_cluster1>
+    <doit_ch_cluster1>	//分布式标识标签，可以自定义
         <shard>
-            <internal_replication>true</internal_replication>
+            <weight>1</weight> // weight是分片权重，即写数据时有多大的概率落到此分片，因为这里所有分片权重相同所有都设置为1
+            <internal_replication>true</internal_replication> //是否只将数据写入其中一个副本
             <replica>
                 <host>doit01</host>
                 <port>9000</port>
             </replica>
         </shard>
         <shard>
+            <internal_replication>true</internal_replication>
             <replica>
-                <internal_replication>true</internal_replication>
                 <host>doit02</host>
                 <port>9000</port>
             </replica>
@@ -243,10 +246,11 @@ clickhouse的集群安装就是在每台机器上安装CH的服务端以及客�
 </networks>
 
 <clickhouse_compression>
-<case>
-  <min_part_size>10000000000</min_part_size>                                        
-  <min_part_size_ratio>0.01</min_part_size_ratio>                                           <method>lz4</method>
-</case>
+	<case>
+ 	  <min_part_size>10000000000</min_part_size>                                        
+	  <min_part_size_ratio>0.01</min_part_size_ratio>                       
+  	  <method>lz4</method>
+	</case>
 </clickhouse_compression>
 </yandex>
 ```
