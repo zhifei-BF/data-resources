@@ -1,26 +1,79 @@
-# jvm快速入门
+# JDK体系结构
+
+![https://note.youdao.com/yws/public/resource/ad3d29fc27ff8bd44e9a2448d3e2706d/xmlnote/1B22B118287143CAB49C70316F2C336C/94563](jvm.assets/clipboard-1625908908092.png)
+
+JRE称为JAVA运行时环境，包含JAVA的核心类库。
+
+JDK = JRE + JAVA开发工具集
+
+JRE = JVM + JAVA核心类库
+
+# JAVA语言的跨平台特性
+
+![https://note.youdao.com/yws/public/resource/ad3d29fc27ff8bd44e9a2448d3e2706d/xmlnote/638573187FDE4B019673D284B0EBE450/94569](jvm.assets/clipboard-1625909045042.png)
+
+通过JVM将字节码文件转成对应系统的机器码，然后由对应系统的CPU进行执行。
+
+# JVM位置
 
 **JVM**是运行在操作系统之上的，它与硬件没有直接的交互。
 
 ![在这里插入图片描述](jvm.assets/20200716231457129.png)
 
-# 结构图
+# JVM整体结构及内存模型
 
 ![在这里插入图片描述](jvm.assets/20200716231525683.png)
 
-方法区：存储已被虚拟机加载的类元数据信息(元空间)
+方法区：存储已被虚拟机加载的类元数据信息(元空间)、常量、静态变量。
 
 堆：存放对象实例，几乎所有的对象实例都在这里分配内存
 
-虚拟机栈：虚拟机栈描述的是Java方法执行的内存模型：每个方法被执行的时候都会同时创建一个栈帧（Stack Frame）用于存储局部变量表、操作栈、动态链接、方法出口等信息
+虚拟机栈：虚拟机栈描述的是Java方法执行的内存模型：每个方法被执行的时候都会同时创建一个栈帧（Stack Frame）用于存储局部变量表、操作数栈、动态链接、方法出口等信息。
 
-程序计数器：当前线程所执行的字节码的行号指示器
+​	局部变量表：用于存储局部变量及对应的基本类型的值或者复杂类型的地址值。
 
-本地方法栈：本地方法栈则是为虚拟机使用到的Native方法服务。
+​	操作数栈：用于存储操作数。
 
-#  类加载器ClassLoader
+​	方法出口：就是回到上一个调用该方法的地方。
 
-​	负责加载class文件，class文件在文件开头有特定的文件标识，并且ClassLoader只负责class文件的加载，至于它是否可以运行，则由Execution Engine决定。
+程序计数器：当前线程所执行的字节码的行号指示器，每个线程都有一个。
+
+本地方法栈：本地方法栈则是为虚拟机使用到的Native方法服务，调用底层C或者C++编写的程序。
+
+# 类加载器ClassLoader
+
+负责加载class文件，class文件在文件开头有特定的文件标识（以cafe babe 开头）。
+
+![1625909976800](jvm.assets/1625909976800.png)
+
+对于这种字节码文件我们可以通过`javap -c xxx.class`进行反汇编，变为JAVA指令。
+
+```java
+C:\Users\holle>javap
+用法: javap <options> <classes>
+其中, 可能的选项包括:
+  -help  --help  -?        输出此用法消息
+  -version                 版本信息
+  -v  -verbose             输出附加信息
+  -l                       输出行号和本地变量表
+  -public                  仅显示公共类和成员
+  -protected               显示受保护的/公共类和成员
+  -package                 显示程序包/受保护的/公共类
+                           和成员 (默认)
+  -p  -private             显示所有类和成员
+  -c                       对代码进行反汇编
+  -s                       输出内部类型签名
+  -sysinfo                 显示正在处理的类的
+                           系统信息 (路径, 大小, 日期, MD5 散列)
+  -constants               显示最终常量
+  -classpath <path>        指定查找用户类文件的位置
+  -cp <path>               指定查找用户类文件的位置
+  -bootclasspath <path>    覆盖引导类文件的位置
+
+C:\Users\holle>
+```
+
+ClassLoader只负责class文件的加载，至于它是否可以运行，则由Execution Engine决定。
 
 ![在这里插入图片描述](jvm.assets/20200716231546287.png)
 
@@ -97,7 +150,7 @@ Java的类加载是否一定遵循双亲委派模型？
 
 # 执行引擎Execution Engine
 
-**Execution Engine**执行引擎负责解释命令，提交操作系统执行。
+又叫字节码执行引擎，**Execution Engine**执行引擎负责解释命令，提交操作系统执行。
 
 # 本地接口Native Interface
 
@@ -216,6 +269,49 @@ stackOverflow错误，permgen space错误。
 
 •IBM公司的**J9 VM**
 
+
+
+**在minor gc过程中对象挪动后，引用如何修改？**
+
+对象在堆内部挪动的过程其实是复制，原有区域对象还在，一般不直接清理，JVM内部清理过程只是将对象分配指针移动到区域的头位置即可，比如扫描s0区域，扫到gcroot引用的非垃圾对象是将这些对象**复制**到s1或老年代，最后扫描完了将s0区域的对象分配指针移动到区域的起始位置即可，s0区域之前对象并不直接清理，当有新对象分配了，原有区域里的对象也就被清除了。
+
+minor gc在根扫描过程中会记录所有被扫描到的对象引用(在年轻代这些引用很少，因为大部分都是垃圾对象不会扫描到)，如果引用的对象被复制到新地址了，最后会一并更新引用指向新地址。
+
+**StackOverflowError**示例：
+
+```java
+// JVM设置  -Xss128k(默认1M)
+public class StackOverflowTest {
+    
+    static int count = 0;
+    
+    static void redo() {
+        count++;
+        redo();
+    }
+
+    public static void main(String[] args) {
+        try {
+            redo();
+        } catch (Throwable t) {
+            t.printStackTrace();
+            System.out.println(count);
+        }
+    }
+}
+
+运行结果：
+java.lang.StackOverflowError
+	at com.tuling.jvm.StackOverflowTest.redo(StackOverflowTest.java:12)
+	at com.tuling.jvm.StackOverflowTest.redo(StackOverflowTest.java:13)
+	at com.tuling.jvm.StackOverflowTest.redo(StackOverflowTest.java:13)
+   ......
+```
+
+**结论：**
+
+-Xss设置越小count值越小，说明一个线程栈里能分配的栈帧就越少，但是对JVM整体来说能开启的线程数会更多
+
 # 堆体系概述
 
 Java7之前
@@ -304,6 +400,21 @@ jdk1.8：
 
 ![在这里插入图片描述](jvm.assets/2020071623180865.png)
 
+# JAVA VisualVM使用
+
+通过`jvisualvm`命令就可以查看当前正在运行的java相关进程，可以观察伊甸区，老年区的内存情况，来对程序进行优化。
+
+```java
+C:\Users\holle>jvisualvm
+
+C:\Users\holle>
+
+The launcher has determined that the parent process has a console and will reuse it for its own console output.
+Closing the console will result in termination of the running program.
+Use '--console suppress' to suppress console output.
+Use '--console new' to create a separate console window.
+```
+
 # 常用JVM参数
 
 怎么对jvm进行调优？通过**参数配置**
@@ -315,10 +426,14 @@ jdk1.8：
 | -Xmx                      | 最大堆大小。默认是内存的1/4                                  |
 | -Xmn                      | 新生区堆大小                                                 |
 | -XX:+PrintGCDetails       | 输出详细的GC处理日志                                         |
-| -XX：MetaspeaceSize       | 设置元空间大小（默认21M左右，可以设置大一些），元空间的本质和永久代类似，都是对JVM规范中方法区的实现，不过元空间与永久代的最大区别在于：元空间不在虚拟机中，而是使用本地内存，因此，默认情况下，元空间大小仅受本地内存大小限制。 |
+| -XX：MetaspaceSize        | 设置元空间触发Fullgc的初始阈值(元空间无固定初始大小)，（默认21M左右，可以设置大一些），达到该值就会触发full gc进行类型卸载， 同时收集器会对该值进行调整： 如果释放了大量的空间， 就适当降低该值； 如果释放了很少的空间， 那么在不超过-XX：MaxMetaspaceSize（如果设置了的话） 的情况下， 适当提高该值。这个跟早期jdk版本的**-XX:PermSize**参数意思不一样，-**XX:PermSize**代表永久代的初始容量。元空间的本质和永久代类似，都是对JVM规范中方法区的实现，不过元空间与永久代的最大区别在于：元空间不在虚拟机中，而是使用本地内存，因此，默认情况下，元空间大小仅受本地内存大小限制。 |
+| -XX：MaxMetaspaceSize     | 设置最大元空间大小，默认是-1，即不限制，或者说只受限于本地内存大小。 |
 | -XX：SurvivorRatio        | 调整Eden中survivor区比例，默认-XX：SurvivorRatio=8（8：1：1），调整为-XX：SurvivorRatio=4（4：1：1），一般使用默认值。 |
+| -XX：NewSize              | 设置新生代初始大小                                           |
 | -XX：NewRatio             | 调整新生代与老年代的比例，默认为2（新生代为1，老年代为2，年轻代占整个堆的1/3），调整为-XX：NewRatio=4表示（新生代为1，老年代为4，年轻代占堆的1/5），一般使用默认值。 |
 | -XX：MaxTenuringThreshold | 设置垃圾的最大年龄（经历多少次垃圾回收进入老年代），默认15（15次垃圾回收后依旧存活的对象进入老年代），JDK1.8设置必须0<-XX：MaxTenuringThreshold <15 |
+
+由于调整元空间的大小需要Full GC，这是非常昂贵的操作，如果应用在启动的时候发生大量Full GC，通常都是由于永久代或元空间发生了大小调整，基于这种情况，一般建议在JVM参数中将MetaspaceSize和MaxMetaspaceSize设置成一样的值，并设置得比初始值要大，对于8G物理内存的机器来说，一般我会将这两个值都设置为256M。
 
 java代码查看jvm堆的默认值大小：
 
@@ -326,6 +441,14 @@ java代码查看jvm堆的默认值大小：
 Runtime.getRuntime().maxMemory()   // 堆的最大值，默认是内存的1/4
 Runtime.getRuntime().totalMemory()  // 堆的当前总大小，默认是内存的1/64
 ```
+
+Spring Boot程序的JVM参数设置格式(Tomcat启动直接加在bin目录下catalina.sh文件里)：
+
+```
+java -Xms2048M -Xmx2048M -Xmn1024M -Xss512K -XX:MetaspaceSize=256M -XX:MaxMetaspaceSize=256M -jar microservice-eureka-server.jar
+```
+
+
 
 # 怎么设置JVM参数
 
@@ -571,6 +694,12 @@ GC的回收流程是怎样的？
 6. 此时如果存活区没有内存空间，则继续判断老年区。则将部分存活对象保存到老年区，而后存活区将有空余空间。
 7. 如果这个时候老年代也满了，那么这个时候产生Major GC（Full GC），那么这个时候将进行老年代的清理。
 8. 如果老年代执行Full GC之后，无法进行对象的保存，则会产生OOM异常，OutOfMemoryError异常。
+
+# STW
+
+Java中Stop-The-World机制简称STW，是在执行垃圾收集算法时，java应用程序的其他所有线程都被挂起（除了垃圾收集帮助器之外）。Java中一种全局暂停现象，全局停顿，所有Java代码停止，native代码可以执行，但不能与JVM交互；这些现象多半是由于gc引起。
+
+GC时的Stop the World(STW)是大家最大的敌人。但可能很多人还不清楚，除了GC，JVM下还会发生停顿现象。
 
 # JVM复习
 
@@ -1478,3 +1607,556 @@ public class User {
 
 ![https://note.youdao.com/yws/public/resource/35faf7c95e69943cdbff4642fcfd5318/xmlnote/8471629E3920450596DBF4C8E141FD51/106918](jvm.assets/Hotspot源码JVM启动执行main方法流程.jpg)
 
+# JVM指令手册
+
+栈和局部变量操作 
+
+将常量压入栈的指令 
+
+aconst_null 将null对象引用压入栈 
+
+iconst_m1 将int类型常量-1压入栈 
+
+iconst_0 将int类型常量0压入栈 
+
+iconst_1 将int类型常量1压入**操作数栈** 
+
+iconst_2 将int类型常量2压入栈 
+
+iconst_3 将int类型常量3压入栈 
+
+iconst_4 将int类型常量4压入栈 
+
+iconst_5 将int类型常量5压入栈 
+
+lconst_0 将long类型常量0压入栈 
+
+lconst_1 将long类型常量1压入栈 
+
+fconst_0 将float类型常量0压入栈 
+
+fconst_1 将float类型常量1压入栈 
+
+dconst_0 将double类型常量0压入栈 
+
+dconst_1 将double类型常量1压入栈 
+
+bipush 将一个8位带符号整数压入栈 
+
+sipush 将16位带符号整数压入栈 
+
+ldc 把常量池中的项压入栈 
+
+ldc_w 把常量池中的项压入栈（使用宽索引） 
+
+ldc2_w 把常量池中long类型或者double类型的项压入栈（使用宽索引） 
+
+从栈中的局部变量中装载值的指令 
+
+iload 从局部变量中装载int类型值 
+
+lload 从局部变量中装载long类型值 
+
+fload 从局部变量中装载float类型值 
+
+dload 从局部变量中装载double类型值 
+
+aload 从局部变量中装载引用类型值（refernce） 
+
+iload_0 从局部变量0中装载int类型值 
+
+iload_1 从局部变量1中装载int类型值 
+
+iload_2 从局部变量2中装载int类型值 
+
+iload_3 从局部变量3中装载int类型值 
+
+lload_0 从局部变量0中装载long类型值 
+
+lload_1 从局部变量1中装载long类型值 
+
+lload_2 从局部变量2中装载long类型值 
+
+lload_3 从局部变量3中装载long类型值 
+
+fload_0 从局部变量0中装载float类型值 
+
+fload_1 从局部变量1中装载float类型值
+
+
+
+fload_2 从局部变量2中装载float类型值 
+
+fload_3 从局部变量3中装载float类型值 
+
+dload_0 从局部变量0中装载double类型值 
+
+dload_1 从局部变量1中装载double类型值 
+
+dload_2 从局部变量2中装载double类型值 
+
+dload_3 从局部变量3中装载double类型值 
+
+aload_0 从局部变量0中装载引用类型值 
+
+aload_1 从局部变量1中装载引用类型值 
+
+aload_2 从局部变量2中装载引用类型值 
+
+aload_3 从局部变量3中装载引用类型值 
+
+iaload 从数组中装载int类型值 
+
+laload 从数组中装载long类型值 
+
+faload 从数组中装载float类型值 
+
+daload 从数组中装载double类型值 
+
+aaload 从数组中装载引用类型值 
+
+baload 从数组中装载byte类型或boolean类型值 
+
+caload 从数组中装载char类型值 
+
+saload 从数组中装载short类型值 
+
+将栈中的值存入局部变量的指令 
+
+istore 将int类型值存入局部变量 
+
+lstore 将long类型值存入局部变量 
+
+fstore 将float类型值存入局部变量 
+
+dstore 将double类型值存入局部变量 
+
+astore 将将引用类型或returnAddress类型值存入局部变量 
+
+istore_0 将int类型值存入局部变量0 
+
+istore_1 将int类型值存入局部变量1 
+
+istore_2 将int类型值存入局部变量2 
+
+istore_3 将int类型值存入局部变量3 
+
+lstore_0 将long类型值存入局部变量0 
+
+lstore_1 将long类型值存入局部变量1 
+
+lstore_2 将long类型值存入局部变量2 
+
+lstore_3 将long类型值存入局部变量3 
+
+fstore_0 将float类型值存入局部变量0 
+
+fstore_1 将float类型值存入局部变量1 
+
+fstore_2 将float类型值存入局部变量2 
+
+fstore_3 将float类型值存入局部变量3 
+
+dstore_0 将double类型值存入局部变量0 
+
+dstore_1 将double类型值存入局部变量1
+
+
+
+dstore_2 将double类型值存入局部变量2 
+
+dstore_3 将double类型值存入局部变量3 
+
+astore_0 将引用类型或returnAddress类型值存入局部变量0 
+
+astore_1 将引用类型或returnAddress类型值存入局部变量1 
+
+astore_2 将引用类型或returnAddress类型值存入局部变量2 
+
+astore_3 将引用类型或returnAddress类型值存入局部变量3 
+
+iastore 将int类型值存入数组中 
+
+lastore 将long类型值存入数组中 
+
+fastore 将float类型值存入数组中 
+
+dastore 将double类型值存入数组中 
+
+aastore 将引用类型值存入数组中 
+
+bastore 将byte类型或者boolean类型值存入数组中 
+
+castore 将char类型值存入数组中 
+
+sastore 将short类型值存入数组中 
+
+wide指令 
+
+wide 使用附加字节扩展局部变量索引 
+
+通用(无类型）栈操作 
+
+nop 不做任何操作 
+
+pop 弹出栈顶端一个字长的内容 
+
+pop2 弹出栈顶端两个字长的内容 
+
+dup 复制栈顶部一个字长内容 
+
+dup_x1 复制栈顶部一个字长的内容，然后将复制内容及原来弹出的两个字长的内容压入 
+
+栈
+
+dup_x2 复制栈顶部一个字长的内容，然后将复制内容及原来弹出的三个字长的内容压入 
+
+栈
+
+dup2 复制栈顶部两个字长内容 
+
+dup2_x1 复制栈顶部两个字长的内容，然后将复制内容及原来弹出的三个字长的内容压入 
+
+栈
+
+dup2_x2 复制栈顶部两个字长的内容，然后将复制内容及原来弹出的四个字长的内容压入 
+
+栈
+
+swap 交换栈顶部两个字长内容 
+
+类型转换 
+
+i2l 把int类型的数据转化为long类型 
+
+i2f 把int类型的数据转化为float类型 
+
+i2d 把int类型的数据转化为double类型 
+
+l2i 把long类型的数据转化为int类型 
+
+l2f 把long类型的数据转化为float类型 
+
+l2d 把long类型的数据转化为double类型
+
+
+
+f2i 把float类型的数据转化为int类型 
+
+f2l 把float类型的数据转化为long类型 
+
+f2d 把float类型的数据转化为double类型 
+
+d2i 把double类型的数据转化为int类型 
+
+d2l 把double类型的数据转化为long类型 
+
+d2f 把double类型的数据转化为float类型 
+
+i2b 把int类型的数据转化为byte类型 
+
+i2c 把int类型的数据转化为char类型 
+
+i2s 把int类型的数据转化为short类型 
+
+整数运算 
+
+iadd 执行int类型的加法 
+
+ladd 执行long类型的加法 
+
+isub 执行int类型的减法 
+
+lsub 执行long类型的减法 
+
+imul 执行int类型的乘法 
+
+lmul 执行long类型的乘法 
+
+idiv 执行int类型的除法 
+
+ldiv 执行long类型的除法 
+
+irem 计算int类型除法的余数 
+
+lrem 计算long类型除法的余数 
+
+ineg 对一个int类型值进行取反操作 
+
+lneg 对一个long类型值进行取反操作 
+
+iinc 把一个常量值加到一个int类型的局部变量上 
+
+逻辑运算 
+
+移位操作 
+
+ishl 执行int类型的向左移位操作 
+
+lshl 执行long类型的向左移位操作 
+
+ishr 执行int类型的向右移位操作 
+
+lshr 执行long类型的向右移位操作 
+
+iushr 执行int类型的向右逻辑移位操作 
+
+lushr 执行long类型的向右逻辑移位操作 
+
+按位布尔运算 
+
+iand 对int类型值进行“逻辑与”操作 
+
+land 对long类型值进行“逻辑与”操作 
+
+ior 对int类型值进行“逻辑或”操作 
+
+lor 对long类型值进行“逻辑或”操作 
+
+ixor 对int类型值进行“逻辑异或”操作 
+
+lxor 对long类型值进行“逻辑异或”操作
+
+
+
+浮点运算 
+
+fadd 执行float类型的加法 
+
+dadd 执行double类型的加法 
+
+fsub 执行float类型的减法 
+
+dsub 执行double类型的减法 
+
+fmul 执行float类型的乘法 
+
+dmul 执行double类型的乘法 
+
+fdiv 执行float类型的除法 
+
+ddiv 执行double类型的除法 
+
+frem 计算float类型除法的余数 
+
+drem 计算double类型除法的余数 
+
+fneg 将一个float类型的数值取反 
+
+dneg 将一个double类型的数值取反 
+
+对象和数组 
+
+对象操作指令 
+
+new 创建一个新对象 
+
+checkcast 确定对象为所给定的类型 
+
+getfield 从对象中获取字段 
+
+putfield 设置对象中字段的值 
+
+getstatic 从类中获取静态字段 
+
+putstatic 设置类中静态字段的值 
+
+instanceof 判断对象是否为给定的类型 
+
+数组操作指令 
+
+newarray 分配数据成员类型为基本上数据类型的新数组 
+
+anewarray 分配数据成员类型为引用类型的新数组 
+
+arraylength 获取数组长度 
+
+multianewarray 分配新的多维数组 
+
+控制流 
+
+条件分支指令 
+
+ifeq 如果等于0，则跳转 
+
+ifne 如果不等于0，则跳转 
+
+iflt 如果小于0，则跳转 
+
+ifge 如果大于等于0，则跳转 
+
+ifgt 如果大于0，则跳转 
+
+ifle 如果小于等于0，则跳转 
+
+if_icmpcq 如果两个int值相等，则跳转 
+
+if_icmpne 如果两个int类型值不相等，则跳转 
+
+if_icmplt 如果一个int类型值小于另外一个int类型值，则跳转
+
+
+
+if_icmpge 如果一个int类型值大于或者等于另外一个int类型值，则跳转 
+
+if_icmpgt 如果一个int类型值大于另外一个int类型值，则跳转 
+
+if_icmple 如果一个int类型值小于或者等于另外一个int类型值，则跳转 
+
+ifnull 如果等于null，则跳转 
+
+ifnonnull 如果不等于null，则跳转 
+
+if_acmpeq 如果两个对象引用相等，则跳转 
+
+if_acmpnc 如果两个对象引用不相等，则跳转 
+
+比较指令 
+
+lcmp 比较long类型值 
+
+fcmpl 比较float类型值（当遇到NaN时，返回-1） 
+
+fcmpg 比较float类型值（当遇到NaN时，返回1） 
+
+dcmpl 比较double类型值（当遇到NaN时，返回-1） 
+
+dcmpg 比较double类型值（当遇到NaN时，返回1） 
+
+无条件转移指令 
+
+goto 无条件跳转 
+
+goto_w 无条件跳转（宽索引） 
+
+表跳转指令 
+
+tableswitch 通过索引访问跳转表，并跳转 
+
+lookupswitch 通过键值匹配访问跳转表，并执行跳转操作 
+
+异常
+
+athrow 抛出异常或错误 
+
+finally子句 
+
+jsr 跳转到子例程 
+
+jsr_w 跳转到子例程（宽索引） 
+
+rct 从子例程返回 
+
+方法调用与返回 
+
+方法调用指令 
+
+invokcvirtual 运行时按照对象的类来调用实例方法 
+
+invokespecial 根据编译时类型来调用实例方法 
+
+invokestatic 调用类（静态）方法 
+
+invokcinterface 调用接口方法 
+
+方法返回指令 
+
+ireturn 从方法中返回int类型的数据 
+
+lreturn 从方法中返回long类型的数据 
+
+freturn 从方法中返回float类型的数据 
+
+dreturn 从方法中返回double类型的数据 
+
+areturn 从方法中返回引用类型的数据 
+
+return 从方法中返回，返回值为void
+
+
+
+线程同步 
+
+montiorenter 进入并获取对象监视器 
+
+monitorexit 释放并退出对象监视器 
+
+JVM指令助记符 
+
+变量到操作数栈：iload,iload_,lload,lload_,fload,fload_,dload,dload_,aload,aload_ 
+
+操作数栈到变量： 
+
+istore,istore_,lstore,lstore_,fstore,fstore_,dstore,dstor_,astore,astore_ 
+
+常数到操作数栈： 
+
+bipush,sipush,ldc,ldc_w,ldc2_w,aconst_null,iconst_ml,iconst_,lconst_,fconst_,dconst_ 
+
+加：iadd,ladd,fadd,dadd 
+
+减：isub,lsub,fsub,dsub 
+
+乘：imul,lmul,fmul,dmul 
+
+除：idiv,ldiv,fdiv,ddiv 
+
+余数：irem,lrem,frem,drem 
+
+取负：ineg,lneg,fneg,dneg 
+
+移位：ishl,lshr,iushr,lshl,lshr,lushr 
+
+按位或：ior,lor 
+
+按位与：iand,land 
+
+按位异或：ixor,lxor 
+
+类型转换：i2l,i2f,i2d,l2f,l2d,f2d(放宽数值转换) 
+
+i2b,i2c,i2s,l2i,f2i,f2l,d2i,d2l,d2f(缩窄数值转换) 
+
+创建类实便：new 
+
+创建新数组：newarray,anewarray,multianwarray 
+
+访问类的域和类实例域：getfield,putfield,getstatic,putstatic 
+
+把数据装载到操作数栈：baload,caload,saload,iaload,laload,faload,daload,aaload 
+
+从操作数栈存存储到数组： 
+
+bastore,castore,sastore,iastore,lastore,fastore,dastore,aastore 
+
+获取数组长度：arraylength 
+
+检相类实例或数组属性：instanceof,checkcast 
+
+操作数栈管理：pop,pop2,dup,dup2,dup_xl,dup2_xl,dup_x2,dup2_x2,swap 
+
+有条件转移：ifeq,iflt,ifle,ifne,ifgt,ifge,ifnull,ifnonnull,if_icmpeq,if_icmpene, 
+
+if_icmplt,if_icmpgt,if_icmple,if_icmpge,if_acmpeq,if_acmpne,lcmp,fcmpl 
+
+fcmpg,dcmpl,dcmpg 
+
+复合条件转移：tableswitch,lookupswitch 
+
+无条件转移：goto,goto_w,jsr,jsr_w,ret 
+
+调度对象的实便方法：invokevirtual 
+
+调用由接口实现的方法：invokeinterface 
+
+调用需要特殊处理的实例方法：invokespecial
+
+
+
+调用命名类中的静态方法：invokestatic 
+
+方法返回：ireturn,lreturn,freturn,dreturn,areturn,return 
+
+异常：athrow 
+
+finally关键字的实现使用：jsr,jsr_w,ret
