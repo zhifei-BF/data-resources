@@ -1,4 +1,4 @@
-![img](assets/timg.jpg)
+![img](./assets/timg.jpg)
 
 # 1. 概述
 
