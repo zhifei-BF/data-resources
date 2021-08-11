@@ -1,3 +1,5 @@
 # Default ignored files
 .idea/
-
+node_modules
+frontEnd/vue/搭建vue项目/vue-project/node_modules
+frontEnd/vue/搭建vue项目/vue-project/build
