@@ -5,7 +5,7 @@
 - Shiro 可以完成：认证、授权、加密、会话管理、与Web 集成、缓存等。
 - 下载：http://shiro.apache.org/
 
-![1612086158145](./shiro.assets/1612086158145.png)
+![1612086158145](shiro.assets/1612086158145.png)
 
 - **Authentication**：身份认证/登录，验证用户是不是拥有相应的身份； 
 
@@ -30,7 +30,7 @@
 
 - shiro架构从外部来看：即从应用程序角度的来观察如何使用 Shiro 完成工作：
 
-![1612086732053](./shiro.assets/1612086732053.png)
+![1612086732053](shiro.assets/1612086732053.png)
 
 - **Subject**：**应用代码直接交互的对象是 Subject**，也就是说 Shiro 的对外API 核心就是 Subject。**Subject 代表了当前“用户”**， 这个用户不一定是一个具体的人，与当前应用交互的任何东西都是 Subject，如网络爬虫，机器人等；**与 Subject 的所有交互都会委托给 SecurityManager**；**Subject 其实是一个门面，SecurityManager 才是实际的执行者**； 
 
@@ -44,7 +44,7 @@
 
 - shiro架构从内部来看：
 
-![1612087022838](./shiro.assets/1612087022838.png)
+![1612087022838](shiro.assets/1612087022838.png)
 
 - **Subject**：任何可以与应用交互的“用户”； 
 - **SecurityManager** ：相当于SpringMVC 中的 DispatcherServlet；是 Shiro 的心脏；所有具体的交互都通过 SecurityManager 进行控制；它管理着所有 Subject、且负责进行认证、授权、会话及缓存的管理。 
