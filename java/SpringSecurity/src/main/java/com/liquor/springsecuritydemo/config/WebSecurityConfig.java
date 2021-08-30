@@ -39,12 +39,12 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 //设置哪些路径可以直接访问，不需要认证
                 .antMatchers("/user/login", "/login.html", "/error.html").permitAll()
                 .anyRequest().authenticated()//需要认证
-                .and().csrf().disable()//关闭csrf防护
-                .sessionManagement()
-                .invalidSessionUrl("/session/invalid")
-                .maximumSessions(1)
-                .expiredSessionStrategy(new MyExpiredSessionStrategy())
-                .maxSessionsPreventsLogin(true);
+                .and().csrf().disable();//关闭csrf防护
+//                .sessionManagement()
+//                .invalidSessionUrl("/session/invalid")
+//                .maximumSessions(1)
+//                .expiredSessionStrategy(new MyExpiredSessionStrategy())
+//                .maxSessionsPreventsLogin(true);
     }
 
     @Bean

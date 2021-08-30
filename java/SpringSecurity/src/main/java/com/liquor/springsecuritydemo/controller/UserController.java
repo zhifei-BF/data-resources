@@ -14,6 +14,6 @@ public class UserController {
 
     @PostMapping("/login")
     public String login() {
-        return "ok";
+        return "redirect:/main.html";
     }
 }
