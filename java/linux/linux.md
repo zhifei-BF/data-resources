@@ -144,3 +144,4 @@ ps -ef |grep 进程名
 [root@baize-server-659d96e6 ~]# ssh root@172.16.15.147
 ```
 
+curl -U XXX -O 对应地址
