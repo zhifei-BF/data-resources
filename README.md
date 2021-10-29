@@ -1,6 +1,10 @@
 # data-resouces
 整理大集,用于整理各种笔记资料。
-
+- 大数据
+  - [ clickhouse ]()
+  - [ hadoop ]()
+  - [ spark ]()
+  - [shell](bigdata/shell/shell.md)
 - java
   - [juc](java/并发编程/juc.md)
   - [git](java/git/git.md)
@@ -11,24 +15,14 @@
   - [jenkins](java/jenkins/jenkins.md)
   - [springcloud alibaba](java/springcloud/SpringCloudAlibaba.md)
   - [springcloud eureka](java/springcloud/SpringCloudEureka.md)
-
-- 数据访问层框架
   - [hibernate]()
   - [mybatis]()
-- 接口层框架
   - [struts]()
   - [springmvc]()
-- 业务层框架
-
   - [spring]()
-
-- 脚本
-
-  - [shell](bigdata/shell/shell.md)
-
-- 微服务
   - [zookeeper](zookeeper/zookeeper.md)
-
+- python
+  - []()
 - 理财
   - [基金](股票/基金理财课/基金理财课.md)
   - [股票](股票/股票.md)
