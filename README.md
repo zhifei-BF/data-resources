@@ -2,7 +2,7 @@
 整理大集,用于整理各种笔记资料。
 
 - java
-  - [juc](java/juc/juc.md)
+  - [juc](java/并发编程/juc.md)
   - [git](java/git/git.md)
   - [redis](java/redis/redis.md)
   - [shiro](java/shiro/shiro.md)
