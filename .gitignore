@@ -5,4 +5,5 @@ frontEnd/vue/搭建vue项目/vue-project/node_modules
 frontEnd/vue/搭建vue项目/vue-project/build
 frontEnd/vue/VueDemo/build
 frontEnd/vue/VueDemo/node_modules
-/*.iml
+# 忽略所有iml文件
+*.iml
