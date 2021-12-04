@@ -1,3 +1,5 @@
+[TOC]
+
 # MVC设计模式概览
 
 实现 MVC(Model、View、Controller) 模式的应用程序由 3 大部分构成：
@@ -95,6 +97,8 @@ Struts2 是一个用来开发 MVC 应用程序的框架. 它提供了 Web 应用
 - 在下载的struts架包中包含了dtd文件。
 - 路径在：struts-2.3.4-all\struts-2.3.4\src\core\src\main\resources
 
+![1638631202711](struts2.assets/1638631202711.png)
+
 ![image-20211203172843258](struts2.assets/image-20211203172843258.png)
 
 ![image-20211203172945031](struts2.assets/image-20211203172945031.png)
@@ -116,5 +120,77 @@ Struts2 是一个用来开发 MVC 应用程序的框架. 它提供了 Web 应用
 
 ![image-20211203173230841](struts2.assets/image-20211203173230841.png)
 
-# Action
+# Action类
+
+1. action: 应用程序可以完成的每一个操作. 例如: 显示一个登陆表单; 把产品信息保存起来
+2. Action类: 普通的 Java 类, 可以有属性和方法, 同时必须遵守下面这些规则: 
+   - 属性的名字必须遵守与 JavaBeans 属性名相同的命名规则. 属性的类型可以是任意类型. 从字符串到非字符串(基本数据库类型)之间的数据转换可以自动发生
+   - 必须有一个不带参的构造器
+   - 至少有一个供 struts 在执行这个 action 时调用的方法
+   - 同一个 Action 类可以包含多个 action 方法. 
+   - Struts2 会为每一个 HTTP 请求创建一个新的 Action 实例
+
+# 访问web资源
+
+在 Action 中, 可以通过以下方式访问 web 的 HttpSession, HttpServletRequest, HttpServletResponse  等资源。
+
+- 与 Servlet API 解耦的访问方式
+
+  通过com.opensymphony.xwork2.ActionContext
+
+  通过Action实现如下接口：
+
+  1. org.apache.struts2.interceptor.ApplicationAware;
+
+  2. org.apache.struts2.interceptor.RequestAware;
+  3. org.apache.struts2.interceptor.SessionAware;
+
+- 与Servlet API耦合的访问方式
+
+  1. 通过org.apache.struts2.ServletActionContext
+  2. 通过实现对应的XxxAware接口
+
+## 与Servlet API解耦的访问方式 
+
+- 为了避免与 Servlet API 耦合在一起, 方便 Action 做单元测试, Struts2 对 HttpServletRequest, HttpSession 和 ServletContext 进行了封装, 构造了 3 个 Map 对象来替代这 3 个对象, 在 Action 中可以直接使用 HttpServletRequest, HttpServletSession, ServletContext 对应的 Map 对象来保存和读取数据. 
+
+### 通过 ActionContext 访问 Web 资源
+
+- ActionContext 是 Action 执行的上下文对象, 在 ActionContext 中保存了 Action 执行所需要的所有对象, 包括 parameters, request, session, application 等. 
+- 获取 HttpSession 对应的 Map 对象:	
+  - public Map getSession()
+- 获取 ServletContext 对应的 Map 对象:
+  - public Map getApplication()
+- 获取请求参数对应的 Map 对象:
+  - public Map getParameters()
+- 获取 HttpServletRequest 对应的 Map 对象:
+  public Object get(Object key): ActionContext 类中没有提供类似 getRequest() 这样的方法来获取HttpServletRequest 对应的 Map 对象. 要得到 HttpServletRequest 对应的 Map 对象, 可以通过为 get() 方法传递 “request” 参数实现。
+
+### 通过实现 Aware 接口访问 Web 资源
+
+Action 类通过可以实现某些特定的接口, 让 Struts2 框架在运行时向 Action 实例注入 parameters, request, session 和 application 对应的 Map 对象: 
+
+1. org.apache.struts2.interceptor.ApplicationAware;
+2. org.apache.struts2.interceptor.ParameterAware;
+
+2. org.apache.struts2.interceptor.RequestAware;
+3. org.apache.struts2.interceptor.SessionAware;
+
+## 与 Servlet 耦合的访问方式
+
+- 直接访问 Servlet API 将使 Action 与 Servlet 环境耦合在一起,  测试时需要有 Servlet 容器, 不便于对 Action 的单元测试. 
+- 直接获取 HttpServletRequest 对象: 
+  ServletActionContext.getRequest()
+- 直接获取 HttpSession 对象
+  ServletActionContext.getRequest().getSession()
+- 直接获取 ServletContext 对象
+  ServletActionContext.getServletContext()
+- 通过实现 ServletRequestAware, ServletContextAware 等接口的方式
+
+# ActionSupport
+
+- com.opensymphony.xwork2.ActionSupport 类是默认的 Action 类. 
+- 在编写 Action 类时, 通常会对这个类进行扩展
+
+![1638632247577](struts2.assets/1638632247577.png)
 
