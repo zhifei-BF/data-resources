@@ -19,6 +19,255 @@
 
 ![image-20211203171820849](struts2.assets/image-20211203171820849.png)
 
+代码实现：
+
+- index.jsp
+
+```html
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<a href="product-input.action">Product Input</a>
+	
+</body>
+</html>
+```
+
+- web.xml
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>struts2-1</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <filter>
+    <display-name>FilterDispatcher</display-name>
+    <filter-name>FilterDispatcher</filter-name>
+    <filter-class>com.atguigu.struts2.helloworld.FilterDispatcher</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>FilterDispatcher</filter-name>
+    <url-pattern>*.action</url-pattern>
+  </filter-mapping>
+</web-app>
+```
+
+- Product.java
+
+  ```java
+  package com.atguigu.struts2.helloworld;
+  
+  public class Product {
+  	
+  	private Integer productId;
+  	private String productName;
+  	private String productDesc;
+  	
+  	private double productPrice;
+  
+  	public Integer getProductId() {
+  		return productId;
+  	}
+  
+  	public void setProductId(Integer productId) {
+  		this.productId = productId;
+  	}
+  
+  	public String getProductName() {
+  		return productName;
+  	}
+  
+  	public void setProductName(String productName) {
+  		this.productName = productName;
+  	}
+  
+  	public String getProductDesc() {
+  		return productDesc;
+  	}
+  
+  	public void setProductDesc(String productDesc) {
+  		this.productDesc = productDesc;
+  	}
+  
+  	public double getProductPrice() {
+  		return productPrice;
+  	}
+  
+  	public void setProductPrice(double productPrice) {
+  		this.productPrice = productPrice;
+  	}
+  
+  	public Product(Integer productId, String productName, String productDesc,
+  			double productPrice) {
+  		super();
+  		this.productId = productId;
+  		this.productName = productName;
+  		this.productDesc = productDesc;
+  		this.productPrice = productPrice;
+  	}
+  	
+  	public Product() {
+  		// TODO Auto-generated constructor stub
+  	}
+  
+  	@Override
+  	public String toString() {
+  		return "Product [productId=" + productId + ", productName="
+  				+ productName + ", productDesc=" + productDesc
+  				+ ", productPrice=" + productPrice + "]";
+  	}
+      
+  	
+  }
+  
+  ```
+
+- FilterDispatcher.java
+
+```java
+package com.atguigu.struts2.helloworld;
+
+import java.io.IOException;
+import javax.servlet.Filter;
+import javax.servlet.FilterChain;
+import javax.servlet.FilterConfig;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+import javax.servlet.http.HttpServletRequest;
+
+/**
+ * Servlet Filter implementation class FilterDispatcher
+ */
+public class FilterDispatcher implements Filter {
+
+	public void destroy() {}
+
+	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
+		
+		HttpServletRequest req = (HttpServletRequest) request;
+		
+		//1. 获取 servletPath
+		String servletPath = req.getServletPath();
+		System.out.println(servletPath);
+		
+		String path = null;
+		
+		//2. 判断 servletPath, 若其等于 "/product-input.action", 则转发到
+		///WEB-INF/pages/input.jsp
+		if("/product-input.action".equals(servletPath)){
+			path = "/WEB-INF/pages/input.jsp";
+		}
+		
+		//3. 若其等于 "/product-save.action", 则
+		if("/product-save.action".equals(servletPath)){
+			//1). 获取请求参数
+			String productName = request.getParameter("productName");
+			String productDesc = request.getParameter("productDesc");
+			String productPrice = request.getParameter("productPrice");
+			
+			//2). 把请求信息封装为一个 Product 对象
+			Product product = new Product(null, productName, productDesc, Double.parseDouble(productPrice));
+			
+			//3). 执行保存操作
+			System.out.println("Save Product: " + product);
+			product.setProductId(1001);
+			
+			//4). 把 Product 对象保存到 request 中. ${param.productName} -> ${requestScope.product.productName}
+			request.setAttribute("product", product);
+			
+			path = "/WEB-INF/pages/details.jsp";
+		}
+		
+		if(path != null){
+			request.getRequestDispatcher(path).forward(request, response);
+			return;
+		}
+		
+		chain.doFilter(request, response);
+	}
+
+	public void init(FilterConfig fConfig) throws ServletException {}
+
+}
+```
+
+- input.jsp
+
+```html
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form action="product-save.action" method="post">
+		
+		ProductName: <input type="text" name="productName"/>
+		<br><br>
+
+		ProductDesc: <input type="text" name="productDesc"/>
+		<br><br>
+		
+		ProductPrice: <input type="text" name="productPrice" />
+		<br><br>
+		
+		<input type="submit" value="Submit"/>
+		<br><br>
+	
+	</form>
+
+</body>
+</html>
+```
+
+- details.jsp
+
+```html
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	ProductId: ${requestScope.product.productId }
+	<br><br>
+
+	ProductName: ${requestScope.product.productName }
+	<br><br>
+	
+	ProductDesc: ${requestScope.product.productDesc }
+	<br><br>
+	
+	ProductPrice: ${requestScope.product.productPrice }
+	<br><br>
+	
+</body>
+</html>
+```
+
 使用 Filter 作为控制器的好处：
 
 - 使用一个过滤器来作为控制器, 可以方便地在应用程序里对所有资源(包括静态资源)进行控制访问. 
@@ -185,6 +434,7 @@ Action 类通过可以实现某些特定的接口, 让 Struts2 框架在运行�
   ServletActionContext.getRequest().getSession()
 - 直接获取 ServletContext 对象
   ServletActionContext.getServletContext()
+
 - 通过实现 ServletRequestAware, ServletContextAware 等接口的方式
 
 # ActionSupport
