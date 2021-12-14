@@ -1,6 +1,6 @@
 [TOC]
 
-# MVC设计模式概览
+# 第一章 MVC设计模式概览
 
 实现 MVC(Model、View、Controller) 模式的应用程序由 3 大部分构成：
 
@@ -9,7 +9,7 @@
 - 视图：实现应用程序的信息显示功能 (JSP)
 - 控制器：接收来自用户的输入，调用模型层，响应对应的视图组件(servlet，filter)
 
-# 使用Filter作为控制器的MVC
+# 第二章 使用Filter作为控制器的MVC
 
 需求：
 
@@ -281,7 +281,7 @@ Servlet VS Filter
 1. Servlet 能做的 Filter 是否都可以完成 ? 嗯。
 2. Filter 能做的 Servlet 都可以完成吗 ? 拦截资源却不是 Servlet 所擅长的! Filter 中有一个 FilterChain，这个 API 在 Servlet 中没有！
 
-# Hello Struts2
+# 第三章 Hello Struts2
 
 ## Struts2概述
 
@@ -369,7 +369,7 @@ Struts2 是一个用来开发 MVC 应用程序的框架. 它提供了 Web 应用
 
 ![image-20211203173230841](struts2.assets/image-20211203173230841.png)
 
-# Action类
+# 第四章 Action类
 
 1. action: 应用程序可以完成的每一个操作. 例如: 显示一个登陆表单; 把产品信息保存起来
 2. Action类: 普通的 Java 类, 可以有属性和方法, 同时必须遵守下面这些规则: 
@@ -379,7 +379,7 @@ Struts2 是一个用来开发 MVC 应用程序的框架. 它提供了 Web 应用
    - 同一个 Action 类可以包含多个 action 方法. 
    - Struts2 会为每一个 HTTP 请求创建一个新的 Action 实例
 
-# 访问web资源
+# 第五章 访问web资源
 
 在 Action 中, 可以通过以下方式访问 web 的 HttpSession, HttpServletRequest, HttpServletResponse  等资源。
 
@@ -434,13 +434,374 @@ Action 类通过可以实现某些特定的接口, 让 Struts2 框架在运行�
   ServletActionContext.getRequest().getSession()
 - 直接获取 ServletContext 对象
   ServletActionContext.getServletContext()
-
 - 通过实现 ServletRequestAware, ServletContextAware 等接口的方式
 
-# ActionSupport
+# 第六章 ActionSupport
 
 - com.opensymphony.xwork2.ActionSupport 类是默认的 Action 类. 
 - 在编写 Action 类时, 通常会对这个类进行扩展
 
 ![1638632247577](struts2.assets/1638632247577.png)
+
+# 第七章 result
+
+- 每个 action 方法都将返回一个 String 类型的值, Struts 将根据这个值来决定响应什么结果.
+- 每个 action 声明都必须包含有数量足够多的 result 元素, 每个 result 元素分别对应着 action 方法的一个返回值. 
+- result 元素可以有下面两个属性
+  - name: 结果的名字, 必须与 Action 方法的返回值相匹配, 默认值为 success
+  - type: 响应结果的类型. 默认值为 dispatcher
+
+```xml
+<action name="Product_input" class="com.opensymphony.xwork2.ActionSupport" method="execute">
+	<result name="success" type="dispatcher">/jsp/ProductForm.jsp</result>
+</action>
+```
+
+```java
+public String execute() throws Exception{
+	return SUCCESS;
+}
+```
+
+```XML
+<result-types>
+            <result-type name="chain" class="com.opensymphony.xwork2.ActionChainResult"/>
+            <result-type name="dispatcher" class="org.apache.struts2.dispatcher.ServletDispatcherResult" default="true"/>
+            <result-type name="freemarker" class="org.apache.struts2.views.freemarker.FreemarkerResult"/>
+            <result-type name="httpheader" class="org.apache.struts2.dispatcher.HttpHeaderResult"/>
+            <result-type name="redirect" class="org.apache.struts2.dispatcher.ServletRedirectResult"/>
+            <result-type name="redirectAction" class="org.apache.struts2.dispatcher.ServletActionRedirectResult"/>
+            <result-type name="stream" class="org.apache.struts2.dispatcher.StreamResult"/>
+            <result-type name="velocity" class="org.apache.struts2.dispatcher.VelocityResult"/>
+            <result-type name="xslt" class="org.apache.struts2.views.xslt.XSLTResult"/>
+            <result-type name="plainText" class="org.apache.struts2.dispatcher.PlainTextResult" />
+</result-types>
+```
+
+## 结果类型：dispatcher
+
+- dispatcher 结果类型是最常用的结果类型, 也是 struts 框架默认的结果类型
+- 该结果类型有一个 location 参数, 它是一个默认参数
+
+```xml
+<result name="success">
+	<param name="location">/WEB-INFO/jsp/Login.jsp</param>
+</result>
+这两个是相同的。
+<result name="success">/WEB-INFO/jsp/Login.jsp</result>
+```
+
+- dispatcher 结果类型将把控制权转发给应用程序里的指定资源. 
+- dispatcher 结果类型不能把控制权转发给一个外部资源. 若需要把控制权重定向到一个外部资源, 应该使用 redirect 结果类型。
+
+## 结果类型：redirect
+
+- redirect 结果类型将把响应重定向到另一个资源, 而不是转发给该资源.
+
+- redirect 结果类型接受下面这些参数:
+
+  - location: 用来给出重定向的目的地.它是默认属性
+
+  - parse: 用来表明是否把 location 参数的值视为一个 OGNL 表达式来解释. 默认值为 true
+
+- redirect 结果类型可以把响应重定向到一个外部资源
+
+```xml
+<action name="User_logout" class="org.simpleit.struts2.app1.User" method="logout">
+	<result name="success" type="redirect">
+		<param name="location">/aware-test.jsp?name=${name}</param>
+	</result>
+</action>
+```
+
+## 结果类型：redirectAction
+
+- redirectAction 结果类型把响应重定向到另一个 Action
+- redirectAction 结果类型接受下面这些参数:
+  - actionName: 指定 “目的地” action 的名字. 它是默认属性
+  - namespace: 用来指定 “目的地” action 的命名空间. 如果没有配置该参数, Struts 会把当前 Action 所在的命名空间作为 “目的地” 的命名空间
+
+```xml
+<action name="User_logout" class="org.simpleit.struts2.app1.User" method="logout">
+	<result type="redirectAction">
+		<param name="actionName">Login_Ui</param>
+		<param name="nameSpace">/</param>
+	</result>
+</action>
+```
+
+## 结果类型:  chain
+
+- chain 结果类型的基本用途是构成一个 action 链: 前一个 action 把控制权转发给后一个 action, 而前一个 action 的状态在后一个 action 中依然保持
+
+- chain 结果类型接受下面这些参数:
+
+  - actionName: 指定目标 action 的名字. 它是默认属性
+
+  - namespace: 用来指定 “目的地” action 的命名空间. 如果没有配置该参数, Struts 会把当前 action 所在的命名空间作为 “目的地” 的命名空间
+  - method: 指定目标 action 方法. 默认值为 execute
+
+## 通配符映射
+
+- 一个 Web 应用可能有成百上千个 action 声明. 可以利用 struts 提供的通配符映射机制把多个彼此相似的映射关系简化为一个映射关系
+- 通配符映射规则
+  - 若找到多个匹配, 没有通配符的那个将胜出
+  - 若指定的动作不存在, Struts 将会尝试把这个 URI 与任何一个包含着通配符 * 的动作名及进行匹配	
+  - 被通配符匹配到的 URI 字符串的子串可以用 {1}, {2} 来引用. {1} 匹配第一个子串, {2} 匹配第二个子串…
+  - {0} 匹配整个 URI
+  - 若 Struts 找到的带有通配符的匹配不止一个, 则按先后顺序进行匹配
+  - *可以匹配零个或多个字符, 但不包括 / 字符. 如果想把 / 字符包括在内, 需要使用 **. 如果需要对某个字符进行转义, 需要使用 \ .
+
+通配符映射示例(1)：
+
+- 包声明：
+
+  ```xml
+  <package name="struts-app3" namespace="/app3" extends="struts-default">
+  	<action name="*_add" class="org.simpleit.app.Book" method="add">
+  		<result>/WEB-INFO/jsp/book.jsp</result>
+  	</action>
+  </package>
+  ```
+
+- 上面的包声明可以由正确的命名空间和_add 组成的 URI 来调用, 包括: 
+
+  - /app3/Book_add.action
+  - /app3/Author_add.action
+  - /app3/_add.action
+  - /app3/Whatever_add.action
+
+通配符映射示例(2):
+
+- 包声明：
+
+  ```xml
+  <package name="struts-app3" namespace="/app3" extends="struts-default">
+  	
+  	<action name="Book_add" class="org.simpleit.app.Book" method="add">
+  		<result>/WEB-INFO/jsp/Book.jsp</result>
+  	</action>
+  	
+  	<action name="Author_add" class="org.simpleit.app.Author" method="add">
+  		<result>/WEB-INFO/jsp/Author.jsp</result>
+  	</action>
+  	
+  </package>
+  ```
+
+- 上面的包可以写成：
+
+  ```xml
+  <package name="struts-app3" namespace="/app3" extends="struts-default">
+  
+  	<action name="*_add" class="org.simpleit.app.{1}" method="add">
+  		<result>/WEB-INFO/jsp/{1}.jsp</result>
+  	</action>
+  	
+  </package>
+  ```
+
+通配符映射示例(3):
+
+- 包声明: 
+
+  ```xml
+  <package name="struts-app3" namespace="/app3" extends="struts-default">
+  
+  	<action name="Book_add" class="org.simpleit.app.Book" method="add">
+  		<result>/WEB-INFO/jsp/Book.jsp</result>
+  	</action>
+  	
+  	<action name="Book_delete" class="org.simpleit.app.Book" method="delete">
+  		<result>/WEB-INFO/jsp/Book.jsp</result>
+  	</action>
+  	
+  	<action name="Author_add" class="org.simpleit.app.Author" method="add">
+  		<result>/WEB-INFO/jsp/Author.jsp</result>
+  	</action>
+  	
+  	<action name="Author_delete" class="org.simpleit.app.Author" method="delete">
+  		<result>/WEB-INFO/jsp/Author.jsp</result>
+  	</action>
+  	
+  </package>
+  ```
+
+- 上面的包可以改写为：
+
+  ```xml
+  <package name="struts-app3" namespace="/app3" extends="struts-default">
+  	
+  	<action name="*_*" class="org.simpleit.app.{1}" method="{2}">
+  		<result>/WEB-INFO/jsp/{1}.jsp</result>
+  	</action>
+  	
+  </package>
+  ```
+
+## 动态方法调用
+
+- 动态方法调用: 通过 url 动态调用 Action 中的方法
+
+- URI:  
+  - /struts-app2/Product.action: Struts 调用 Product 类的 execute
+  - /struts-app2/Product!save.action: Struts 调用 Product 类的 save() 方法
+- 默认情况下, Struts 的动态方法调用处于禁用状态 
+
+# 第八章 OGNL
+
+## 从页面显示说起
+
+- Struts2 的 helloWorld 中
+
+  ![image-20211214163011034](struts2.assets/image-20211214163011034.png)
+
+- 在 ProductDetails.jsp 页面中打印 request 隐含对象:
+
+  ![image-20211214163028473](struts2.assets/image-20211214163028473.png)
+
+## 值栈
+
+- debug 跟踪 StrutsRequestWrapper 的 getAttribute() 方法, 当传入参数为 “productName” 时, ActionContext 对象的即时状态如下: 
+
+  ![image-20211214163234308](struts2.assets/image-20211214163234308.png)
+
+- 在 ValueStack 对象的内部有两个逻辑部分:
+
+  ![image-20211214163317271](struts2.assets/image-20211214163317271.png)
+
+- 在 ValueStack 对象的内部有两个逻辑部分:
+  - ObjectStack: Struts  把 Action 和相关对象压入 ObjectStack 中
+  - ContextMap: Struts 把各种各样的映射关系(一些 Map 类型的对象) 压入 ContextMap 中.  实际上就是对 ActionContext 的一个引用
+- Struts 会把下面这些映射压入 ContextMap 中
+  - parameters: 该 Map 中包含当前请求的请求参数
+  - request: 该 Map 中包含当前 request 对象中的所有属性
+  - session: 该 Map 中包含当前 session 对象中的所有属性
+  - application:该 Map 中包含当前 application  对象中的所有属性
+  - attr: 该 Map 按如下顺序来检索某个属性: request, session, application
+
+![image-20211214163439425](struts2.assets/image-20211214163439425.png)
+
+## OGNL
+
+1. 在 JSP 页面上可以可以利用 OGNL(Object-Graph Navigation Language: 对象-图导航语言) 访问到值栈(ValueStack) 里的对象属性.
+2. 若希望访问值栈中 ContextMap 中的数据, 需要给 OGNL 表达式加上一个前缀字符 #. 如果没有前缀字符 #, 搜索将在 ObjectStack 里进行. 
+
+## property 标签
+
+- Struts 的 property 标签用来输出值栈中的一个属性值. 
+
+| 名字    | 类型    | 默认值         | 说明                                                |
+| ------- | ------- | -------------- | --------------------------------------------------- |
+| default | String  |                | 可选，如果value值为null或没有给定，将显示该属性值。 |
+| escape  | boolean | true           | 可选，是否需要对HTML特殊字符进行转义                |
+| value   | String  | <来自栈顶对象> | 将要显示的值                                        |
+
+## 读取 ObjectStack 里的对象的属性
+
+- 若想访问 Object Stack 里的某个对象的属性. 可以使用以下几种形式之一: 
+  1. object.propertyName
+  2. object['propertyName']
+  3. object["propertyName"]
+
+- ObjectStack 里的对象可以通过一个从零开始的下标来引用. ObjectStack 里的栈顶对象可以用 [0] 来引用, 它下面的那个对象可以用 [1] 引用. 若希望返回栈顶对象的 message 属性值:  [0].message 或 [ 0 ] [ “message” ] 或 [ 0 ] [ ‘message’ ]
+- 若在指定的对象里没有找到指定的属性, 则到指定对象的下一个对象里继续搜索. 即 [n] 的含义是从第 n 个开始搜索, 而不是只搜索第 n 个对象
+- 若从栈顶对象开始搜索, 则可以省略下标部分
+
+## 读取 Context Map 里的对象的属性
+
+- 若想访问 ContextMap 里的某个对象的属性, 可以使用以下几种形式之一: 
+  1. #object.propertyName
+  2. #object['propertyName']
+  3. #object["propertyName"]
+
+- 示例：
+  1. 返回 session 中的 code 属性: #session.code
+  2. 返回 request 中的 customer 属性的 name 属性值: #request.customer.name
+  3. 返回域对象(按 request, session, application 的顺序)的 lastAccessDate 属性: #attr.lastAccessDate
+
+## 调用字段和方法
+
+- 可以利用 OGNL 调用
+  1. 任何一个 Java 类里的静态字段或方法.
+  2. 被压入到 ValueStack 栈的对象上的公共字段和方法. 
+- 默认情况下, Struts2 不允许调用任意 Java 类静态方法,  需要重新设置 struts.ognl.allowStaticMethodAccess 标记变量的值为 true. 
+- 调用静态字段或方法需要使用如下所示的语法:
+  1. @fullyQualifiedClassName@fieldName: @java.util.Calendar@DECEMBER
+  2. @fullyQualifiedClassName@methodName(argumentList): @app4.Util@now()
+- 调用一个实例字段或方法的语法, 其中 object 是 Object Stack 栈里的某个对象的引用:
+  1. .object.fieldName: [0].datePattern
+  2. .object.methodName(argumentList): [0].repeat(3, “Hello”);
+
+## 访问数组类型的属性
+
+- 有些属性将返回一个对象数组而不是单个对象, 可以像读取任何其他对象属性那样读取它们. 这种数组型属性的各个元素以逗号分隔, 并且不带方括号
+- 可以使用下标访问数组中指定的元素: colors[0]
+- 可以通过调用其 length 字段查出给定数组中有多少个元素: colors.length
+
+## 访问 List 类型的属性
+
+- 有些属性将返回的类型是 java.util.List, 可以像读取任何其他属性那样读取它们. 这种 List 的各个元素是字符串, 以逗号分隔, 并且带方括号
+- 可以使用下标访问 List 中指定的元素: colors[0]
+- 可以通过调用其 size 方法或专用关键字 size 的方法查出给定List 的长度: colors.size 或 colors.size()
+- 可以通过使用 isEmpty() 方法或专用关键字 isEmpty 来得知给定的 List 是不是空. colors.isEmpty 或 colors.isEmpty()
+- 还可以使用 OGNL 表达式来创建 List, 创建一个 List 与声明一个 Java 数组是相同的: {“Red”, “Black”, “Green”}
+
+## 访问 Map 类型的属性
+
+- 读取一个 Map 类型的属性将以如下所示的格式返回它所有的键值对: 
+  ![image-20211214171602725](struts2.assets/image-20211214171602725.png)
+- 若希望检索出某个 Map 的值, 需要使用如下格式: map[key] 
+- 可以使用 size 或 size() 得出某个给定的 Map 的键值对的个数
+- 可以使用 isEmpty 或 isEmpty() 检查某给定 Map 是不是空. 
+- 可以使用如下语法来创建一个 Map: 
+
+![image-20211214171625828](struts2.assets/image-20211214171625828.png)
+
+## 使用 EL 访问值栈中对象的属性 
+
+- <s:property value=“fieldName”> 也可以通过 JSP EL 来达到目的: ${fieldName}
+- 原理: Struts2 将包装 HttpServletRequest 对象后的 org.apache.struts2.dispatcher.StrutsRequestWrapper 对象传到页面上, 而这个类重写了 getAttribute() 方法.  
+
+## 异常处理: exception-mapping 元素
+
+- exception-mapping 元素: 配置当前 action 的声明式异常处理
+- exception-mapping 元素中有 2 个属性
+  1. exception: 指定需要捕获的的异常类型。异常的全类名
+  2. result: 指定一个响应结果, 该结果将在捕获到指定异常时被执行, 既可以来自当前 action 的声明, 也可以来自 global-results 声明. 
+- 可以通过 global-exception-mappings 元素为应用程序提供一个全局性的异常捕获映射. 但在 global-exception-mappings 元素下声明的任何 exception-mapping 元素只能引用在 global-results 元素下声明的某个 result 元素
+- 声明式异常处理机制由  ExceptionMappingInterceptor 拦截器负责处理, 当某个 exception-mapping 元素声明的异常被捕获到时, ExceptionMappingInterceptor 拦截器就会向 ValueStack 中添加两个对象: 
+  1. exception: 表示被捕获异常的 Exception 对象
+  2. exceptionStack: 包含着被捕获异常的栈
+- 可以在视图上通过 < s:property > 标签显示异常消息
+
+# 第 章 整合Spring
+
+## 概述
+
+- Struts2 通过插件实现和 Spring 的整合. 
+- Struts2 提供了两种和 Spring整合基本的策略:
+  - 将 Action 实例交给 Spring 容器来负责生成, 管理, 通过这种方式, 可以充分利用 Spring 容器的 IOC 特性, 提供最好的解耦
+  - 利用  Spring 插件的自动装配功能, 当 Spring 插件创建 Action 实例后, 立即将 Spring 容器中对应的业务逻辑组件注入 Action 实例. 
+
+## 让 Spring 管理控制器
+
+- 将 Action 实例交给 Spring 容器来负责生成, 管理, 通过这种方式, 可以充分利用 Spring 容器的 IOC 特性, 提供最好的解耦
+- 整合流程:
+  - 安装 Spring 插件: 把 struts2-spring-plugin-2.2.1.jar 复制到当前 WEB 应用的 WEB-INF/lib 目录下
+  - 在 Spring 的配置文件中配置 Struts2 的 Action 实例
+  - 在 Struts 配置文件中配置 action, 但其 class 属性不再指向该 Action 的实现类, 而是指向 Spring 容器中 Action 实例的 ID
+
+## 自动装配
+
+- 利用  Spring 插件的自动装配功能, 当 Spring 插件创建 Action 实例后, 立即将 Spring 容器中对应的业务逻辑组件注入 Action 实例. 
+- 配置自动装配策略: Spring 插件的自动装配可以通过 struts.objectFactory.spring.autoWire 常量指定, 该常量可以接受如下值:
+  - name: 根据属性名自动装配. 
+  - type: 根据类型自动装配. 若有多个 type 相同的 Bean, 就抛出一个致命异常; 若没有匹配的 Bean, 则什么都不会发生, 属性不会被设置
+  - auto: Spring 插件会自动检测需要使用哪种方式自动装配方式
+  - constructor: 同 type 类似, 区别是 constructor 使用构造器来构造注入所需的参数
+- 整合流程:
+  - 安装 Spring 插件
+  - 正常编写 struts 配置文件
+  - 编写 spring 配置文件, 在该配置文件中不需要配置 Action 实例
 
