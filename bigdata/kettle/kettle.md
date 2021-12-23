@@ -915,3 +915,641 @@ xlsx:2007年之后
 
 ## 列拆分为多行
 
+- 列拆分为多行就是把指定分隔符的字段进行拆分为多行。
+
+![image-20211223094430198](kettle.assets/image-20211223094430198.png)
+
+![image-20211223094539012](kettle.assets/image-20211223094539012.png)
+
+任务：从csv读取数据，把hobby列拆分为多行，并保存在Excel。
+
+分析：
+
+- 输入：CSV文件输入
+- 转换：列拆分为多行
+- 输出：Microsoft Excel输出
+
+![image-20211223094630339](kettle.assets/image-20211223094630339.png)
+
+## 列转行
+
+- 列转行就是如果数据一列有相同的值，按照指定的字段，把多行数据转换为一行数据。
+- 去除一些原来的列名，把一列数据变为字段。
+- 注意：列转行之前数据流必须进行排序！
+
+![image-20211223102117655](kettle.assets/image-20211223102117655.png)
+
+![image-20211223102407636](kettle.assets/image-20211223102407636.png)
+
+任务：从Excel中读取数据，按照姓名进行分组，把星期、工作小时从列转为行，并保存在Excel中。
+
+分析：
+
+- 输入：Excel输入
+- 转换：排序、列转行
+- 输出：Microsoft Excel输出
+
+![image-20211223102505693](kettle.assets/image-20211223102505693.png)
+
+## 行转列
+
+- 行转列就是把数据字段的字段名转换为一列，把数据行变为数据列。
+
+![image-20211223102727084](kettle.assets/image-20211223102727084.png)
+
+![image-20211223103554732](kettle.assets/image-20211223103554732.png)
+
+任务：从Excel读取数据，把星期工作小时行转为星期列和工作小时列，把数据保存到Excel。
+
+分析：
+
+- 输入：Excel输入
+- 转换：行转列
+- 输出：Microsoft Excel输出
+
+![image-20211223103659562](kettle.assets/image-20211223103659562.png)
+
+## 行扁平化
+
+- 行扁平化就是把同一组的多行数据合并成为一行。
+- 注意：
+  1. 只有数据流的同类数据数据行记录一致的情况才可使用！
+  2. 数据流必须进行排序，否则结果会不正确！
+
+![image-20211223104251666](kettle.assets/image-20211223104251666.png)
+
+![image-20211223104412162](kettle.assets/image-20211223104412162.png)
+
+任务：从Excel读取数据，把数据进行行扁平化处理，存储在Excel。
+
+分析：
+
+- 输入：Excel输入
+- 转换：排序记录、行扁平化
+- 输出：Microsoft Excel输出
+
+![image-20211223104457501](kettle.assets/image-20211223104457501.png)
+
+# kettle应用控件
+
+## 替换NULL值
+
+### 应用
+
+![image-20211223110206079](kettle.assets/image-20211223110206079.png)
+
+- 应用是转换里面的第五个分类。
+- 应用都是一些工具类。
+
+### 替换NULL值
+
+- 替换NULL值就是把null转换为其它的值。
+- NULL值不好进行数据分析
+
+![image-20211223110329212](kettle.assets/image-20211223110329212.png)
+
+任务：从Excel中读取数据，age列的空值值使用28来替换，并保存在Excel。
+
+分析：
+
+- 输入：Excel输入
+- 应用：替换NULL值
+- 输出：Microsoft Excel输出
+
+![image-20211223110426465](kettle.assets/image-20211223110426465.png)
+
+## 写日志
+
+- 写日志主要是在调试的时候使用，把日志信息打印到日志窗口。
+
+![image-20211223110748647](kettle.assets/image-20211223110748647.png)
+
+![image-20211223110855956](kettle.assets/image-20211223110855956.png)
+
+任务：从Excel读取数据，向日志输出窗口打印出所有的数据信息。
+
+分析：
+
+- 输入：Excel输入
+- 应用：写日志
+
+![image-20211223110946788](kettle.assets/image-20211223110946788.png)
+
+## 发送邮件
+
+- 发送邮件就是执行成功、失败、其它某种情景给相关人员发送邮件。
+  
+- 注意：
+  1. 只有企业邮箱才可以！个人邮箱不行！
+  2. 并且需要在邮件设置中开通客户端授权码！
+
+![image-20211223111716446](kettle.assets/image-20211223111716446.png)
+
+![image-20211223111803743](kettle.assets/image-20211223111803743.png)
+
+![image-20211223111826207](kettle.assets/image-20211223111826207.png)
+
+![image-20211223111837804](kettle.assets/image-20211223111837804.png)
+
+任务：发送一封邮件。
+
+分析：
+
+- 应用：发送邮件
+
+![image-20211223111918448](kettle.assets/image-20211223111918448.png)
+
+# kettle流程控件
+
+## Switch-case
+
+### 流程
+
+![image-20211223112355531](kettle.assets/image-20211223112355531.png)
+
+- 流程是转换里面的第六个分类。
+- 流程主要用来控制数据流程和数据流向。
+
+### Switch-case
+
+- Switch/case让数据流从一路到多路。
+
+![image-20211223112532959](kettle.assets/image-20211223112532959.png)
+
+![image-20211223112726717](kettle.assets/image-20211223112726717.png)
+
+任务：从Excel输入读取数据，按sex进行数据分类，把女性、男性、保密分别保存不同的Excel文件里面。
+
+- 1表示男性
+- 0表示女性
+- 2表示保密
+
+分析：
+
+- 输入：Excel输入
+- 流程：Switch/case
+- 输出：Microsoft Excel输出
+
+![image-20211223112853157](kettle.assets/image-20211223112853157.png)
+
+## 过滤记录
+
+- 过滤记录让数据流从一路到两路。
+
+![image-20211223140154182](kettle.assets/image-20211223140154182.png)
+
+![image-20211223140255763](kettle.assets/image-20211223140255763.png)
+
+任务：从Excel读取数据，分离出code列为空的数据，分别保存到不同的Excel文件。
+
+分析：
+
+- 输入：Excel输入
+- 流程：过滤记录
+- 输出：Microsoft Excel输出
+
+![image-20211223140346604](kettle.assets/image-20211223140346604.png)
+
+## 空操作
+
+- 空操作一般作为数据流的终点。（在kettle的sample中经常使用，但是实际开发中很少使用）
+
+![image-20211223140919894](kettle.assets/image-20211223140919894.png)
+
+任务：从Excel读取数据，分离code为空的数据，空数据不执行任何操作，不为空的数据保存到Excel。
+
+分析：
+
+- 输入：Excel输入
+- 流程：过滤记录、空操作
+- 输出：Microsoft Excel输出
+
+![image-20211223140956714](kettle.assets/image-20211223140956714.png)
+
+## 中止
+
+- 中止是数据流的终点，如果有数据到这里，将会报错。
+- 用来校验数据的时候使用。
+
+任务：从Excel中读取数据，过滤去code列不为空的数据，不为空的数据保存在Excel，如果出现为空的数据就停止转换。
+
+分析：
+
+- 输入：Excel输入
+- 流程：过滤记录、中止
+- 输出：Microsoft Excel输出
+
+![image-20211223142536274](kettle.assets/image-20211223142536274.png)
+
+# kettle查询控件
+
+## HTTP client
+
+### 查询
+
+![image-20211223142757446](kettle.assets/image-20211223142757446.png)
+
+- 查询是转换里面的第七个分类。
+- 查询是用来查询数据源里的数据并合并到主数据流中。
+
+### HTTP client
+
+- HTTP client是使用GET的方式提交请求，获取返回的页面内容。
+
+![image-20211223144728861](kettle.assets/image-20211223144728861.png)
+
+![image-20211223144715032](kettle.assets/image-20211223144715032.png)
+
+**自定义常量数据**
+
+- 自定义常量数据是用来生成一些不变的数据。
+
+![image-20211223144812057](kettle.assets/image-20211223144812057.png)
+
+![image-20211223144825459](kettle.assets/image-20211223144825459.png)
+
+任务：
+
+- 从网络上获取xml，解析出ProductID、ProductName、SupplierID、CategoryID，保存到Excel中
+- 地址：http://services.odata.org/V3/Northwind/Northwind.svc/Products/
+
+分析：
+
+- 输入：Excel输入
+- 查询：HTTP client
+- 输入：Get data from XML
+- 输出：Microsoft Excel输出
+
+![image-20211223144933920](kettle.assets/image-20211223144933920.png)
+
+## 数据库查询
+
+- 数据库查询就是数据库里面的左连接。
+
+- 左连接就是两张表执行左关联查询，把左边的表数据全部查询出来。
+
+  ![image-20211223151325956](kettle.assets/image-20211223151325956.png)
+
+任务：从employees表中读取数据，根据dep_id从departments表获取dep_name，保存到Excel中。
+
+分析：
+
+- 输入：表输入
+- 查询：数据库查询
+- 输出：Microsoft Excel输出
+
+![image-20211223151414923](kettle.assets/image-20211223151414923.png)
+
+MySQL表：
+
+```sql
+/*
+Navicat MySQL Data Transfer
+
+Source Server         : test
+Source Server Version : 50536
+Source Host           : localhost:3306
+Source Database       : test
+
+Target Server Type    : MYSQL
+Target Server Version : 50536
+File Encoding         : 65001
+
+Date: 2019-01-21 10:31:05
+*/
+
+SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for employees
+-- ----------------------------
+DROP TABLE IF EXISTS `employees`;
+CREATE TABLE `employees` (
+  `id` int(11) DEFAULT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `dep_id` int(11) DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of employees
+-- ----------------------------
+INSERT INTO `employees` VALUES ('1', '张三', '1');
+INSERT INTO `employees` VALUES ('2', '李四', '2');
+INSERT INTO `employees` VALUES ('3', '王五', '3');
+
+```
+
+```sql
+/*
+Navicat MySQL Data Transfer
+
+Source Server         : test
+Source Server Version : 50536
+Source Host           : localhost:3306
+Source Database       : test
+
+Target Server Type    : MYSQL
+Target Server Version : 50536
+File Encoding         : 65001
+
+Date: 2019-01-21 10:30:58
+*/
+
+SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for departments
+-- ----------------------------
+DROP TABLE IF EXISTS `departments`;
+CREATE TABLE `departments` (
+  `id` int(11) DEFAULT NULL,
+  `dep_name` varchar(255) DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of departments
+-- ----------------------------
+INSERT INTO `departments` VALUES ('1', '开发');
+INSERT INTO `departments` VALUES ('2', '测试');
+INSERT INTO `departments` VALUES ('3', '产品');
+INSERT INTO `departments` VALUES ('4', '运维');
+
+```
+
+## 数据库连接
+
+- 数据库连接可以执行两个数据库的查询，和单参数的表输入。
+
+![image-20211223153048888](kettle.assets/image-20211223153048888.png)
+
+任务：从departments表中读取数据，连接到另外一个数据库的employees，把数据保存到Excel。
+
+分析：
+
+- 输入：表输入
+- 查询：数据库连接
+- 输出：Microsoft Excel输出
+
+![image-20211223153158074](kettle.assets/image-20211223153158074.png)
+
+## 流查询
+
+- 流查询在查询前把数据都加载到内存中，并且只能进行等值查询。
+
+![image-20211223154617598](kettle.assets/image-20211223154617598.png)
+
+任务：从Excel读取employess和departments的数据，根据dep_id来查询dep_name，把数据保存到Excel。
+
+分析：
+
+- 输入：Excel输入
+- 查询：流查询
+- 输出：Microsoft Excel输出
+
+![image-20211223154710290](kettle.assets/image-20211223154710290.png)
+
+# kettle连接控件
+
+## 合并记录
+
+### 连接
+
+![image-20211223155118531](kettle.assets/image-20211223155118531.png)
+
+- 连接是转换里面的第八个分类。
+- 连接是结果集通过关键字进行连接。
+
+### 合并记录
+
+- 合并记录是用于将两个不同来源的数据合并，这两个来源的数据分别为旧数据和新数据，该步骤将旧数据和新数据按照指定的关键字匹配、比较、合并。
+- 需要设置的参数：
+  1. 旧数据来源：旧数据来源的步骤
+  2. 新数据来源：新数据来源的步骤
+
+- 标志字段：设置标志字段的名称，标志字段用于保存比较的结果，比较结果有下列几种。
+  1. “identical” – 旧数据和新数据一样
+  2. “changed” – 数据发生了变化;
+  3. “new” – 新数据中有而旧数据中没有的记录
+  4. “deleted” –旧数据中有而新数据中没有的记录
+- 关键字段：用于定位两个数据源中的同一条记录。
+- 比较字段：对于两个数据源中的同一条记录中，指定需要比较的字段。
+  合并后的数据将包括旧数据来源和新数据来源里的所有数据，对于变化的数据，使用新数据代替旧数据，同时在结果里用一个标示字段，来指定新旧数据的比较结果。
+- 注意：
+  旧数据和新数据需要事先按照关键字段排序。
+  旧数据和新数据要有相同的字段名称。
+
+![image-20211223160457418](kettle.assets/image-20211223160457418.png)
+
+任务：从Excel读取新数据和旧数据，合并数据，标记处new、delete、changed、identical,把数据保存到Excel。
+
+分析：
+
+- 输入：Excel输入
+- 连接：合并记录
+- 输出：Microsoft Excel输出
+
+![image-20211223160546667](kettle.assets/image-20211223160546667.png)
+
+## 记录关联（笛卡尔积）
+
+- 记录关联就是对两个数据流进行笛卡尔积操作。
+
+![image-20211223162235569](kettle.assets/image-20211223162235569.png)
+
+![image-20211223162255352](kettle.assets/image-20211223162255352.png)
+
+任务：从Excel读取两位和三位数，完成两位数和三位数的组合（笛卡尔积）,把结果保存在Excel。
+
+分析：
+
+- 输入：Excel输入
+- 连接：记录关联
+- 输出：Microsoft Excel输出
+
+![image-20211223162338194](kettle.assets/image-20211223162338194.png)
+
+## 记录集连接
+
+- 记录集连接就像数据库的左连接、右连接、内连接、外连接。
+- 注意：在进行记录集连接之前，应该要对记录集进行排序。
+
+![image-20211223164136059](kettle.assets/image-20211223164136059.png)
+
+![image-20211223164233257](kettle.assets/image-20211223164233257.png)
+
+任务：从Excel中读取employees和departments数据，进行内关键，左关联，右关联，全关联，把数据保存到Excel。
+
+分析：
+
+- 输入：Excel输入
+- 转换：排序记录
+- 连接：记录集连接
+- 输出：Microsoft Excel输出
+
+![image-20211223164320368](kettle.assets/image-20211223164320368.png)
+
+# kettle统计控件
+
+## 分组
+
+### 统计
+
+![image-20211223164509945](kettle.assets/image-20211223164509945.png)
+
+- 统计是提供数据的采样和统计功能。
+
+### 分组
+
+- 分组是按照某一个或某几个进行分组，同时可以将其余字段按照某种规则进行合并。
+- 注意：
+  分组之前数据应该进行排序！
+
+![image-20211223165207655](kettle.assets/image-20211223165207655.png)
+
+任务：从Excel读取数据，按照group进行分组统计，把结果保存到Excel。
+
+分析：
+
+- 输入：Excel输入
+- 统计：分组
+- 输出：Microsoft Excel输出
+
+![image-20211223165255391](kettle.assets/image-20211223165255391.png)
+
+# kettle映射控件
+
+## 映射
+
+### 映射
+
+![image-20211223165632080](kettle.assets/image-20211223165632080.png)
+
+- 映射是用来定义子转换，便于封装和重用。
+
+### 映射（子转换）
+
+- 映射（子转换）是用来配置子转换，对子转换进行调用的一个步骤。
+
+![image-20211223170106966](kettle.assets/image-20211223170106966.png)
+
+### 映射输入规范
+
+- 映射输入规范是输入字段，由调用的转换输入。
+
+![image-20211223170206300](kettle.assets/image-20211223170206300.png)
+
+### 映射输出规范
+
+- 映射输出规范是向调用的转换输出所有列，不做任何处理。
+
+![image-20211223170221998](kettle.assets/image-20211223170221998.png)
+
+任务：从t_orders表中获取数据，根据u_id查询t_users表，获取用户信息，并把数据保存到Excel。
+
+分析：
+
+![image-20211223170319674](kettle.assets/image-20211223170319674.png)
+
+sql表：
+
+```sql
+/*
+Navicat MySQL Data Transfer
+
+Source Server         : test
+Source Server Version : 50536
+Source Host           : localhost:3306
+Source Database       : test
+
+Target Server Type    : MYSQL
+Target Server Version : 50536
+File Encoding         : 65001
+
+Date: 2019-01-17 13:41:17
+*/
+
+SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for t_orders
+-- ----------------------------
+DROP TABLE IF EXISTS `t_orders`;
+CREATE TABLE `t_orders` (
+  `id` int(11) NOT NULL,
+  `create_time` datetime DEFAULT NULL,
+  `amount` int(11) DEFAULT NULL,
+  `total_money` int(11) DEFAULT NULL,
+  `u_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of t_orders
+-- ----------------------------
+INSERT INTO `t_orders` VALUES ('1', '2019-02-01 10:00:00', '5', '200', '1');
+INSERT INTO `t_orders` VALUES ('2', '2019-02-02 10:00:00', '3', '100', '2');
+INSERT INTO `t_orders` VALUES ('3', '2019-02-03 10:00:00', '4', '300', '3');
+INSERT INTO `t_orders` VALUES ('4', '2019-02-04 10:00:00', '1', '400', '4');
+INSERT INTO `t_orders` VALUES ('5', '2019-02-05 10:00:00', '2', '500', '5');
+INSERT INTO `t_orders` VALUES ('6', '2019-02-06 10:00:00', '5', '100', '6');
+INSERT INTO `t_orders` VALUES ('7', '2019-02-07 10:00:00', '4', '200', '7');
+INSERT INTO `t_orders` VALUES ('8', '2019-02-08 10:00:00', '3', '300', '8');
+INSERT INTO `t_orders` VALUES ('9', '2019-02-09 10:00:00', '2', '400', '9');
+INSERT INTO `t_orders` VALUES ('10', '2019-02-10 10:00:00', '1', '500', '10');
+INSERT INTO `t_orders` VALUES ('11', '2019-02-11 10:00:00', '5', '200', '11');
+INSERT INTO `t_orders` VALUES ('12', '2019-02-12 10:00:00', '2', '100', '12');
+
+```
+
+```sql
+/*
+Navicat MySQL Data Transfer
+
+Source Server         : test
+Source Server Version : 50536
+Source Host           : localhost:3306
+Source Database       : test
+
+Target Server Type    : MYSQL
+Target Server Version : 50536
+File Encoding         : 65001
+
+Date: 2019-01-17 13:41:26
+*/
+
+SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for t_users
+-- ----------------------------
+DROP TABLE IF EXISTS `t_users`;
+CREATE TABLE `t_users` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) CHARACTER SET latin1 DEFAULT NULL,
+  `age` int(11) DEFAULT NULL,
+  `address` varchar(255) CHARACTER SET latin1 DEFAULT NULL,
+  `phone` varchar(255) CHARACTER SET latin1 DEFAULT NULL,
+  `sex` varchar(255) CHARACTER SET latin1 DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of t_users
+-- ----------------------------
+INSERT INTO `t_users` VALUES ('1', 'zhangsan', '22', 'hunan', '18573117992', 'f');
+INSERT INTO `t_users` VALUES ('2', 'lisi', '25', 'beijing', '18573117993', 'm');
+INSERT INTO `t_users` VALUES ('3', 'wangwu', '28', 'neimenggu', '18573117991', 'f');
+INSERT INTO `t_users` VALUES ('4', 'zhaoliu', '31', 'xingjiang', '18573117990', 'm');
+INSERT INTO `t_users` VALUES ('5', 'sunqi', '34', 'zhejiang', '18573117998', 'm');
+INSERT INTO `t_users` VALUES ('6', 'qianba', '37', 'guangzhou', '18573117997', 'f');
+INSERT INTO `t_users` VALUES ('7', 'sanfeng', '40', 'shenzheng', '18573117996', 'f');
+INSERT INTO `t_users` VALUES ('8', 'wuji', '43', 'nanchang', '18573117995', 'f');
+INSERT INTO `t_users` VALUES ('9', 'zehua', '46', 'shanxi', '18573117994', 'f');
+INSERT INTO `t_users` VALUES ('10', 'caorui', '49', 'guizhou', '18573117988', 'm');
+INSERT INTO `t_users` VALUES ('11', 'gebi', '52', 'sanya', '18573117987', 'm');
+INSERT INTO `t_users` VALUES ('12', 'laowang', '55', 'qingdao', '18573117980', 'm');
+
+```
+
+# kettle脚本控件
+
