@@ -1557,6 +1557,96 @@ INSERT INTO `t_users` VALUES ('12', 'laowang', '55', 'qingdao', '18573117980', '
 
 # kettle脚本控件
 
+## javascript脚本
+
+### 脚本
+
+![image-20211227141217984](kettle.assets/image-20211227141217984.png)
+
+- 脚本就是直接通过程序代码完成一些复杂的操作。
+
+### javascript脚本
+
+- javascript脚本就是使用javascript语言通过代码编程来完成对数据流的操作。
+- JS中有很多内置函数，可以在编写JS代码时查看。
+- 存在两种不同的模式：不兼容模式和兼容模式
+- 不兼容模式：是默认的，也是推荐的
+- 兼容模式：兼容老版本的kettle
+
+**javascript脚本-获取字段**
+
+不兼容模式：
+myVar = FieldName;
+
+兼容模式：根据字段类型的不同，使用不同的方法：
+myVar = FieldName.getString();
+myVar = FieldName.getNumber();
+
+**javascript脚本-给字段赋值**
+
+不兼容模式：直接使用字段名，如
+FieldName = myVar;
+
+兼容模式：使用 
+FieldName.setValue(myVar);
+
+**javascript脚本-在脚本中使用java类**
+
+不兼容模式：
+var myVar = new java.lang.String(“pentahochina.com”);
+
+兼容模式：
+var myVar = new Packages.java.lang.String (“pentahochina.com”);
+
+![image-20211227141627700](kettle.assets/image-20211227141627700.png)
+
+任务：生成日期维度数据有日期，年，月，日，从2000年01月01日开始有1000条记录，保存到Excel。
+
+分析：
+
+- 输入：生成记录
+- 转换：增加序列、计算器、字段选择
+- 脚本：JavaScript代码
+- 输出：Excel输出
+
+![image-20211227141737232](kettle.assets/image-20211227141737232.png)
+
+## java脚本
+
+- java脚本就是使用java语言通过代码编程来完成对数据流的操作。
+- 内置了很多函数可以直接使用。
+
+**java脚本-Main**
+
+- Main函数对应一个processRow(）函数，processRow(）函数是用来处理数据流的场所！
+
+![image-20211227144019223](kettle.assets/image-20211227144019223.png)
+
+任务：从Excel中读取数据，生成newcode字段，如果code列为NULL就使用name列来替换，否则就在code列的后面加上123,结果保存在Excel。
+
+分析：
+
+- 输入：Excel输入
+- 脚本：Java代码
+- 输出：Excel输出
+
+![image-20211227144112163](kettle.assets/image-20211227144112163.png)
+
+## 执行SQL脚本
+
+- 执行SQL脚本可以执行一个update语句，用来更新某个表中的数据。
+
+![image-20211227144627029](kettle.assets/image-20211227144627029.png)
+
+任务：从t_users表中获取所有的数据，把age的值都更改为33。
+
+分析：
+
+- 输入：表输入
+- 脚本：执行SQL脚本
+
+![image-20211227144707751](kettle.assets/image-20211227144707751.png)
+
 # kettle作业和参数
 
 ## 作业
