@@ -1826,3 +1826,202 @@ WHERE
 
 ![image-20211224170339313](kettle.assets/image-20211224170339313.png)
 
+# Linux上执行kettle转换和作业
+
+kettle在linux上安装之后，使用命令查看文件权限（需要确保data-integration目录下的.sh脚本文件有执行权限）：
+
+```shell
+ls -l /data-integration
+```
+
+如果没有执行权限，执行以下命令：
+
+```shell
+chmod +x /usr/soft/kettle/dist/*.sh
+```
+
+使用命令测试是否部署成功：
+
+```
+./dist/kitchen.sh
+```
+
+部署成功后的截图如下：
+
+```shell
+[ideal@node1 data-integration]$ ./kitchen.sh 
+#######################################################################
+WARNING:  no libwebkitgtk-1.0 detected, some features will be unavailable
+    Consider installing the package with apt-get or yum.
+    e.g. 'sudo apt-get install libwebkitgtk-1.0-0'
+#######################################################################
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+Options:
+  -rep            = Repository name
+  -user           = Repository username
+  -pass           = Repository password
+  -job            = The name of the job to launch
+  -dir            = The directory (dont forget the leading /)
+  -file           = The filename (Job XML) to launch
+  -level          = The logging level (Basic, Detailed, Debug, Rowlevel, Error, Minimal, Nothing)
+  -logfile        = The logging file to write to
+  -listdir        = List the directories in the repository
+  -listjobs       = List the jobs in the specified directory
+  -listrep        = List the available repositories
+  -norep          = Do not log into the repository
+  -version        = show the version, revision and build date
+  -param          = Set a named parameter <NAME>=<VALUE>. For example -param:FILE=customers.csv
+  -listparam      = List information concerning the defined parameters in the specified job.
+  -export         = Exports all linked resources of the specified job. The argument is the name of a ZIP file.
+  -custom         = Set a custom plugin specific option as a String value in the job using <NAME>=<Value>, for example: -custom:COLOR=Red
+  -maxloglines    = The maximum number of log lines that are kept internally by Kettle. Set to 0 to keep all rows (default)
+  -maxlogtimeout  = The maximum age (in minutes) of a log line while being kept internally by Kettle. Set to 0 to keep all rows indefinitely (default)
+[ideal@node1 data-integration]$ 
+```
+
+## ktr的运行
+
+ktr的运行：运行transformation文件是通过pan.sh（转换执行器）来运行的。
+
+打开cmd命令行窗口，转到pan.sh所在的目录，如/home/zzq/data-integration,然后执行文件的命令为：
+
+```shell
+./pan.sh -file=/home/zzq/work/test.ktr
+```
+
+如果要输出日志则：
+
+```shell
+./pan.sh -file=/home/zzq/work/test.ktr >> /home/zzq/log/kettle.log
+```
+
+后台模式运行使用：
+
+```shell
+./pan.sh -file=/home/zzq/work/genotypeHiveLinux.ktr >> /home/zzq/log/kettle.log &
+```
+
+## kjb的运行
+
+kjb的运行：运行job文件是通过kitchen.sh（作业执行器）来运行的。
+
+打开cmd命令行窗口，转到kitchen.sh所在的目录，如/home/zzq/data-integration,然后执行文件的命令为：
+
+```shell
+./kitchen.sh -file=/home/zzq/work/test.kjb
+```
+
+如果要输出日志则：
+
+```shell
+./kitchen.sh -file=/home/zzq/work/test.kjb >> /home/zzq/log/kettle.log
+```
+
+## 配置参数
+
+**Pan——转换执行器**
+
+用来执行转换。参数与Kitchen类似，如下。
+
+1- -version显示版本信息
+
+2- -file=filename运行xml文件
+
+3- -param:key=value指定命名参数
+
+4- -log=logging filename 设置日志文件
+
+5- -level=logging level 设置日志级别
+
+```
+- Error:只显示错误
+
+- Nothing:不显示任何输出
+
+- Minimal:只使用最少的记录
+
+- Basic:这是默认的基本日志记录级别
+
+- Detailed:详细的日志输出
+
+- Debug:以调试为目的，非常详细的输出
+
+- Rowlevel:使用行级记录，会产生大量的数据
+```
+
+返回状态，Pan会基于执行状况返回一个错误码：
+
+```
+0：转换执行成功
+
+1：处理过程中发生错误
+
+2：在装载或者运行时发生意外的错误
+
+3：不能初始化转换
+
+7：转换不能从资源库或xml中装载
+
+8：装载步骤或插件错误(通常是装载其中一个插件错误)
+
+9：命令行用法错误
+```
+
+**Kitchen——作业执行器**
+
+用来执行作业。这是一个命令行执行工具，参数说明如下。
+
+1) -rep:Repositoryname任务包所在存储名
+
+2) -user:Repositoryusername执行人
+
+3) -pass:Repositorypassword执行人密码
+
+4) -job:Thenameofthejobtolaunch任务包名称
+
+5) -dir:Thedirectory(don’tforgettheleading/or)
+
+6) -file:Thefilename(JobXML)tolaunch
+
+7) -level:Thelogginglevel(Basic,Detailed,Debug,Rowlevel,Error,Nothing)指定日志级别
+
+8) -log:Theloggingfiletowriteto指定日志文件
+
+9) -listdir:Listthedirectoriesintherepository列出指定存储中的目录结构。
+
+10) -listjobs:Listthejobsinthespecifieddirectory列出指定目录下的所有任务
+
+11) -listrep:Listthedefinedrepositories列出所有的存储
+
+12) -norep:Don’tlogintotherepository不写日志
+
+示例： 1. Windows 中多个参数以 / 分隔，key 和value之间以：分隔
+
+作业存储在文件
+
+```
+Kitchen.bat /level:Basic>D:\etl.log /file:F:\Kettledemo\email.kjb
+```
+
+作业存储在数据库
+
+```
+Kitchen.bat /rep kettle /user admin /pass admin /job F_DEP_COMP
+```
+
+(Rep的值为数据库资源库ID)
+
+Linux 中参数以 –分隔
+
+作业存储在文件
+
+```shell
+./kitchen.sh -file=/home/job/huimin.kjb >> /home/log/kettle.log
+```
+
+作业存储在数据库
+
+```shell
+./kitchen.sh -rep=kettle1 -user=admin -pass=admin -level=Basic -job=job
+```
+
