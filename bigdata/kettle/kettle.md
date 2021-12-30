@@ -2025,3 +2025,101 @@ Linux 中参数以 –分隔
 ./kitchen.sh -rep=kettle1 -user=admin -pass=admin -level=Basic -job=job
 ```
 
+# 问题：kettle资源库变为灰色，且没有connect按钮
+
+问题描述：
+
+   kettle资源库配置变为灰色，且主面板右上角的connect按钮消失
+
+问题原因：
+
+   中文乱码造成，新建资源库命名时不要用中文名
+
+问题解决：
+
+   1，进入用户目录中 .kettle 下
+
+   2，打开repository.xml 将乱码部分删除或改为英文
+
+   3，将同文件下 .spoonrc 文件和 db.cache- 文件删除
+
+   4，重启kettle
+
+原先repository.xml里的内容如下：
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<repositories>
+  <connection>
+    <name>localhost_mysql</name>
+    <server>localhost</server>
+    <type>MYSQL</type>
+    <access>Native</access>
+    <database>test</database>
+    <port>3306</port>
+    <username>root</username>
+    <password>Encrypted 2be98afc80dc8dd82910e8a22d7a0a892</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>3306</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>Y</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>STREAM_RESULTS</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>dameng-10.86.1.132</name>
+    <server/>
+    <type>GENERIC</type>
+    <access>Native</access>
+    <database/>
+    <port>1521</port>
+    <username>12345GONGDAN</username>
+    <password>Encrypted 2dcd2ceba32ccb3bdb135a466eca8b7d4</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>CUSTOM_DRIVER_CLASS</code><attribute>dm.jdbc.driver.DmDriver</attribute></attribute>
+      <attribute><code>CUSTOM_URL</code><attribute>jdbc:dm://10.86.1.132:18080</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>1521</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>Y</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <repository>    <id>KettleDatabaseRepository</id>
+    <name>localhost_mysql</name>
+    <description>Database repository</description>
+    <is_default>false</is_default>
+    <connection>localhost_mysql</connection>
+  </repository>  <repository>    <id>KettleDatabaseRepository</id>
+    <name>dameng-10.86.1.132</name>
+    <description>Database repository</description>
+    <is_default>true</is_default>
+    <connection>dameng-10.86.1.132</connection>
+  </repository>  <repository>    <id>KettleFileRepository</id>
+    <name>τݾ؊Դࠢ</name>
+    <description>τݾ؊Դࠢ</description>
+    <is_default>false</is_default>
+    <base_directory>F:\τݾ؊Դࠢ</base_directory>
+    <read_only>N</read_only>
+    <hides_hidden_files>N</hides_hidden_files>
+  </repository>  </repositories>
+```
+
+看到xml中最后一段< repository >标签中乱码，即把它删除了。然后重启即可。
+
