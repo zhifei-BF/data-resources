@@ -131,3 +131,236 @@ while(i<=n)
 - 一般情况下，1，2与算法本身是无关的。
 - 因此，空间复杂度重点讨论的是运行过程中临时占用的存储空间。
 - 若临时空间相对于输入数据量是常数，则称此算法为原地工作或就地工作，即空间复杂度为O(1).
+
+# 线性表
+
+线性表包含两部分：顺序存储和链式存储。
+
+- 顺序存储包含顺序表。
+
+- 链式存储包含单链表、双链表、循环链表和静态链表。
+
+**线性表的定义：**
+
+（1）n（>=0）个数据元素的有限序列，记作（a1，.......，ai，ai+1，.....，an），其中ai是线性表中的数据元素，n是表的长度（n=0为空表，即表中不包含任何元素）。
+
+（2）ai是线性表中的“第i个”元素线性表中的位序。（注意：位序从1开始数组下标是从0开始）
+
+**逻辑特征（n>0）：**
+
+存在唯一的一个被称做“第一个”的数据元素。（如a1）就是表头元素。
+
+存在唯一的一个被称做“最后一个”的数据元素。（如an）就是表尾元素。
+
+除第一个数据元素外，其他元素均只有一个直接前驱。
+
+除最后一个数据元素外，其他元素均只有一个直接后继。
+
+**物理特征：**
+
+元素的数据类型是相同的。
+
+元素的个数是有限的。
+
+**线性表的基本操作：**
+
+```c
+InitList(&L) //构造一个空的线性表L
+DestroyList(&L) //销毁L
+ListEmpty(L) //判断L是否空
+ListLength(L) //求L的长度
+PriorElem(L,cur_e,&pre_e) //求前驱的值
+NextElem(L,cur_e,&next_e) //求后继的值
+GetElem(L,i,&e) //取i位置数据元素的值
+LocateElem(L,e,equal()) //在线性表中查找e
+ListTraverse(L,visit()) //遍历线性表
+ClearList(&L) //将L置为空表
+ListInsert(&L,i,e) //在i位置插入值为e的数据元素
+ListDelete(&L,i,e) //删除i位置的数据元素
+```
+
+# 顺序表
+
+【概念】线性表：
+
+线性表是具有相同数据类型的n（n>=0）个数据元素的有限序列。（每个元素占一样的空间）
+
+【概念】顺序表：
+
+用顺序存储的方式实现线性表顺序存储。把逻辑上相邻的元素存储在物理位置上也相邻的存储单元中，元素之间的关系由存储单元的邻接关系来体现。
+
+
+
+如何知道一个数据元素大小？
+
+C语言 sizeof（ElemType）
+
+
+
+【概念】静态分配（缺点：没有反映元素个数n和表的内在联系）
+
+```C
+#define MAX 100
+ElemType elem[MAX]; //表
+int n; //数据元素个数n<=MAX
+```
+
+用结构体将顺序表的相关信息封装起来
+
+```c
+#define MAX 100 //最大元素个数
+typedef struct
+{
+    ElemType elem[MAX];
+    int length; //元素个数，即表长
+}Sqlist;
+```
+
+【概念】动态存储
+
+```c
+#define LIST_INIT_SIZE 100 //存储空间的初始分配量
+#define LISTINCREMENT 10 //分配增量
+typedef struct
+{
+    ElemType *elem; //存储区域的基址
+    int length; //当前表的长度
+    int listsize； //当前已分配的存储容量
+}Sqlist； //顺序表类型
+```
+
+注意事项：
+
+1. 动态申请和释放内存空间
+
+2. C——malloc（申请）、free（释放）函数
+
+   malloc函数返回一个指针，需要强制转型为你定义的数据元素类型指针。
+
+   malloc函数的参数，指明要分配多大的连续内存空间。
+
+   L.data = （ElemType *) malloc(sizeof(ElemType) * InitSize)
+
+3. C++ ——new、delete关键字
+
+**顺序表的基本操作**
+
+【概念】初始化顺序表InitList_Sq(&L)
+
+操作结果：构造一个空的顺序表L
+
+```c
+Status InitList_Sq(SqList &L) //构造一个空的顺序表L
+{
+    L.elem = (ElemType*)malloc(LIST_INIT_SIZE * sizeof(ElemType));
+    if(!L.elem) exit(OVERFLOW); //存储空间分配失败
+    L.length=0; L.listsize=LIST_INIT_SIZE;
+    return OK;
+} //InitList_Sq
+//本算法的时间复杂度为O(1)
+```
+
+【概念】求表的长度：L.length
+
+【概念】销毁顺序表DestroyList_Sq(&L)释放L占用的内存空间。
+
+```c
+void DestroyList_Sq(SqList &L)
+{
+    free(L.elem);
+    L.elem=NULL;
+    L.length=0;
+    L.listsize=0;
+}
+```
+
+【概念】判定是否为空表ListEmpty_Sq(L)
+
+若L为空表，则返回1，否则返回0。
+
+```c
+int ListEmpty_Sq(SqList L){
+    return (L.length == 0);
+}
+```
+
+【概念】输出顺序表DispList_Sq(L)
+
+当L不为空时，顺序显示L中各元素的值。
+
+```c
+Status DispList_Sq(SqList L)
+{
+    if(ListEmpty_Sq(L)) return ERROR;
+    for(i=0;i<L.length;i++)
+    	printf(L.elem[i]);
+    return OK;
+}
+```
+
+【概念】插入数据元素ListInsert_Sq(&L,i,e)
+
+在顺序表L的第i个位置（1<=i<=L.length+1)前插入新元素e。
+
+```c
+Status ListInsert_Sq(SqList &L, int i, ElemType e)
+{ //在顺序表L中第i个位置之前插入数据元素e
+    if(i<1 || i > L.length+1) return ERROR; //i值不合法
+    if(L.Length>=L.listsize){ //上溢时，增加空间
+        newbase=(ElemType*)realloc(L.elem,(L.listsize+LISTINCREMENT)*sizeof(ElemType));
+        if(!newbase) exit(OVERFLOW); //存储分配失败
+        L.elem=newbase;
+        L.listsize+=LISTINCREMENT;
+    }
+    for(j=L.length;j>=i;j--)
+    	L.elem[j]=L.elem[j-1]; //元素后移（从最后一个元素开始）
+    L.elem[i-1]=e;	//在位置i处插入元素e（注意位序与elem下标）
+    ++L.length;	//顺序表长度增1
+    return OK;
+}
+```
+
+【概念】时间复杂度（关注最深层循环语句的执行次数与问题规模n的关系，问题规模n=L.length(表长)）
+
+最好情况：新元素插入到表尾，不需要移动元素i=n+1，循环0次；
+
+最好时间复杂度=O(1)
+
+最坏情况：新元素插入到表头，需要将原有的n个元素全都向后移动i=1，循环n次；
+
+最坏时间复杂度=O(n);
+
+平均情况：假设新元素插入到任何一个位置的概率相同，则长度为n的线性表中插入一个结点时，所需节点的移动次数为：n/2
+
+平均时间复杂度=O(n)；
+
+【概念】删除数据元素ListDelete_Sq(&L,i,&e)
+
+删除顺序表L中的第i（1<=i<=L.length）个元素。
+
+```C
+Status ListDelete_Sq(SqList &L, int i; ElemType &e)
+{
+    if(i<1 || i>L.length) return ERROR; //合法位置？
+    e=L.elem[i-1];
+    for(j=i;j<L.length;j++)
+    	L.elem[j-1]=L.elem[j]; //元素前移（从第i+1个位置开始）
+    --L.length;	//顺序表长度减1
+    return OK;
+}
+```
+
+【概念】时间复杂度（关注最深层循环语句的执行次数与问题规模n的关系，问题规模n=L.length(表长)）
+
+最好情况：删除表尾元素，不需要移动其他元素i=n，循环0次；
+
+最好时间复杂度=O(1)
+
+最坏情况：删除表头元素，需要将后续的n-1个元素全都向前移动i=1，循环n-1次；
+
+最坏时间复杂度=O(n);
+
+平均情况：假设删除任何一个元素的概率相同，则长度为n的线性表中插入一个结点时，所需节点的移动次数为（n-1）/2
+
+平均时间复杂度=O(n)
+
