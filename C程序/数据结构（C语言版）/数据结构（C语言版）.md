@@ -181,6 +181,10 @@ ListDelete(&L,i,e) //删除i位置的数据元素
 
 # 顺序表
 
+优点：可随机存取，存储密度高
+
+缺点：要求大片连续空间，改变容量不方便
+
 【概念】线性表：
 
 线性表是具有相同数据类型的n（n>=0）个数据元素的有限序列。（每个元素占一样的空间）
@@ -363,4 +367,351 @@ Status ListDelete_Sq(SqList &L, int i; ElemType &e)
 平均情况：假设删除任何一个元素的概率相同，则长度为n的线性表中插入一个结点时，所需节点的移动次数为（n-1）/2
 
 平均时间复杂度=O(n)
+
+【概念】GetElem(L,i):按位查找操作。获取表L中第i个位置的元素的值。
+
+```c
+#define InitSize 10 //顺序表的初始长度
+typedef struct{
+    ElemType *data; //指示动态分配数组的指针
+    int MaxSize; //顺序表的最大容量
+    int length; //顺序表的当前长度
+} SeqList；
+
+ElemType GetElem(SeqList L,int i)
+{
+    return L.data[i-1];
+}
+```
+
+时间复杂度：O(1) ,由于顺序表中的各个数据元素在内存中连续存放，因此可以根据起始地址和数据元素大小立即找到第i个元素——”随机存取“特性
+
+【概念】LocateElem(L,e)：按值查找操作。在表L中查找具有给定关键字值的元素。
+
+```c
+#define InitSize 10 //顺序表的初始长度
+typedef struct{
+    ElemType *data; //指示动态分配数组的指针
+    int MaxSize; //顺序表的最大容量
+    int length; //顺序表的当前长度
+} SeqList；
+
+//在顺序表L中查找第一个元素值等于e的元素，并返回其位序
+int LocateElem(SeqList L,ElemType e)
+{
+    for(int i = 0;i < L.length; i++)
+    	if(L.data[i]==e)
+    		return i+1;	//数组下标为i的元素值等于e，返回其位序i+1
+    return 0;	//退出循环，说明查找失败
+}
+```
+
+【概念】时间复杂度
+
+```c
+//在顺序表L中查找第一个元素值等于e的元素，并返回其位序
+int LocateElem(SeqList L,ElemType e)
+{
+    for(int i = 0;i < L.length; i++)
+    	if(L.data[i]==e)
+    		return i+1;	//数组下标为i的元素值等于e，返回其位序i+1
+    return 0;	//退出循环，说明查找失败
+}
+```
+
+最好情况：目标元素在表头
+
+循环1次；最好时间复杂度=O(1)
+
+最坏情况：目标元素在表尾
+
+循环n次；最坏时间复杂度=O(n)
+
+平均情况：假设目标元素出现在任何一个位置的概率相同，则在长度为n的线性表中查找值为e的元素所需的平均次数为：(n+1)/2
+
+平均时间复杂度=O(n)
+
+# 单链表
+
+每个结点除了存放数据元素外，还要存储指向下一个节点的指针。
+
+优点：不要求大片连续空间，改变容量方便
+
+缺点：不可随机存取，要耗费一定空间存放指针
+
+【概念】定义单链表
+
+```c
+typedef struct LNode{ //定义单链表节点类型
+    ElemType data;	//数据域
+    struct LNode *next;	//指针域
+}LNode,*LinkList;
+
+struct LNode *p=(struct LNode*)malloc(sizeof(struct LNode)) //增加一个新的结点：在内存中申请一个结点所需空间，并用指针p指向这个结点
+```
+
+typedef关键字——数据类型重命名
+
+typedef <数据类型> <别名>
+
+typedef   int    No_int;
+
+int x=1;  等价于 No_int x = 1;
+
+要表示一个单链表时，只需声明一个头指针L，指向单链表的第一个结点
+
+Lnode *L；// 声明一个指向单链表第一个结点的指针
+
+LinkList    L； //声明一个指向单链表第一个结点的指针
+
+【概念】无头结点单链表
+
+空表时，head为NULL。
+
+第1个结点只能由head指针变量指向，其余结点是直接前驱结点的指针域所指向的结点。即....->next。
+
+【概念】有头结点（便于插入/删除的实现）
+
+空表时，head指向一个结点，即头结点。
+
+除头结点外其余结点均是直接前驱结点的指针域所指向的结点。即....->next。
+
+【概念】定义一个不带头结点的单链表
+
+```c
+typedef struct LNode{	//定义单链表结点类型
+    ElemType data;	//每个节点存放一个数据元素
+    struct LNode *next;	//指针指向下一个节点
+}LNode, *LinkList;
+
+//初始化一个空的单链表
+bool InitList(LinkList &L){
+    L = NULL; //空表，暂时还没有任何结点
+    return true;
+}
+
+//判断单链表是否为空
+bool Empty(LinkList L){
+    if(L == NULL)
+        return true;
+    else
+        return false;
+}
+```
+
+【概念】定义一个带头结点的单链表
+
+```c
+typedef struct LNode{	//定义单链表结点类型
+    ElemType data;	//每个节点存放一个数据元素
+    struct LNode *next;	//指针指向下一个节点
+}LNode, *LinkList;
+
+//初始化一个单链表（带头结点）
+bool InitList(LinkList &L){
+    L = (LNode *)malloc(sizeof(LNode)) //分配一个头结点
+    if(L==NULL)
+        return false;
+    L->next = NULL; //头结点之后暂时还没有节点
+    return true;
+}
+
+//判断单链表是否为空（带头结点）
+bool Empty(LinkList L){
+    if(L -> next == NULL)
+        return true;
+    else
+        return false;
+}
+```
+
+【概念】单链表按位序插入（带头结点）
+
+ListInsert（&L，i，e):插入操作。在表L中的第i个位置上插入指定元素e
+
+```c
+status ListInsert(LinkList &L,int i, ElemType e)
+{	//将值为e的结点插入到第i个位置
+    p=L;j=0;
+    while(j < i-1 && p != NULL) //遍历到第i-1个结点或到表尾
+    {
+        j++;
+        p=p->next; //遍历
+    } // end of while
+    if(p==NULL || j > i-1) return ERROR; //i>表长加1或i<1
+    s=(LinkList)malloc(sizeof(LNode)); //创建新结点s
+    if(s == NULL) exit(OVERFLOW); //存储分配失败
+    s->data=e;	//将s的数据域置为e
+    s->next=p->next;
+    p->next=s;
+    return OK；
+}//ListInsert
+```
+
+最好时间复杂度T(n)=O(1)
+
+最坏时间复杂度T(n)=O(n)
+
+平均时间复杂度T(n)=O(n)
+
+【概念】单链表按位序插入（不带头结点）
+
+ListInsert（&L，i，e):插入操作。在表L中的第i个位置上插入指定元素e
+
+```c
+int ListInsert(LinkList &L,int i, ElemType e)
+{
+    if(i==1)
+    {//对i为1的插入位置特殊处理
+        s=(LinkList) malloc(sizeof(LNode));//建新结点s
+        if(s==NULL) exit(OVERFLOW);
+        s->data=e; s->next=L; //插入结点s
+        L=s;	//修改头指针
+    } // end of if
+    else{ p=L;j=1;...... //与有头结点的类似}
+    return OK;
+}
+```
+
+【概念】单链表的删除（带头结点）
+
+ListDelete(&L,i,&e):删除操作。删除表L中第i个位置的元素，并用e返回删除元素的值。
+
+```c
+int ListDelete(LinkList &L, int i, ElemType &e)
+{	//设L带头结点
+    j=0; p=L;
+    while(j<i-1 && p->next) //遍历到第i-1个结点或遍历到表尾
+    {
+        j++;
+        p=p->next;
+    }
+    if(!(p->next)||j>i-1) return ERROR;//位置不合理
+    q=p->next;	//q指向要删除的结点
+    e=q->data;	//用e将被删除元素带回到主调函数中
+    p->next=q->next;	//从单链表中删除q结点
+    free(q);	//释放q结点
+    return OK;
+}
+```
+
+【概念】单链表的查找
+
+GetElem(L,i):按位查找操作。获取表L中第i个位置的元素的值。
+
+LocateElem(L,e):按值查找操作。在表L中查找具有给定关键字值的元素。
+
+【概念】单链表的按位查找
+
+求表L中指定位置的某个数据元素GetElem(L,i,&e)
+
+在单链表L中从头开始找到第i个结点，若存在第i个结点，则将其data域值赋给变量e。
+
+```c
+int GetElem(LinkList L, int i, ElemType &e)
+{
+    p=L->next;
+    j=1;
+    while(j<i && p!=NULL) //判断是否找到指定位置或者表尾
+    {
+        j++;
+        p=p->next;
+    }
+    if(j>i || p==NULL) return 0; //不存在第i个结点
+    // 存在第i个结点
+    e=p->data;
+    return 1;
+}
+```
+
+时间复杂度为O(n)
+
+【概念】单链表的按值查找
+
+按元素值查找LocateElem(L,e)
+
+在单链表L中从头开始找第1个值域与e相等的结点，若存在，则返回位置，否则返回0。
+
+```c
+int LocateElem(LinkList L,ElemType e)
+{
+    p=L->next;
+    n=1;
+    while(p!=NULL && p->data != e) //判断是否找到指定位置或者表尾
+    {
+        p=p->next;
+        n++;
+    }
+    if(p==NULL) return 0;
+    else return n;
+}
+```
+
+时间复杂度为O(n)
+
+【概念】单链表的建立
+
+尾插法——新结点插入到最后一个结点之后。
+
+1. 建立新结点s
+2. 向新结点s中添入内容
+3. 将新结点s链入链尾：r->next=s
+4. 改变尾指针：r=s
+
+```c
+void CreateList_LR(LinkList &L, int n)
+{	//尾插法创建
+    L=(LinkList) malloc(sizeof(LNode));//创建头结点
+    L->next=NULL;	//将头结点next域置空
+    r=L;	//r始终指向尾结点
+    for(i=0;i<n;i++)
+    {
+        s=(LinkList)malloc(sizeof(LNode));	//创建新结点
+        scanf(&s->data);
+        r->next=s;	//将s插入r之后
+        r=s;	//r指向新尾结点
+    }
+    r->next=NULL;	//尾结点next域置为NULL
+}
+```
+
+尾插法创建单链表的时间复杂度：T(n)=O(n)
+
+【概念】单链表的建立
+
+头插法——新结点插入到链表中第1个数据结点之前，即头结点之后。
+
+1. 建立新节点s
+2. 向新结点s中添入内容
+3. 使新结点s的指针指向第1个数据结点：s->next=L->next
+4. 改变头结点指针域：L->next=s
+
+```c
+void CreateList_LF(LinkList &L, int n)
+{	//建立链表，含n个数据元素
+    L = (LinkList)malloc(sizeof(LNode));	//创建头结点
+    L->next=NULL;	//将头结点的next域置为空
+    for(i=0;i<n;i++)
+    {	//创建新结点s
+        s=(LinkList)malloc(sizeof(LNode));
+        scanf(&s->data);
+        //将s插在第1个数据结点之前，即紧跟头结点之后
+        s->next=L->next
+        L->next=s;
+    }
+}
+```
+
+插入一个结点需时间为：O(1)
+
+头插法创建单链表的时间复杂度:T(n)=O(n)
+
+|        | 顺序表                          | 单链表                         |
+| ------ | ------------------------------- | ------------------------------ |
+| 特点   | 以地址相邻表示关系上相邻        | 用指针表示关系                 |
+| 存储   | 连续的存储空间（静态/动态分配） | 存储空间可以不连续（动态分配） |
+| 取元素 | O(1)随机访问                    | O(n)顺序访问                   |
+| 定位   | O(n)                            | O(n)                           |
+| 插入   | O(n)移动元素                    | O(n)寻找插入位置               |
+| 删除   | O(n)移动元素                    | O(n)寻找删除位置               |
 
