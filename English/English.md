@@ -1,3 +1,273 @@
+[TOC]
+
+# 哪些情况下字母要大写？
+
+1. 句子首字母要大写。
+2. 单词“I （我）”都大写。
+3. 人名、地名、国家名、语言名 首字母大写。
+4. 称呼语、职务名 每个单词首字母大写。
+5. 表示编号的词组每个单词首字母大写。
+6. 星期、月份单词首字母大写。
+
+# 常见英语字母缩略词
+
+USA = 美国
+
+PRC = 中国
+
+UK = 英国
+
+UFO = 不明飞行物
+
+VIP = 贵宾
+
+**常见英语字母缩略词：星期**
+
+| Monday    | Mon. |
+| --------- | ---- |
+| Tuesday   | Tue. |
+| Wednesday | Wed. |
+| Thursday  | Thu. |
+| Friday    | Fri. |
+| Saturday  | Sat. |
+| Sunday    | Sun. |
+
+常见英语字母缩略词：月份
+
+| January   | Jan.  | 一月   |
+| --------- | ----- | ------ |
+| February  | Feb.  | 二月   |
+| March     | Mar.  | 三月   |
+| April     | Apr.  | 四月   |
+| May       | May.  | 五月   |
+| June      | Jun.  | 六月   |
+| July      | Jul.  | 七月   |
+| August    | Aug.  | 八月   |
+| September | Sept. | 九月   |
+| October   | Oct.  | 十月   |
+| November  | Nov.  | 十一月 |
+| December  | Dec.  | 十二月 |
+
+# 元音字母
+
+Aa  Ee  Ii   Oo  Uu
+
+元音字母发音不同大部分情况下取决于所在位置是开音节  or  闭音节。
+
+| 元音字母 | 开音节 | 例词                        | 闭音节 | 例词        |
+| -------- | ------ | --------------------------- | ------ | ----------- |
+| a        | [eɪ]   | cake [keɪk] late [leɪt]     | [æ]    | bad [bæd]   |
+| e        | [iː]   | these [ðiːz]   we [wi; wiː] | [e]    | bed [bed]   |
+| i        | [aɪ]   | five [faɪv]  kite [kaɪt]    | [I]    | this [ðɪs]  |
+| o        | [əu]   | note [nəʊt]                 | [ɔ]    | knock [nɒk] |
+| u        | [ju]   | cute [kjuːt]                | [ʌ]    | cut [kʌt]   |
+
+## 开音节
+
+以一个元音字母结尾的重读音节。
+
+eg: she、 he、no
+
+一个元音字母 + （除r）辅音字母 + -e
+
+eg: face、 kite、cute
+
+## 闭音节
+
+以（除r/w)辅音字母结尾
+
+eg:cat、bed、cut、it
+
+# 攻克C读音
+
+**在元音字母e、i前，读[s]。**
+
+eg:century [ˈsentʃəri] 世纪       city [ˈsɪti]  城市
+
+**在元音字母a、o、u 或辅音前面， 读[k]。**
+
+eg:call  [kɔːl] 打电话      come  [kʌm]  来     cup  [kʌp] 杯子   act   [ækt]  行动
+
+**在ia、ea前，读  [ʃ]。**
+
+eg: special  [ˈspeʃl] 特别的    ocean   [ˈəʊʃn]  海洋
+
+# 攻克S读音
+
+**在词首或双写时，读[s]。**
+
+eg：start、sad、see、silk、class、glass
+
+**在清辅音后，读[s]。**
+
+eg:books、maps、desks
+
+**在浊辅音或者元音后，读[z]。**
+
+eg:pens、flags、bags
+
+# 攻克G读音
+
+**一般情况下，读[g].**
+
+eg:ago、bag、again、get
+
+**在e、i前或者词尾-ge中，读[dʒ].**
+
+eg:gentle、change
+
+**在n前，有时不发音！**
+
+eg：sign、design
+
+# 攻克Wh读音！
+
+**在字母O前，读[h].**
+
+eg:who、whom、whose、whole
+
+**其他情况下，读[w].**
+
+eg:what、which、where、why、when。
+
+# 名词
+
+名词是表示人、事、物、地点以及抽象概念的词。
+
+名词分为可数名词和不可数名词。
+
+不可数名词没有复数形式！
+
+可数名词单数变复数：(一般情况)
+
+1. 一般情况下，名词后加-s
+
+   eg：egg-eggs    girl-girls
+
+2. -s/-sh/-x/-ch结尾的词，后加-es
+
+   eg:box-boxes    glass-glasses
+
+3. 以辅音字母+-o结尾的词，后加-es
+
+   eg:tomato-tomatoes(西红柿)     potato-potatoes(土豆)
+
+   注意：photo-photos(照片)
+
+4. 以辅音字母+y结尾的词，变y为-ies
+
+   eg：baby-babies    family-families   
+
+5. 以-f/-fe结尾的词，变f/fe为-ves
+
+   eg: wife-wives      knife-knives 
+
+可数名词单数变复数：（特殊情况）
+
+| 单数        | 复数         |
+| ----------- | ------------ |
+| man         | men          |
+| woman       | women        |
+| policeman   | policemen    |
+| man doctor  | men doctors  |
+| boy student | boy students |
+| fish        | fish         |
+| sheep       | sheep        |
+| Chinese     | Chinese      |
+| people      | people       |
+| foot        | feet         |
+| tooth       | teeth        |
+| mouse       | mice         |
+| child       | children     |
+
+名词-‘s格（名词所有格）意为：.......的 （从属关系）
+
+名词-’s的形式规则：
+
+1. 一般情况下，名词末尾加-‘s
+
+   the children's gift 孩子们的礼物
+
+   my sister's birthday 我姐姐的生日
+
+2. 以s结尾的词，末尾加-’
+
+   the teachers' books 老师们的书
+
+   his parents' money 他父母的钱
+
+注意：几个人共同拥有一件东西，在最后一个人名后加-‘s。每个人分别拥有某物，在每个人名后加-’s。
+
+Lily and Lucy's room 莉莉和露西（共有的）房间
+
+Lily's and Lucy's rooms 莉莉和路西（各自的）房间
+
+# 冠词
+
+冠词三兄弟：a、an、the
+
+a 和 an 为不定冠词，the 为定冠词。
+
+不定冠词a/an用法常考：
+
+1. 泛指一类人或物中的“某一个”，相当于数词”1“。
+
+   eg: I am a teacher. 我是一个老师
+
+   He has a girlfriend. 他有一个女朋友。
+
+2. 代表一类人或物
+
+   eg: A rabbit can jump.An elephant likes bananas. 兔子会跳，大象喜欢吃香蕉。
+
+3. 用于固定词组搭配中。
+
+   a lot of 许多的
+
+   a little (+ 不可数名词)、 a few (+ 可数名词)  一些
+
+   <u>in a word</u> 总而言之
+
+   have a cold 感冒
+
+   have a try 尝试一下
+
+   have a good time 玩得开心
+
+用a用an这样分，不看字母看读音，不见”原因（元音）“别施”恩n“。
+
+以元音音素开头的单词用an
+
+以辅音音素开头的单词用a
+
+如：an apply               a boy  
+
+定冠词the用法常考：
+
+1. 特指（已经提及过的，都知道的）。
+
+2. 乐器前面要用”the“。
+
+   piano（钢琴）、guitar（吉他）、violin（小提琴）、drum（鼓）
+
+3. 用在世界上独一无二的事物前。
+
+   earth（地球）、sun（太阳）、moon（月亮）
+
+4. ”the + 形容词“ 表示 ”某一类人“ ！
+
+   the young、the old、the rich（富人）、the poor（穷人）
+
+下列情况不用冠，
+
+国地人名与语言；
+
+季节月份星期前；
+
+球类棋类与三餐；
+
+还有交通工具前。
+
 # 5种句式结构
 
 长难句主要包含两部分：主干 + 修饰成分
