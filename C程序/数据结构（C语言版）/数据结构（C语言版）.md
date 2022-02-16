@@ -715,3 +715,229 @@ void CreateList_LF(LinkList &L, int n)
 | 插入   | O(n)移动元素                    | O(n)寻找插入位置               |
 | 删除   | O(n)移动元素                    | O(n)寻找删除位置               |
 
+# 双链表
+
+单链表：无法逆向检索，有时候不太方便。
+
+双链表：可进可退，存储密度更低一丢丢。
+
+【概念】双链表的定义
+
+采用类似于单链表的类型定义，具体如下：
+
+```c
+typedef struct DNode //定义双链表结点类型
+{
+    ElemType data;
+    struct DNode *prior; //指向直接前驱结点
+    struct DNode *next; //指向直接后继结点
+}DNode,*DLinkList;
+```
+
+【概念】双链表的插入：在p结点之后插入s
+
+①找到插入位置的前驱p；
+
+②创建新结点s；
+
+③s -> data = x;
+
+④s -> prior = p;
+
+⑤s -> next = p -> next;
+
+⑥p -> next = s;
+
+⑦s -> next -> prior = s;
+
+【概念】双链表的删除：删除第i个结点
+
+①找到将被删除结点p；
+
+②p -> prior -> next = p -> next;
+
+③p -> next -> prior = p -> prior;
+
+④free(p);
+
+【概念】双链表的遍历
+
+```c
+while (p!=NULL)
+{//对结点p做相应处理，如打印
+    p = p -> next;		//后向遍历
+}
+```
+
+```c
+while(p!=NULL)
+{//对结点p做相应的处理
+    p = p -> prior;		//前向遍历
+}
+```
+
+```c
+while(p -> prior != NULL)
+{//对结点p做相应处理
+    p = p -> prior;		//前向遍历（跳过头结点）
+}
+```
+
+双链表不可随机存取，按位查找、按值查找操作都只能用遍历的方式实现。时间复杂度O(n)
+
+# 循环链表
+
+【概念】循环链表
+
+循环链表的特点是表中最后一个结点的指针域不再是空，而是指向表头结点，整个链表形成一个环。由此，从表中任一结点出发均可找到链表中其他结点。
+
+单链表：表尾结点的next指针指向NULL
+
+循环单链表：表尾结点的next指针指向头结点
+
+【概念】定义循环单链表
+
+```c
+typedef struct LNode{	//定义单链表结点类型
+    ElemType data;		//每个结点存放一个数据元素
+    struct LNode *next;		//指针指向下一个结点
+}LNode,*LinkList;
+
+//初始化一个循环单链表
+bool InitList(LinkList &L){
+    L = (LNode) malloc(sizeof(LNode)); //分配一个头结点
+    if(L== NULL)		//内存不足，分配失败
+        return false;
+    L -> next = L;	//头结点next指向头结点
+    return true;
+}
+
+//判断结点p是否为循环单链表的表尾结点
+bool isTail(LinkList L, LNode *p){
+    if(p -> next == L)
+        return true;
+    else
+        return false;
+}
+
+//判断循环单链表是否为空
+bool Empty(LinkList L){
+    if(L -> next == L)
+        return true;
+    else
+        return false;
+}
+```
+
+【概念】定义循环双链表
+
+```c
+typedef struct DNode{
+    ElemType data;
+    struct DNode *prior,*next;
+}DNode,*DLinklist;
+
+//初始化空的循环双链表
+bool InitDLinkList(DLinklist &L){
+    L = (DNode *) malloc(sizeof(DNode)); //分配一个头结点
+    if(L==NULL)		//内存不足，分配失败
+        return false;	
+    L -> prior = L;		//头结点的prior指向头结点
+    L -> next = L;		//头结点的next指向头结点
+    return true;
+}
+
+//判断结点p是否为循环单链表的表尾结点
+bool isTail(DLinklist L, DNode *p){
+    if(p -> next == L)
+        return true;
+    else
+        return false;
+}
+
+//判断循环双链表是否为空
+bool Empty(DLinklist L){
+    if(L->next==L)
+        return true;
+    else
+        return false;
+}
+```
+
+# 静态链表
+
+【概念】静态链表
+
+​	静态链表可借用一维数组来描述。
+
+​	数组元素（元素的值、指示器）表示结点。
+
+​	指示器（游标cur，即伪指针）代替指针以指示结点在数组中的相对位置。
+
+​	数组中的第0个分量可看成头结点，其指针域指示静态链表的第1个结点。需要预先分配一个较大空间，但是在进行插入和删除操作时不需要移动元素，仅需要修改“指针”，因此仍具有链式存储结构的主要优点。
+
+【概念】静态链表初始化
+
+​	把a[0]的next设为-1
+
+​	把其他结点的next设为一个特殊值用来表示结点空闲
+
+```c
+typedef struct{		//静态链表结构类型的定义
+    ElemType data;		//存储数据元素
+    int next;		//下一个元素的数组下标
+} SLinkList[MaxSize];
+```
+
+【概念】静态链表的基本操作
+
+```c
+typedef struct{		//静态链表结构类型的定义
+    ElemType data;		//存储数据元素
+    int next;		//下一个元素的数组下标
+} SLinkList[MaxSize];
+```
+
+（1）查找
+
+从头结点出发挨个往后遍历结点
+
+（2）插入位序为i的结点：
+
+①找到一个空的结点，存入数据元素
+
+②从头结点出发找到位序为i-1的结点
+
+③修改新结点的next
+
+④修改i-1号结点的next
+
+（3）删除某个结点：
+
+①从头结点出发找到前驱结点
+
+②修改前驱结点的游标
+
+③被删除结点next设为-2
+
+【概念】顺序表和链表的比较
+
+1. 基于时间的考虑
+
+   1）顺序表可随机存取元素，而链表中元素都需从头指针开始遍历链表才能访问。
+
+   2）在链表中任何位置上插入、删除都只要修改指针，而顺序表需要移动表中近一半的元素。尤其是对于结点信息量较大的表，开销很大。
+
+   3）对于只进行访问型操作的线性表，宜采用顺序存储，对于加工型的线性表，则考虑使用链表。
+
+2. 基于空间的考虑
+
+   1）顺序表的存储空间在程序执行之前必须明确规定，若表的变化较大，则存储规模难以确定。（估计过大则容易造成浪费，估计太小，则使得存储扩充增多）。
+
+   2）链表的存储空间动态分配，只要内存空间尚有空闲，就不会溢出，适合于表长变化较大的情况。
+
+|      | 顺序表                                                       | 链表                                                         |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 优点 | （1）存取数据速度快（2）占用的存储空间小。                   | （1）所占存储空间可以不连续，也无需事先估计大小；（2）插入、删除不需要移动元素。 |
+| 缺点 | （1）存储空间需连续，并需事先估计空间大小；（2）插入、删除需移动元素 | （1）存取数据麻烦、速度慢；（2）占用的存储空间大。           |
+

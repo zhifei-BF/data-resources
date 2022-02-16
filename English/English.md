@@ -626,3 +626,99 @@ To do .......  , (目的状语)
 
    人口增长的主要原因与其说是出生率的上升，不如说是医疗护理的进步所致的死亡率的下降。
 
+# 名词性从句
+
+I like it.(主谓宾)
+
+I like <u>playing games</u>.(主谓宾)
+
+I like <u>what you said in the meeting</u>.(主谓宾)
+
+宾语（成分）从句（地位）
+
+主语从句
+
+表语从句
+
+| 词性 | 成份           | 从句           |
+| ---- | -------------- | -------------- |
+| n    | 主、宾、表、同 | 主、宾、表、同 |
+| adj  | 定、表、补     | 定             |
+| adv  | 状             | 状             |
+| v    | 谓             | 无             |
+| prep | 无（连接词）   | 无             |
+| conj | 无（连接句）   | 无             |
+
+【名词性从句】
+
+三种句子（陈述句、一般疑问句、特殊疑问句）充当四种成分（主、宾、表、同）。
+
+1. 陈述句
+
+   Jay is cool.→ that Jay is cool
+
+   注意：that在名词性从句中没有成分！
+
+   <font color="red">It</font> is a truth.(主系表)
+
+   I know <font color="red">it</font>. (主谓宾)
+
+   The truth is <font color="red">it</font>.(主系表)
+
+   The truth <font color="red">it</font> is important.(主同系表)
+
+   That Jay is cool is a truth. 主语从句
+
+   It is a truth that Jay is cool.
+
+   To meet you is my pleasure.
+
+   It is my pleasure to meet you.
+
+   形式主语：It be/v... that..../to do
+
+   I know that Jay is cool.宾语从句
+
+   I know Jay is cool.
+
+   <font color="red">注意：宾语从句中that可以省略</font>
+
+   The truth is  that Jay is cool.表语从句
+
+   The truth that Jay is cool is important.同位语从句
+
+2. 一般疑问句
+
+   Is Jay cool?   - whether Jay is cool
+
+   It is a question.
+
+   Whether Jay is cool is a question.主语从句
+
+   It is a question whether Jay is cool.
+
+   I know it.
+
+   I know whether Jay is cool. 宾语从句
+
+   The question is it.
+
+   The question is whether Jay is cool. 表语从句
+
+   The question it is important.
+
+   The question whether Jay is cool is important. 同位语从句
+
+3. 特殊疑问句
+
+   Who is Jay ? - who Jay is 
+
+   Who Jay is is a question. 主语从句
+
+   It is a question who Jay is.
+
+   I know who Jay is. 宾语从句
+
+   The question is who Jay is. 表语从句
+
+   The question who Jay is is important. 同位语从句
