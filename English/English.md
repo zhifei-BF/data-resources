@@ -722,3 +722,118 @@ I like <u>what you said in the meeting</u>.(主谓宾)
    The question is who Jay is. 表语从句
 
    The question who Jay is is important. 同位语从句
+
+# 主语从句
+
+That / 6w(what/ which/ where/ when/ who/ whether).....v1.....v2
+
+上来就是that/6w，那么一般就是主语从句，主语从句在v2前结束。
+
+第一步：找到主语从句，并代替为字母（A)
+
+第二步：分析主句
+
+第三步：分析从句（A），然后代入
+
+1）<font  color="blue"> That experiences influence subsequent behavior is evidence of an obvious activity </font> called memory.
+
+That experiences influence subsequent behavior (主语从句)
+
+注意：区分过去时vs过去分词
+
+Do - did - done
+
+v - ved - ved. 看逻辑
+
+如果ved和之前名词是主动关系→过去时（谓语动词）
+
+如果ved和之前名词是被动关系→过去分词（后置定语）
+
+Call →called →called
+
+Tome called...... → 过去时（谓语动词）
+
+The book called...... → 过去分词（后置定语）
+
+被称作........的书。
+
+Cut → cut → cut
+
+The man cut...... → 过去时（谓语动词）
+
+The trees cut......→ 过去分词（后置定语）
+
+被砍....的树
+
+第一步：A is evidence/ of an obvious activity/ called memory.
+
+第二步：A 是一个被称作记忆的明显活动的证据（A证明被称作记忆的明显活动）。
+
+第三步：That experiences influence subsequent behavior.
+
+经验影响后续行为是一个被称作记忆的明显活动的证据。
+
+2）<font color="blue"> Whether the government should increase the financing of pure science at the expense of technology or vice versa(反之) </font> often depends on the issue.
+
+第一步：A often depends on the issue.
+
+第二步：A 往往依赖于这件事。
+
+第三步：Whether the government should increase the financing (资助) of pure science at the expense of (以。。。。为代价) technology or vice visa (反之)
+
+政府是否应该以技术为代价提高对于纯科学的资助还反之
+
+政府到底应该是提高对于科学的资助还是提高对于技术的资助往往依赖于这件事。
+
+3）<font color="blue">That the plates (大陆板块) are moving </font> is now beyond dispute.
+
+第一步：A is now beyond dispute
+
+第二步：A 现在是毫无争议的。
+
+第三步：大陆板块在移动现在是毫无争议的。
+
+That ...... is beyond dispute.   。。。。。是毫无争议的。
+
+That Da is nice is beyond dispute. 达叔很棒是毫无争议的。
+
+That English is important is beyond dispute. 英语很重要是毫无争议的。
+
+That English plays an essential role is beyond dispute. 英语扮演一个重要的角色是毫无争议的。
+
+That honesty plays an essential role in our society is beyond dispute. 在我们社会中，诚信扮演一个重要的角色是毫无争议的。
+
+That cooperation plays an essential role in our society is beyond dispute. 在我们社会中，合作扮演一个重要的角色是毫无争议的。
+
+4）It is not easy <font color="blue"> to talk about the role/ of the mass media/ in European history.</font>
+
+<font color="red">It v/be.... that(6w)...../ to do</font>
+
+第一步：It is not easy A → A is not easy.
+
+第二步：A 不容易
+
+第三步：去谈论欧洲历史上大众传媒的角色是不容易的（绝非易事）。
+
+5）It is bizarre (奇怪的) <font color="blue"> that wealthy aristocratic (贵族的) families should still be the symbolic heart (象征核心) of modern democratic (民主的) states(国家). </font>
+
+第一步：It is bizarre(奇怪的) A → A is bizarre.
+
+第二步：A 是很奇怪的。
+
+第三步：富有的贵族家庭仍然应该是当代民主国家的象征核心是很奇怪的（是令人匪夷所思的）。
+
+6）It is surely a good thing that the money and attention come to science rather than(不是。。。) go elsewhere.
+
+主语从句：That the money and attention <font color="red"> come to </font> science rather than go elsewhere.
+
+形式主语：It
+
+谓语动词：is 
+
+第一步：It is surely a good time A. → A is surely a good time.
+
+第二步：A 显然是件好事。
+
+第三步：金钱和关注来到了科学而不是去了别的地方显然是件好事。
+
