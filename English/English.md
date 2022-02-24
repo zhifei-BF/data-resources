@@ -837,3 +837,493 @@ That cooperation plays an essential role in our society is beyond dispute. 在�
 
 第三步：金钱和关注来到了科学而不是去了别的地方显然是件好事。
 
+# 宾语从句
+
+<font color="red">v /prep </font> that /6w.....
+
+第一步：找到宾语从句，并代替为字母（A）
+
+第二步：分析主句
+
+第三步：分析从句（A），然后代入
+
+1）I think that you are right.
+
+第一步：I think A 
+
+第二步：我认为A
+
+第三步：我认为你是对的。
+
+2）We should find out what is going on.
+
+第一步：We should find out A.
+
+第二步：我们应该弄明白A。
+
+第三步：我们应该弄明白到底发生了什么。
+
+3）He ordered that federal funds not be used for such an experiment.
+
+第一步：He ordered A.
+
+第二步：他下令A
+
+第三步：他下令联邦资金不能用于这项实验。
+
+4）We should find out what its advocates(支持者) are aiming at （目的是）。
+
+第一步：We should find out A
+
+第二步：我们应该弄明白A。
+
+第三步：我们应该弄明白它的支持者目的何在。
+
+# 表语从句
+
+<font color="red">be</font> that/ 6w.....
+
+第一步：找到表语从句，并代替为字母A
+
+第二步：分析主句
+
+第三步：分析从句A，然后代入
+
+1）The truth is that you are right.
+
+第一步：The truth is A.
+
+第二步：事实是A。
+
+第三步：事实是你是对的。
+
+2）The reason is that it has not occurred against（与。。。相违背）the background/ of general commodity（商品） price inflation （膨胀） and global excess （过量的） demand.
+
+第一步：The reason is A.
+
+第二步：理由是A。
+
+第三步：理由是它没有与通常物价通胀和全球过量需求的背景相违背。
+
+One more reason/ not to lose sleep/ over the rise/ in oil prices is that it has not occurred against（与。。。相违背）the background/ of general commodity （商品） price inflation （膨胀） and global excess （过量的） demand.
+
+第一步：One more reason/ not to lose sleep/ over the rise / in oil prices is A。
+
+第二步：另一个不要因为油价上涨而失眠的理由是A。
+
+第三步：另一个不要因为油价上涨而失眠的理由是本次油价上涨没有通常物价通胀和全球过量需求的背景相违背。
+
+3）The clear message is that we should get moving protect （行动起来去做。。。）ourselves.
+
+第一步：The clear message is A
+
+第二步：明确的信息是A
+
+第三步：明确的信息是我们应该行动起来保护自己。
+
+# 同位语从句
+
+The boy,Tom.（Tom就是同位语，具体化解读前面内容）
+
+China,my country
+
+Transformers, a great movie.
+
+<font color="blue"><font color="red">n</font> that / 6w.....</font>
+
+注意：
+
+1. 名词n一般为抽象名词：proof/fact/phenomenon/idea......
+2. 名词n一定是单数。
+
+翻译：
+
+1. 这样一个（这一）
+2. 冒号
+3. 括号（同位语从句嵌入在句中）
+
+1）They hold the belief that interest is the best teacher.
+
+第一步：They hold the belief: A
+
+第二步：他们坚信这个信仰。
+
+第三步：他们坚信这个信仰：兴趣是最好的老师。
+
+①他们坚信这个信仰：兴趣是最好的老师。
+
+②他们坚信兴趣是最好的老师这一信仰。
+
+2）The proof that smoking is harmful is clear.
+
+第一步：The proof: A is clear.
+
+第二步：A 这一证据非常明显。
+
+第三步：吸烟有害这一证据非常明显。
+
+或：这一证据（吸烟有害）非常明显。
+
+3）The fact is the surest proof that the article（物品）does what is claimed for it, and that it represents good value.
+
+<font color="red">and/ or/ but 平行结构：1. 结构一致 2. 成分一致</font>
+
+You and ?
+
+You and I go to school.
+
+He told you and me.
+
+第一步：The fact is the surest proof : A and B
+
+第二步：该事实是最确凿的证据：A和B。
+
+第三步：该事实是最确凿的证据：这个物品符合人们对它的宣称，同时它代表好的价值。
+
+4）These lead are living proof that prevention（阻止）works and that we can manage the health problems.
+
+第一步：These leaders are living proof：A and B
+
+第二步：这些领导人是活生生的证据：A and B
+
+第三步：这些领导人是活生生的证据：阻止（衰老）是奏效的，同时我们能够处理健康问题。
+
+# 定语从句
+
+1. 定语从句形式
+
+定语位置：
+
+词-前置；
+
+短语（doing/ to do / done/ prep)、句子-后置
+
+形式：..... n (先行词) which / who / that ......
+
+翻译：
+
+1. 的
+
+2. 分句表达
+
+   I love the book which is interesting.
+
+   我喜欢那本有趣的书。
+
+   我喜欢那本书，那本书很有趣。
+
+2. 定语从句和同位语从句的区别（that)
+
+   |            | 结构上       | 含义上   | 翻译上     |
+   | ---------- | ------------ | -------- | ---------- |
+   | 同位语从句 | that没有成分 | 解释说明 | 这一；冒号 |
+   | 定语从句   | that有成分   | 修饰限定 | 的；分句   |
+
+   I love the book. The book is interesting.
+
+   → I love the book that is interesting.
+
+   That 有成分？-去掉that后，从句是否完整。
+
+   完整？
+
+   I love. 不-缺宾语
+
+   love you. 不-缺主语
+
+   she is . 不-缺表语
+
+   he goes. 完整！（不及物动词，主谓本身完整）
+
+   The news that her husband died is true.
+
+   从句去掉that完整-that没有成分——同位语从句
+
+   他丈夫死去这一消息是真的。
+
+   The news that shocked her a lot is true.
+
+   从句去掉that不完整-that有成分（that充当主语）——定语从句
+
+   那个令她震惊的消息是真的。
+
+3. 定语从句和状语从句的区别
+
+   |       | 定语从句               | 状语从句   |
+   | ----- | ---------------------- | ---------- |
+   | When  | 前面一定是表时间的名词 | 非时间名词 |
+   | Where | 前面一定是表地点的名词 | 非地点名词 |
+
+   I can remember the time when we played together.定语从句
+
+   我记得我们一起玩耍的时光。
+
+   I saw  a girl when we paled together. 状语从句
+
+   当我们一起玩耍的时候，我看到一个姑娘。
+
+   I can remember the place where there were a lot of birds. 定从
+
+   我记得有很多鸟的那个地方。
+
+   I saw a girl where there were a lot of birds. 状语从句
+
+   在有很多鸟的地方，我看见一个姑娘。
+
+# 状语从句
+
+形式：
+
+1. 句首：conj ......<font color="red">,</font>.......
+
+2. 句末
+
+I was watching TV when he came in.
+
+When he came in, I was watching TV.
+
+翻译——连接词
+
+一、时间：
+
+1. when （注意和定语从句的差异）
+
+   I can remember the time when we played together. 定语从句
+
+   我记得我们一起玩耍的时光。
+
+   I saw a girl when we played together. 状语从句
+
+   当我们一起玩耍的时候，我看到一个姑娘。
+
+2. while
+
+   ①当
+
+   ②尽管
+
+   While many companies are struggling, this company is performing well.
+
+3. as
+
+   as + n → prep：作为
+
+   ..... like a scientist 像一个科学家
+
+   ..... as a scientist 作为一个科学及
+
+   as + 句子 → conj
+
+   1）当（随着/因为（如果有逻辑关系））
+
+   As I walked on the street, I saw a girl.
+
+   当我走在街上，我看见一个女孩。
+
+   2）尽管
+
+   As many companies are struggling, this company is performing well.
+
+   3）正如（引导定语从句)
+
+   As we all know, the earth is round.
+
+   正如我们所知道的，地球是圆的。
+
+   注意：as 指代逗号后的整个句子。
+
+   4）像（引导平行结构，前后句子结构相同）
+
+   Nobody likes you as I love you.
+
+   -Nobody likes you as I do.
+
+   Lucy is as pretty as Lily is.
+
+   -Lucy is as pretty as Lily.
+
+   As Tom is smiling, I was crying.
+
+   尽管Tom在笑，我却在哭泣。
+
+   As you left me, I lost myself.
+
+   随着（因为）你离开我，我迷失了自我。
+
+   As you may think, he is a nice person.
+
+   正如你可能认为的，他是一个好人。
+
+   Knowledge is to me as water is  to fish.
+
+   知识对于我就像水对于鱼一样。
+
+   He finished his job as a scientist.
+
+   他完成了作为一个科学家的职责。
+
+4. before/after/since （自从/因为）
+
+5. until（直到）
+
+   注意：主句前后的状态将发生改变。
+
+   I will be there until you come back.
+
+   直到你回来前，我都在（你回来之后我就不在了）
+
+   I will not be there until you come back.
+
+   直到你回来之前，我都不在。（你回来之后，我就在了）
+
+   = 直到你回来后我才在。Not ... until .....  直到。。。才
+
+二、地点
+
+Where （注意和定语从句的差异）
+
+三、原因
+
+Because / since / for
+
+注意：because 表示原因最优。
+
+四、目的
+
+So that / in order that
+
+He got up early so that he will not be late.
+
+He got up early in order that he will not be late.
+
+She dressed up in order that she will get his attention.
+
+五、结果
+
+<font color="red">So....that...../ such....that....</font>
+
+She is so pretty that many boys like her.
+
+She is such a (pretty) girl that many boys like her.
+
+六、条件
+
+<font color="red">If / unless（除非）/ as long as （只要）</font>
+
+七、让步（尽管）
+
+<font color="red">Though = although = even if = even though = while = as </font>
+
+八、比较
+
+As .....as .... / not so ..... as .....程度相同
+
+Than......程度不同
+
+九、方式
+
+as if / as though（好像、就像）
+
+You act **as if / as though** you were a girl.
+
+
+
+1)As families move away from their stable community, their friends of many years and their extended family relationships<font color="red">,</font> the informal flow of information is cut off.
+
+第一步：As  A, the informal flow of information <font color="red">is cut off</font>.
+
+（注意：状语从句代替为字母，保留连接词）
+
+第二步：as A，信息的非正式流通被切断了。
+
+第三步：随着（因为）家庭远离他们稳定的社区，多年的朋友和他们的亲属，信息的非正式流通被切断了。
+
+2）The behavioral sciences have been slow to change partly because the explanations have been hard to find.
+
+第一步：The behavioral sciences have been slow to change partly because A.
+
+第二步：行为科学发展缓慢部分因为A。
+
+第三步：行为科学发展缓慢一部分是因为（相关）解释很难被找到。
+
+3）If you see an article consistently advertised, it is the surest proof that the article does what is claimed for it.
+
+第一步：If A，it is the surest proof that the article does what is claimed for it.
+
+第二步：If A，这就是最确凿的证据：该物品符合人们对它的宣称。
+
+第三步：如果你看到一个物品被持续广告，这就是最确凿的证据：该物品符合人们对它的宣称。
+
+4）When a new movement in attains a certain fashion, it is advisable to find out the truth.
+
+第一步：when A，it is advisable to find out the truth.
+
+第二步：when A，（我们）最好去找到真相。
+
+第三步：当一个新的艺术运动获得特定的流行，我们最好去找到真相。
+
+# 每日一句
+
+1. In January, Britain's Law Commission,which reviews legislation, recommended that it should not be the person not be the person in the driver's seat who faces prosecution if a vehicle in autonomous mode crashes, but the manufacturer or body that sought approval for its use.
+
+   参考译文：今年1月，负责审查立法的英国法律委员会建议，如果自动驾驶汽车发生事故，面临起诉的不应该是坐在驾驶座上的人，而是寻求批准使用自动驾驶汽车的制造商或机构。
+
+   词汇解析：
+
+   legislation   n 立法
+
+   Britain's Law Commission 英国法律委员会
+
+   review   v   审查、复审
+
+   recommend  v 建议
+
+   prosecution  n  起诉、诉讼
+
+   a vehicle in autonomous model 自动驾驶汽车
+
+   crash  v  撞车、坠毁
+
+   manufacturer  n  制造商
+
+   sought   v 寻找、seek的过去式
+
+   approval    n  赞成、批准、许可
+
+   句子结构：
+
+   ①句子主干：Britain's Law Commission recommended that......
+
+   ②定语从句：which reviews legislation
+
+   ③宾语从句：it should not be the person in the driver's seat who faces prosecution（定从1），but the manufacturer or body that sought approval for its use （定从2）
+
+   ④条件状语从句：if a vehicle in autonomous mode crashes
+
+2. The same month, the US's largest national fuel pipeline, Colonial Pipeline, paid £3.1m to ransomware hackers after they locked the company's systems, causing days of fuel shortages that paralyzed transportation on the east coast.
+
+   参考译文：同月，美国最大的国家燃油管道公司Colonial Pipeline 向勒索软件黑客支付了310万英镑，此前黑客锁定了该公司的系统，导致燃油短缺持续数日，东海岸交通彻底瘫痪。
+
+   词汇解析：
+
+   fuel pipeline  燃油管道公司
+
+   ransomware  n  勒索软件
+
+   hacker  n  黑客
+
+   cause   v  导致
+
+   shortage   n  缺乏、缺少
+
+   paralyze   v  使麻痹、使瘫痪
+
+   重点语法：
+
+   ①句子主干：the US's largest national fuel pipeline paid £3.1m to ransomware hackers
+
+   ②时间状语从句：after they locked the company's systems
+
+   ③状语：causing days of fuel shortages
+
+   ④定语从句：that paralyzed transportation on the east coast
