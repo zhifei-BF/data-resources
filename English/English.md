@@ -1262,6 +1262,174 @@ You act **as if / as though** you were a girl.
 
 第三步：当一个新的艺术运动获得特定的流行，我们最好去找到真相。
 
+# 长难句“三步走”
+
+第一步：分层
+
+1. 明确从句的数量和类型
+
+1）数量=连接词（that/what/where/when/who/whether/which/because/if....）的数量
+
+注意：连接词that的省略。①宾语从句中的that；②定语从句中that做宾语也可以省略。
+
+I love the book that in interesting. that做主语——不能省略
+
+I love the book that you love. that做宾语——可以省略
+
+= I love the book you love.
+
+若连接词省略，可以当作总体对待。
+
+2）类型
+
+| 从句类型 | 特征                                 | 代替   |
+| -------- | ------------------------------------ | ------ |
+| 主       | 1.句首（无逗号）2.It v/be....that/6w | A      |
+| 宾       | v/prep 后                            | A      |
+| 表       | Be后                                 | A      |
+| 同       | 抽象名词                             | ：A    |
+| 定       | 所有名词                             | （A）  |
+| 状       | 1.句首（有逗号）2.句末               | conj A |
+
+When he came is a question.主语从句
+
+-A is a question.
+
+It is a question when he came.主语从句
+
+-it is a question A = A is a question.
+
+I know when he came.宾语从句
+
+-I know A.
+
+The question is when he came.表语从句
+
+-the question is A.
+
+The question when he came is important.同位语从句
+
+-the question: A is important.
+
+I can remember the time when he came. 定语从句
+
+-I can remember the time(A)
+
+I was reading a book when he came.状语从句
+
+-I was reading a book when A.
+
+When he came, I was reading a book.状语从句
+
+-When A, I was reading a book.
+
+2. 明确从句的层次
+
+第一层：主句
+
+第二层：从句
+
+第三层：从句的从句
+
+。。。
+
+I love the girl who is reading a book that is interesting.
+
+第一层：I love the girl (A)
+
+第二层：who is reading a book (B)
+
+第三层：that is interesting.
+
+
+
+第二步：分析（每层每句——简单分析（谓语——中心语——状语））
+
+第三步：整合（逐层代入）
+
+1. What is harder to establish whether the productivity revolution that businessmen assume they are presiding over is for real.
+
+   A is B.
+
+   第一步：分层
+
+   | 第一层 | A is B.                                                      |
+   | ------ | ------------------------------------------------------------ |
+   | 第二层 | A：What is harder to establish 更难以确立的是   B：whether the productivity revolution (C) is for real  生产力革命是否是真实存在的 |
+   | 第三层 | C：that businessmen assume they are <u>presiding over</u> (负责) 商人假设他们所负责的 |
+
+   第二步：分析
+
+   第三步：整合
+
+   更难以确立的是商人假设他们所负责的生产力革命是否是真实存在的。
+
+2. The examples of Virtual Vineyards, Amazon. com, and other pioneers show that a Web site selling the right kind of products with the right mix of interactivity, hospitality, and security will attract online customers.
+
+   The examples of Virtual Vineyards, Amazon.com, and other pioneers show A.
+
+   第一步：分层
+
+   | 第一层 | The examples of Virtual Vineyards, Amazon.com, and other pioneers show A. 葡萄庄园，亚马逊和其他先驱的案例表明A。 |
+   | ------ | ------------------------------------------------------------ |
+   | 第二层 | A：that a Web site selling the right kind of products with the right mix of interactivity（互动）, hospitality（友善）, and security（安全） will attract online customers. 一个出售正确产品品类，并结合了互动、友善和安全的网站将会吸引线上顾客。 |
+
+   第二步：分析
+
+   第三步：整合
+
+   葡萄庄园，亚马逊和其他先驱的案例表明一个出售正确产品品类，并结合了互动、友善和安全的网站将会吸引线上顾客。
+
+3. Whether the government should increase the financing of pure science at the expense of technology or vice versa often depends on which issue is seen as the driving force.
+
+   A often depends on B.
+
+   第一步：分层
+
+   | 第一层 | A often depends on B.                                        |
+   | ------ | ------------------------------------------------------------ |
+   | 第二层 | A：Whether the government should increase the financing of pure science <u>at the expense of</u>（以....为代价） technology or vice versa（反之）  政府到底应该是提高对于科学的资助还是提高对于技术的资助                     B：which issue is seen as the driving force（驱动力） 那件事被视作是驱动力量。 |
+
+   第二步：分析
+
+   第三步：整合
+
+   政府到底应该是提高对于科学的资助还是提高对于技术的资助往往依赖于那件事被视作是驱动力量。
+
+4. Social science is the branch of intellectual enquiry which seeks to study humans and their endeavors in the same reasoned, orderly, systematic and dispassioned manner that natural scientists use for the study of natural phenomena.
+
+   Social science is the branch of intellectual enquiry (A).
+
+   第一步：分层
+
+   | 第一层 | Social science is the branch of intellectual enquiry (A). 社会科学是学术探索的一个分支。 |
+   | ------ | ------------------------------------------------------------ |
+   | 第二层 | A：which seeks to study （试图做....） humans and their endeavors （努力、行为） in the same reasoned, orderly, systematic and dispassioned （客观的）manner （B）. 该分支试图用理性、有序、系统和客观的方法去研究人类和人类行为。 |
+   | 第三层 | B：that natural scientists use for the study of natural phenomena. 自然科学家研究自然现象。 |
+
+   第二步：分析
+
+   第三步：整合
+
+   社会科学是学术探索的一个分支。该分支试图用和自然科学家研究自然现象一样的，理性、有序、系统和客观的方法去研究人类和人类行为。
+
+5. The American economic system is organized around a basically private-enterprise, market-oriented economy in which consumers largely determine what shall be produced by spending their money in the marketplace for those goods and services that they want most.
+
+   The American economic system is organized around a basically private-enterprise （基本私营企业）, market-oriented economy （市场经济）(A)
+
+   第一步：分层
+
+   | 第一层 | The American economic system is organized around a basically private-enterprise （基本私营企业）, market-oriented economy （市场经济）(A) 美国经济体系是围绕基本私营企业和市场经济组建的。 |
+   | ------ | ------------------------------------------------------------ |
+   | 第二层 | A：in which consumers largely determine B  by spending their money in the marketplace for those goods and services 在市场经济中，消费者通过花钱在市场中购买那些商品和服务（C）很大程度上决定了B。 |
+   | 第三层 | B：what shall be produced 什么该被生产  C：that they want most 他们最想要的 |
+
+   第二步：分析
+
+   第三步：整合
+
+   美国经济体系是围绕基本私营企业和市场经济组建的。在市场经济中，消费者通过花钱在市场中购买那些他们最想要的商品和服务很大程度上决定了什么该被生产。
+
 # 每日一句
 
 1. In January, Britain's Law Commission,which reviews legislation, recommended that it should not be the person not be the person in the driver's seat who faces prosecution if a vehicle in autonomous mode crashes, but the manufacturer or body that sought approval for its use.
@@ -1327,3 +1495,65 @@ You act **as if / as though** you were a girl.
    ③状语：causing days of fuel shortages
 
    ④定语从句：that paralyzed transportation on the east coast
+
+3. The study, published in Plos Biology, found that identical twins, who share almost 100% of their genes, were more similar to each other in their orientation towards nature and how frequently they visited nature compared with fraternal twins, who share about 50% of their genetic material.
+
+   参考译文：这项发表在《公关科学图书馆-生物学》上的研究发现，几乎百分百拥有相同基因的同卵双胞胎，与拥有约百分之五十遗传物质的异卵双胞胎相比，在对自然的取向和造访自然的频率上更为相似。
+
+   词汇解析：
+
+   Plos Biology 《公关科学图书馆-生物学》
+
+   identical adj 同卵的
+
+   gene  n  基因
+
+   be similar to  与......相似
+
+   orientation n  取向、倾向
+
+   frequently   adv  频繁地
+
+   fraternal    adj   异卵的
+
+   genetic material  遗传物质
+
+   重点语法：
+
+   ①句子主干：The study found that.....
+
+   ②宾语从句：identical twins were more similar to each other in their orientation towards nature and how frequently they visited nature compared with fraternal twins
+
+   ③定语：published in Plos Biology
+
+   ④定语从句1：who share almost 100% of their genes
+
+   ⑤定语从句2：who share about 50% of their genetic material
+
+4. The global gap between life expectancy and healthy life expectancy （HLE），a measure of how long a person lives without health problems that impede everyday activity, is nearly ten years, according to the World Health Organization.
+
+   参考译文：根据世界卫生组织的数据，全球预期寿命和健康预期寿命（HLE）之间的差距接近10年。健康预期寿命使衡量一个人在没有影响日常活动的健康问题的情况下能活多久的指标。
+
+   词汇解析：
+
+   The World Health Organization 世界卫生组织
+
+   gap  n  差距
+
+   life expectancy  预期寿命，平均寿命
+
+   measure  n  衡量
+
+   impede v 妨碍，阻碍
+
+   重点语法：
+
+   ①句子主干：The global gap is nearly ten years
+
+   ②定语：between life expectancy and healthy life expectancy (HLE)
+
+   ③同位语：a measure of how long a person lives without health problems
+
+   ④定语从句：that impede everyday activity
+
+   
