@@ -1430,6 +1430,123 @@ I love the girl who is reading a book that is interesting.
 
    美国经济体系是围绕基本私营企业和市场经济组建的。在市场经济中，消费者通过花钱在市场中购买那些他们最想要的商品和服务很大程度上决定了什么该被生产。
 
+# 强调句
+
+1. 强调句的一般句式：
+
+   It is .....that/which/who......
+
+   It was honor that encouraged me.
+
+   It was you who/that encouraged me.
+
+   It is（was).....that + 句子
+
+   It is Tom that eats rice.
+
+   <font color="red">注意：谓语动词不能被强调。</font>
+
+2. 强调句与主语从句
+
+   |          | 动词 | that是否有成分 |
+   | -------- | ---- | -------------- |
+   | 强调句   | be   | that有         |
+   | 主语从句 | be/v | that无         |
+
+   It worried me a lot that my hair is turning white. 主语从句
+
+   It was honor that encouraged me. 强调句
+
+   It is true that Jay is cool. 主语从句
+
+3. 强调句的翻译
+
+   正是。。。。
+
+   1）It is this apparent (明显的) transcendence (超越) of politics that explains monarch's continuing popularity.
+
+   正是这种对于政治的明显超越解释了君主的持续流行。
+
+   2）It is kings, not republicans, who are the monarchy's worst enemies.
+
+   正是这些国王（不是共和党人）才是君主制的最大敌人。
+
+   3）It is the arrival of new satellite that will bring about the biggest changes in <u>the long term</u>（长期、长远）.
+
+   正是卫星频道的到来将会带来从长远看最大的改变。
+
+# 分隔结构
+
+1. 主 + 谓 + 宾 + （宾补）
+
+   → 主+ 谓 + （宾补） + 宾 ——分隔结构
+
+   I think what you said true.
+
+   → I think what true you said.
+
+   我认为你说的是对的。
+
+   Many people consider impossible what really is possible.
+
+   Many people <font color="red">consider </font> <u>what really is possible</u> impossible.
+
+   很多人认为本来是可能的事情不可能。
+
+2. 主 + 谓 + 直宾 + （prep + 间宾）
+
+   I give the book that is interesting to her.
+
+   → I give to her the book that is interesting. 分隔结构
+
+   They returned to men <u>the positions that were possessed by women during the wartime</u>.
+
+   → They returned <u>the positions that were possessed by women during the wartime</u> to men.
+
+   possess   v  拥有，持有
+
+   他们把战争期间女性所拥有的职位还给了男人。
+
+   注意：
+
+   1. 分隔结构产生的原因——宾语过长！
+
+      I find English easy.——I find easy English. 不会这么写
+
+      I give the book to her. ——I give to her the book. 不会这么写
+
+   2. 分隔结构的分析：
+
+      1）找到谓语动词
+
+      2）找到真实宾语（形容词、介词短语不是宾语）
+
+      3）还原插入部分
+
+   3. 分隔结构翻译
+
+      1）The anthropological concept of "culture" <font color="red">makes </font> possible <u>immense amounts of (大量的。 a (adj) n of/ (adj) ns of) concrete (具体的) research and understanding.</u>
+
+      人类学的“文化”概念使得大量的研究和理解成为了可能。
+
+      2）He <font color="red">revealed </font> as obvious as possible the course of reasoning which led him to his decision.
+
+      他把引导他做出选择的推理过程揭示得十分清晰（尽可能的清晰）。
+
+      3）On the other hand, he <font color="red">did not accept </font>as well founded the charge (批评) made by some of his critics that while he was a good observer, he had no power of reasoning.
+
+      另一方面，他不认为他的一些批评家提出的指责（尽管他是一个好的观察者，但是他不具备推理能力）是具有根基的。
+
+      另一方面，他不接受他的一些批评家提出的职责：尽管他是一个好的观察者，但是他不具备推理能力。
+
+      4）He has elected as his primary duty and pleasure in life the activity of thinking in Socratic (苏格拉底) way about moral  problems.
+
+      他把用苏格拉底的方式思考道德问题（的活动）作为他生命的主要职责和快乐。
+
+      他把用科比黑曼巴精神学习英语作为他生命的主要职责和快乐。
+
+      He has <font color="red">elected</font> as his primary duty and pleasure in life the activity of learning English in Mamba mentality.
+
 # 每日一句
 
 1. In January, Britain's Law Commission,which reviews legislation, recommended that it should not be the person not be the person in the driver's seat who faces prosecution if a vehicle in autonomous mode crashes, but the manufacturer or body that sought approval for its use.
@@ -1555,5 +1672,67 @@ I love the girl who is reading a book that is interesting.
    ③同位语：a measure of how long a person lives without health problems
 
    ④定语从句：that impede everyday activity
+
+5. Six decades later, ARPA's modern incarnation, DARPA (the D stands for defence) has proved itself so useful——with decisive roles in creating everything from the internet to mRNA covid-19 vaccines——that many medium-sized countries want their own versions.
+
+   参考译文：60多年过去了，ARPA现已更名为DARPA（国防部高级研究计划局），并在几乎一切发明创造中发挥了决定性作用，从创造互联网到研发mRNA新冠肺炎疫苗都是如此。难怪许多中型国家纷纷想要在本国成立此类机构。
+
+   词汇解析：
+
+   vaccine  n 疫苗
+
+   decade  n   十年
+
+   incarnation   n 化身、典型
+
+   ARPA   高级研究计划局 （Advanced Research Projects Agency）
+
+   DARPA  国防部高级研究计划局
+
+   prove   v  证明、证实
+
+   decisive    adj    关键的、决定性的、果断的
+
+   version    n   版本
+
+   重点语法：
+
+   ①句子主干：DARPA has proved itself so useful
+
+   ②结果状语从句：that many medium-sized countries want their own versions
+
+   ③状语：Six decades later
+
+   ④同位语：ARPA‘s modern incarnation
+
+   ⑤插入语：with decisive roles in creating everything from the internet to mRNA covid-19 vaccines
+
+6. According to a 2016 study, narcissist individuals were more likely to believe that they make for effective and superior leaders, which could correlate with self-promotional behaviors like higher regard for their role in a work project.
+
+   参考译文：根据2016年的一项研究，自恋者更有可能相信他们会成为有效和卓越的领导者，这或许与自我宣传行为相关，例如他们在工作项目中更加重视自己的角色。
+
+   词汇解析：
+
+   narcissist   n   自恋者
+
+   individual    n  个人、个体
+
+   effective    adj   有效的
+
+   superior    adj   优越的
+
+   correlate with   与......相关
+
+   self-promotional   自我促销的、自我宣传的
+
+   regard   n   关心、关注
+
+   重点语法：
+
+   ①句子主干：narcissist individuals were more likely to believe that.....
+
+   ②宾语从句：they make for effective and superior leaders
+
+   ③定语从句：which could correlate with self-promotional behaviors like higher regard for their role in a work project
 
    
