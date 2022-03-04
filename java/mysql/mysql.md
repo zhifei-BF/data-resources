@@ -119,3 +119,35 @@ CREATE TABLE 表名称
 )
 ```
 
+# 函数用法
+
+## case-when-then
+
+1. 简单case函数
+
+```sql
+case sex when '1' then '男' when '2' then '女’ else '其他' end
+```
+
+2. case搜索函数
+
+```sql
+case when sex = '1' then '男'  when sex = '2' then '女' else '其他' end 
+```
+
+## decode()函数
+
+```sql
+Select decode（columnname，值1,翻译值1,值2,翻译值2,...值n,翻译值n,缺省值）
+ 
+From talbename
+ 
+Where …
+```
+
+其中：columnname为要选择的table中所定义的column；
+
+　　 缺省值可以是你要选择的column name本身，也可以是你想定义的其他值，比如Other等；
+
+主要作用：相当于IF语句， 将查询结果翻译成其他值。（即以其他形式表现出来）。
+
