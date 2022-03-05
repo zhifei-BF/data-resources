@@ -1,5 +1,339 @@
 [TOC]
 
+# 词汇
+
+1. likely adj 很可能的、有希望的  adv 很可能
+
+   like prep 像、如同   v  喜欢、希望
+
+   unlikely  adj 不太可能的；没希望的   adv  不太可能地
+
+   probably  adv 大概；或许；很可能
+
+   probable   adj 很可能的
+
+   possibly   adv   可能地；也许；大概
+
+   possible    adj   可能的；合理的
+
+   dislike  vt   不喜欢，厌恶
+
+   unlike   prep  不像、和.....不同
+
+   liken    vt   把....比作
+
+2. training   n 训练；培养
+
+   train   n  火车、长队   v   培养、训练
+
+   trainer    n   训练员、培训师、运动鞋
+
+   trainee    n  练习生、实习生
+
+   coach  n 教练；长途汽车；四轮大马车  vt  训练；指导
+
+   cultivate   vt  培养；陶冶；耕作
+
+3. succession   n 交替；继任；一连串；一系列
+
+   扩展：cede,ceed,cess  (= to go) 走
+
+   succeed   v  成功；继承
+
+   success  n  成功；成功的人或事
+
+   successful    adj  成功的
+
+   successor   n  继承者；后继的事物
+
+   successive   adj  连续的；继承的
+
+   recede  v 后退；衰退
+
+   recession   n  衰退；不景气
+
+4. overlook  vt  忽略；俯瞰；远眺
+
+   扩展：over   在....上面；超过
+
+   overly  adv  过度地；极度地
+
+   overall   adj   全部的；整体的
+
+   overvalue   vt  对.....估价过高；高估
+
+   value    n  价值   vt  评价；估价
+
+   overestimate   v/n  估计过高；评价过高
+
+   estimate   v/n 估计；估价
+
+   overseas   adv   在海外   adj   海外的；国外的
+
+   overfish    v   对.....过度捕捞
+
+   overpay    vt    多付；多给报酬
+
+   overdress   v  过度着装；穿得过于张扬（或正式）
+
+   overstep    vt  逾越；超出....的限度
+
+   step   n   台阶；脚步   v   踏；踩；走
+
+   overpack    v  过度打包
+
+   pack   n  背包；包裹   vt  打包；塞满
+
+   overcrowded  adj  过度拥挤的
+
+5. cover  vt 覆盖；包括；报道；支付   n  封面；封皮
+
+   recover   vt  恢复；痊愈
+
+   recovery   n   恢复；痊愈
+
+   coverage   n  覆盖；新闻报道
+
+   discover  vt   发现；发觉
+
+   discovery    n   发现；发觉
+
+6. review   v/n   回顾；复习；评论
+
+   扩展：view，vis （=to see）看
+
+   reviewer  n 评论家
+
+   revise  vt  修正；复习
+
+   view   n   视野；风景；观点  vt  观察
+
+   interview  n/vt   采访；面试
+
+   interviewer   n   采访者；面试官
+
+   interviewee   n  参加面试者
+
+7. significant   adj  重大的；有意义的
+
+   sign  n  迹象；符号  v  做记号；签名
+
+   significantly   adv  重大地；显著地
+
+   insignificant   adj  无关紧要的
+
+   significance   n  意义；重要性
+
+   important   adj  重要的；重大的
+
+   vital   adj  至关重要的；有活力的
+
+   crucial   adj  重要的；决定性的
+
+8. title  n  标题；头衔；权利
+
+   headline  n  大标题；头版头条新闻  vt   给.....加标题
+
+   subtitle   n   副标题；字幕
+
+   caption  n  标题；字幕
+
+   entitle   v   给（某人）权利（或资格）；给......题名
+
+   entitle sb sth  赋予某人某物
+
+   be entitled to sth 有资格获得某物
+
+   be entitled to do sth 有资格做某事
+
+   They are entitled to more freedom. 他们有资格获得更多的自由。
+
+   entitlement    n  权利；津贴
+
+   allowance   n  津贴；补助  v  为（某人）提供津贴
+
+   subsidy    n  补贴；津贴
+
+   benefit   n  好处；益处
+
+   bonus   n   奖金；津贴；红利
+
+9. conclude  vt 推断；推论出；得出结论
+
+   扩展：clud，clus （=to close） 关闭
+
+   conclusion  n  结论；推论
+
+   in  conclusion  总之；综上所述
+
+   draw  a  conclusion  得出结论
+
+   conclusive   adj   结论的；确定性的
+
+   inconclusive  adj  不确定的，非决定性的
+
+   include  vt  包含；包括
+
+   inclusion   n  包含
+
+   inclusive   adj  包含的；包容的
+
+   inclusiveness   包容；包容性
+
+   exclude   vt  排除；排斥
+
+   exclusion   n  排除；排斥
+
+   exclusive   adj  排外的；独有的；唯一的
+
+   exclusively   adv  排外地；独有地；唯一地
+
+10. digital   adj  数字的
+
+    tablet   n  平板电脑
+
+    digital maps  数字地图
+
+    digital products  数码产品
+
+    digitalize  vt  数字化
+
+    realize v  实现
+
+    modernize  vt  现代化
+
+    digitalized  adj  数字化的
+
+    excited  adj  令人兴奋的
+
+    digit   n  数字
+
+    figure  n  数字；人物；图形   vi  计算；出现
+
+    figure out = work  out  = 计算出；解决
+
+    finger   n  手指
+
+    data  n  数据；资料
+
+    database   n  数据库
+
+    information  n  信息；资料；情报
+
+    information technology = IT = 信息技术
+
+    inform   v  通知；告知
+
+    inform  sb  of sth  通知某人某事
+
+11. worth  adj  值得的；有价值的；n   价值
+
+    Not worthy of the world  人间不值得
+
+    be  worth  sth/doing  sth  值得做某事
+
+    worthy  adj  值得的；有价值的
+
+    be worthy of sth/doing sth  值得某事/做某事
+
+    unworthy  adj  不值得的；无价值的
+
+    valueless   adj   无价值的；不值钱的
+
+    noteworthy   adj  值得注意的；显著的
+
+    newsworthy  adj  有新闻价值的
+
+    worthwhile  adj  有价值的；值得做的
+
+    worthless adj 无价值的；不值钱的
+
+    priceless  adj  无价的；贵重的
+
+    invaluable  adj  无价的；宝贵的
+
+12. trigger   n  扳机；起因   v  触发；引起
+
+    lead to 导致；通向
+
+    All roads lead to Rome. 条条大路通罗马
+
+    result in 导致；结果是
+
+    as a result of 由于
+
+    bring  about  引起
+
+    give rise to  使发生；引起
+
+    contribute to 捐款；贡献；有助于；促进
+
+    donate   v  捐赠；赠送
+
+    donate to 赠予
+
+    donate stock  捐赠股份
+
+    donate fund  捐赠基金
+
+    donate assets  捐赠资产
+
+    donate property 捐赠财产
+
+    donate for  为....捐赠
+
+    donate money 捐款
+
+    donated by  由...捐赠的
+
+    generate  vt  产生（光、热、电等）；引起；导致
+
+    generation  n  产生；一代
+
+    account for 说明......的原因；导致；占（比例）
+
+    count on = depend  on = 依靠 = rely on
+
+13. amateur n 业余爱好者  adj  业余的
+
+    green-hand    n  生手；没有经验的人
+
+    green-eyed  adj  嫉妒的；眼红的
+
+    playboy   n  花花公子
+
+    layman    n  外行；门外汉
+
+    lay   v  放、躺、下单   adj  生疏的 
+
+    lay  press  非专业媒体
+
+    newbie   n  新手
+
+    shabby  adj  破旧的；卑鄙的
+
+    non-professional   adj  非专业的
+
+    private   adj   私人的，私有的  n  二等士兵
+
+    privacy  n  隐私
+
+    The Penguins of Madagascar 马达加斯加的企鹅
+
+    What is worth doing is worth doing well. 值得做的事，值得做好。
+
+14. action   n  行为；活动；功能
+
+    in action   在运转；正在进行
+
+    act   v  行动；起作用；表演  n  行为；法令
+
+    active   adj  积极的；活跃的；主动的
+
+    activate   vt   激活；使活动
+
+    activity   n  活动；行动
+
 # 哪些情况下字母要大写？
 
 1. 句子首字母要大写。
@@ -267,6 +601,12 @@ a 和 an 为不定冠词，the 为定冠词。
 球类棋类与三餐；
 
 还有交通工具前。
+
+# 时态
+
+had done 过去完成时的主动语态
+
+had been done 过去完成时的被动语态
 
 # 5种句式结构
 
@@ -1430,6 +1770,83 @@ I love the girl who is reading a book that is interesting.
 
    美国经济体系是围绕基本私营企业和市场经济组建的。在市场经济中，消费者通过花钱在市场中购买那些他们最想要的商品和服务很大程度上决定了什么该被生产。
 
+6. These leaders are living proof that prevention works (vi) and that we can manage the health problems that come naturally with age.
+
+   这些领导人是活生生的证据：阻止（衰老）是奏效的，同时我们能够处理随着年龄自然到来的健康问题。
+
+7. As families move away from their stable community , their friends of many years and their extended family relationships, (状语从句) the informal flow of information is cut off, and with it the confidence that information will be available when needed and will be trustworthy and reliable (同位语从句).
+
+   A and B
+
+   A, B and C
+
+   A, B, C and D
+
+   第一步：分层
+
+   | 第一层 | As A, the informal flow of information is cut off, and with it the confidence: B (is cut off) 随着A，非正式的信息流通被切断了，这种信心也丢失了。 |
+   | ------ | ------------------------------------------------------------ |
+   | 第二层 | A：As families move away from their stable community, their friends of many years and their extended family relationships. 随着家庭远离他们稳定的社区，多年的朋友和亲属。                            B：that information will be available when needed and will be trustworthy and reliable  信息需要时即可获得且信息是可信可靠的 |
+
+   第二步：分析
+
+   第三步：整合
+
+   随着家庭远离他们稳定的社区，多年的朋友和亲属，非正式的信息流通被切断了，信息需要时即可获得且信息是可信可靠的这种信心也丢失了。
+
+8. Declaring that he was opposed to using this unusual animal husbandry technique to clone humans (宾语从句), he ordered that federal funds not be used for such an experiment ——although no one had proposed to do so (让步状语从句) —— and asked an independent panel of experts chaired by Princeton President Harold Shapiro to report back to the White House in 90 days with recommendations for a national policy on human cloning.
+
+   I like <u>playing basketball.</u> (宾语)
+
+   Believing <u>that she is the most beautiful girl</u>(宾语从句),（前面整个是状语从句） she is very proud.
+
+   Declaring A, he ordered B ——although C —— and asked an independent panel of experts chaired by Princeton President Harold Shapiro to report back to the White House in 90 days with recommendations for a national policy on human cloning.
+
+   第一步：
+
+   | 第一层 | Declaring A, he ordered B ——although C —— and asked an independent panel of experts chaired by Princeton President Harold Shapiro to report back to the White House in 90 days with recommendations for a national policy on human cloning.  因为宣传A，他下令B——尽管C——同时要求由普林斯顿大学校长Harold Shapiro 所带领的独立专家组在90天内向白宫汇报，并就克隆人类的国家政策给出相关建议。 |
+   | ------ | ------------------------------------------------------------ |
+   | 第二层 | A：that he was opposed to using this unusual animal husbandry （畜牧业） technique to clone humans       他反对使用这种非同寻常的畜牧业技术去克隆人类。                    B：that federal funds not be used for such an experiment     联邦资金不能用于这项实验                  C:  although no one had proposed to do so          尽管没人建议这么做 |
+
+   第二步：分析
+
+   第三步：整合
+
+   因为宣传他反对使用这种非同寻常的畜牧业技术去克隆人类，他下令联邦资金不能用于这项实验——尽管没人建议这么做——同时要求由普林斯顿大学校长Harold Shapiro 所带领的独立专家组在90天内向白宫汇报，并就克隆人类的国家政策给出相关建议。
+
+9. The great interest in exceptional children shown in public education over the past three decades indicates the strong feeling in our society that all citizens, whatever their special conditionals, deserve the opportunity to fully develop their capabilities.
+
+   第一步：分层
+
+   | 第一层 | The great interest in exceptional children shown in public education over the past three decades indicates the strong feeling in our society: A.       在过去30年，公共教育中所表现的对于弱智儿童的强烈兴趣展示了我们社会的强烈感觉：A。 |
+   | ------ | ------------------------------------------------------------ |
+   | 第二层 | A：that all citizens, B, deserve the opportunity to fully develop their capabilities.       所有公民都值得拥有完全发挥其能力的机会 |
+   | 第三层 | B：whatever their special conditionals      无论他们的情况有多么特殊 |
+
+   第二步：分析
+
+   第三步：整合
+
+   在过去30年，公共教育中所表现的对于弱智儿童的强烈兴趣展示了我们社会的强烈感觉：所有公民（无论他们的情况有多么特殊）都值得拥有完全发挥其能力的机会。
+
+10. If its message were confined merely to information——and that in itself would be difficult if not impossible to achieve, for even a detail such as the choice of the color of a shirt is subtly persuasive——advertising would be so boring that no one would pay any attention.
+
+    If its message were confined merely to information （条件状语）——and that （那件事） in itself would be difficult if not impossible to achieve, for even a detail such as the choice of the color of a shirt is subtly （微妙的） persuasive （原因状语）——advertising would be so boring that no one would pay any attention （结果状语）.
+
+    Decades if not centuries   数十年甚至是几个世纪
+
+    第一步：分层
+
+    | 第一层 | If A—— and that (那件事) in itself would be difficult if not （甚至是）impossible to achieve, for B——advertising would be so boring that C.   如果A（这本身是很难甚至是不可能实现的，因为B），广告将会如此无聊以至于C。 |
+    | ------ | ------------------------------------------------------------ |
+    | 第二层 | A：If its message were confined merely to information      如果信息仅仅局限于告知                           B：for even a detail such as the choice of the color of a shirt is subtly persuasive     因为就算是衬衫颜色的选择这样的细节都具有微妙的说服作用。                                                                                       C：that no one would pay any attention        没有人会去关注。 |
+
+    第二步：分析
+
+    第三步：整合
+
+    如果信息仅仅局限于告知（这本身是很难甚至是不可能实现的，因为就算是衬衫颜色的选择这样的细节都具有微妙的说服作用），广告将会如此无聊以至于没有人会去关注。
+
 # 强调句
 
 1. 强调句的一般句式：
@@ -1546,6 +1963,224 @@ I love the girl who is reading a book that is interesting.
       他把用科比黑曼巴精神学习英语作为他生命的主要职责和快乐。
 
       He has <font color="red">elected</font> as his primary duty and pleasure in life the activity of learning English in Mamba mentality.
+
+# 倒装
+
+1. 部分倒转的形式——一般疑问句的形式
+
+   Tom is ——is Tom
+
+   Tom works ——does Tom work
+
+   Tom worked——did Tom work
+
+   Tom has worked ——has Tom worked
+
+   Tom can work —— can Tom work
+
+2. 部分倒装的条件
+
+   1）only/ 否定词/ so 前置（三前置）
+
+   We can solve the problem only through these ways.
+
+   —— Only through these ways can we solve the problem.
+
+   I well never marry you.
+
+   —— Never will I marry you.
+
+   She is so pretty that many boys like her.
+
+   So pretty is she ........
+
+   2）If虚拟的省略（一省略）
+
+​	If I had worked hard, I would have been a top student.
+
+​	—— Had I worked hard, I would have been a top student.
+
+​	3）As 的倒装 （一改变）
+
+​	形容词/副词/（0冠词） 名词 + as + 主 + 谓 （让步：尽管。。。）
+
+​	He is strong.
+
+​	—— strong as he is ,
+
+​	He runs fast.
+
+​	—— fast as he runs,
+
+​	He is a child.
+
+​	—— Child as he is.
+
+​	Child as he is, he knows a lot.
+
+​	尽管他是个孩子，但他知道很多。
+
+3. 部分倒转的翻译：
+
+   1）Never before has television served so much to connect different peoples and nation as is the recent events in Europe.
+
+   —— Television has never before served so much to connect different peoples (民族) and nations as is the recent events in Europe.
+
+   电视从未有像欧洲最近发生的事件中这样起到如此大的连接不同民族和不同国家的作用。
+
+   2）Odd （奇怪的） as it sounds, cosmic inflation is a scientifically plausible （有可能的=possible) consequence of some respected ideas in elementary particle physics.
+
+   尽管听上去很奇怪，但是宇宙膨胀在基础粒子物理现象中很多伟大观点看来，是科学上有可能的结果。
+
+# 虚拟
+
+If 
+
+将来：If......were to do, .....would do
+
+现在：If......were / did, .......would do
+
+过去：If......had done, ........would have done
+
+If I were to be a bird, I would fly into the sky.
+
+If I were you, I would do that.
+
+If I had worked hard, I would have been a good student.
+
+1. 虚拟的实质：
+
+   | 条件                                                         | 形式                           |
+   | ------------------------------------------------------------ | ------------------------------ |
+   | 表“条件”概念：If / without + n / but for + n / but that + 句子 | .....would do (将来)           |
+   | 表“条件”概念：If / without + n / but for + n / but that + 句子 | ..... would do （现在）        |
+   | 表“条件”概念：If / without + n / but for + n / but that + 句子 | ......would have done （过去） |
+
+   Without you/ but for you , I would not have passed the test.
+
+   Without you/ but for you, my world would be so boring.
+
+   But that you came to my life, my world would be so boring.
+
+   If I had worked hard, I would have been a top student.
+
+   如果我当时好好学习，我就是个尖子生。
+
+   Without your help, I would not have passed the test.
+
+   如果没有你，我就不能通过考试。
+
+   But for electricity, the world would have been different.
+
+   要不是因为电，世界将会变得不同。
+
+   But that he had interest, he would not have persisted so long.
+
+   要不是因为他有兴趣，他不会坚持这么久。
+
+2. 虚拟的翻译：
+
+   1）If he had played last season, however, he would have been one of 42.
+
+   然而，如果他上赛季参加了比赛，他将会是四十二分之一。
+
+   2）Without confidentiality (信任、承诺), the trust would have been impaired (破坏) and the communication of the patients limited.
+
+   如果没有承诺，信任会收到破坏，同时和病人的交流会受到限制。
+
+   3）Wild Bill Donovan would have loved the Internet.
+
+   疯狂的比尔·德纳文本该喜欢英特网。
+
+# 插入语
+
+1. 插入语的实质
+
+   插入语是一种形式，不是成分！（定语、状语、同位语、并列句）
+
+   Tom, my friend,......
+
+   都是！！同位语以插入语的形式存在。
+
+   I am more handsome than Tom and he is more intelligent than Tom.
+
+   —— I am more handsome, and he is more intelligent, than Tom.
+
+2. 插入语的形式：
+
+   , ......,
+
+   \- .......-
+
+   (.......)
+
+3. 插入语的翻译
+
+   技巧：先跳过，再分析
+
+   1）A study by Sarah Brosnan and Frans de Waal of Emory University in Atlanta, which has just been published in Nature, suggests that it is all too monkey, as well. ——定语
+
+   一项由亚特兰大埃默里大学的Sarah Brosnan 和 Frans de Waal 所做的，刚刚发表于《自然》杂志的研究表明这也是猴之常情的。
+
+   2）The brain is as active during REM (rapid eye movement) sleep - when most vivid dreams occur - as it is when fully awake. ——定语
+
+   大脑在大部分生动的梦发生的REM期（快速动眼期）和在完全清醒状态下是一样活跃的。大部分生动的梦发生在REM期。
+
+   3）Many theories concerning the causes of juvenile delinquency (crimes committed by young people) focus either on the individual or on society as the major contributing influence. —— 同位语
+
+   很多关于青少年犯罪（由年轻人犯下的罪行）原因的理论要不然认为个体，要不然认为社会是主要影响因素。
+
+   4） Most people, with the exception of (除了) early intercontinental travelers or others who earned a living from the sea, have little interest in the sea.
+
+   Most people have little interest in the sea. ——状语
+
+   除了早期跨洲旅行的人和那些以海洋为生的人，大部分人对于海洋几乎没有兴趣。
+
+# 平行结构
+
+标志词：and/ or/ but
+
+1) 省略——成分相同
+
+I love Tom and I love Lucy.
+
+—— I love Tom and Lucy.
+
+The relationship was broken and with it her dream was broken.
+
+难：The relationship was broken and with it her dream.
+
+A technology of behavior <font color="red">will continue to be rejected</font>, and with it possibly the only way to solve our problem.
+
+—— A technology of behavior will continue to be rejected, and with it possibly the only way to solve our problem will continue to be rejected.
+
+行为技术将会持续被拒绝，随之（and with it）可能是唯一解决问题的方法也会被持续拒绝。
+
+The informal flow of information is cut off, and with it the confidence (that information will be available when needed and will be trustworthy and reliable).
+
+The informal flow of information is cut off, and with it the confidence (that information will be available when needed and will be trustworthy and reliable) is cut off.
+
+信息的非正式交流被切断了，随之这种信心（需要时即可获得信息，且信息是可靠的）也丢失了。
+
+2）不省略——消除歧义
+
+I love the book of Tom and Lucy.
+
+I love <u>the book of Tom</u> and <u>Lucy</u>.
+
+I love the book of <u>Tom</u> and <u>Lucy</u>.
+
+<font color ="red">I love the book of Tom and of Lucy.</font>
+
+Tom says that Lucy is pretty and Lily is ugly.
+
+Tom <u>says</u> that Lucy is pretty and Lily <u>is</u> ugly.
+
+Tom says that Lucy <u>is</u> pretty and Lily is ugly.
+
+<font color="red">Tom says that Lucy is pretty and that Lily is ugly.</font>
+
+These leaders are living proof that prevention works and <font color="red"><u>that</u> </font> we can manage the health problems.
 
 # 每日一句
 
@@ -1735,4 +2370,239 @@ I love the girl who is reading a book that is interesting.
 
    ③定语从句：which could correlate with self-promotional behaviors like higher regard for their role in a work project
 
-   
+7. Such a plan had been identified under national environmental laws as a requirement for the species for the past nine years but no Australian government had developed one, making it one of almost 200 recovery plans for Australia's threatened species and habitats that were overdue.
+
+   参考译文：在过去的九年中，国家环境法已将这个计划确定为对考拉的一项保护要求。相反，澳大利亚政府没有制定过任何一项此类计划，使其成为澳大利亚近200个濒危物种和栖息地的恢复计划之一，而这些计划早就应该制定了。
+
+   词汇解析：
+
+   species   n  物种（句子中指的是考拉）
+
+   national environmental laws 国家环境法
+
+   requirement   n  要求，需求
+
+   recovery plan 恢复计划
+
+   threatened species 濒危物种
+
+   habitat  n  栖息地
+
+   overdue   adj  早应完成的，早该发生的
+
+   重点语法：
+
+   ①句子主干：Such a plan had been identified as a requirement but no Australian government had developed one
+
+   ②状语1：under national environmental laws
+
+   ③定语：for the species
+
+   ④状语2：for the past nine years
+
+   ⑤状语3：making it one of almost 200 recovery plans for Australia's threatened species and habitats
+
+   ⑥定语从句：that were overdue
+
+8. If big losses do materialize, the important question, for investors, for central bankers and for the world economy, is whether the financial system will safely absorb them or amplify them.
+
+   参考译文：如果真的出现巨额亏损，对于投资者、中央银行家和世界经济来说，重要的问题是，金融体系是否能安全地吸收亏损，还是会加大亏损。
+
+   词汇解析：
+
+   investor n 投资者
+
+   loss  n 损失、亏损
+
+   materialize   v  成为现实、实现
+
+   central banker   中央银行家
+
+   financial system  金融系统
+
+   absorb   v 吸收
+
+   amplify   v  放大，扩大
+
+   重点语法：
+
+   ①句子主干：the important question is .......
+
+   ②表语从句：whether the financial system will safety absorb them or amplify them
+
+   ③条件状从：If big losses do materialize
+
+9. Monitoring blood-oxygen in real time, as some wearables do, can help identify disorders including sleep apnea, a condition whose sufferers stop breathing while they sleep and which afflicts perhaps one billion people around the world.
+
+   参考译文：像一些可穿戴设备那样，实时检测血氧，有助于识别包括睡眠呼吸暂停在内的疾病。睡眠呼吸暂停是一种患者在睡觉时停止呼吸的疾病，全世界约10亿人受到这种疾病的折磨。
+
+   词汇解析：
+
+   monitor  v 监测
+
+   identify  v  识别
+
+   blood-oxygen  血氧
+
+   wearable   n  可穿戴设备
+
+   disorder   n  疾病
+
+   sleep apnea 睡眠呼吸暂停
+
+   sufferer   n  患者、受害者
+
+   afflict   v 折磨、使......痛苦
+
+   real time  实时
+
+   重点语法：
+
+   ①句子主干：Monitoring blood-oxygen in real time can help identify disorders including sleep apnoea
+
+   ②同位语：a condition...
+
+   ③定语从句1：whose sufferers stop breathing (while引导的时间状从) while they stop
+
+   ④定语从句2：which afflicts perhaps one billion people around the world
+
+   ⑤插入语：as some wearables do
+
+10. Price growth for previously owned homes, which make up most of the housing market, slowed in the fourth quarter from earlier in the year but remained unusually strong due to robust demand and a shortage of homes for sale.
+
+    参考译文：占住房市场大半的二手房价格在增长在第四季度比今年早些时候有所放缓，但由于需求旺盛和待售房屋短缺，其价格增长仍然异常强劲。
+
+    词汇解析：
+
+    housing market  住房市场、房地产市场
+
+    shortage   n  短缺、不足
+
+    previously owned home  二手房
+
+    the fourth quarter  第四季度
+
+    remain   v  仍然、保持
+
+    make up most 占大多数
+
+    due  to   由于
+
+    robust  adj  强劲的、旺盛的、稳固的
+
+    重点语法：
+
+    ①句子主干：Price  growth slowed but remained unusually strong
+
+    ②定语：for previously owned homes
+
+    ③状语1：in the fourth quarter from earlier in the year
+
+    ④状语2：due to robust demand and a shortage of homes for sale
+
+    ⑤定语从句：which make up most of the housing market
+
+11. These leaders are living proof that prevention works and that we can manage the health problems that come naturally with age.
+
+    参考译文：这些领导人是活生生的证明；预防（衰老）是奏效的，同时我们能够处理随着年龄自然到来的健康问题。
+
+    词汇解析：
+
+    living proof 活生生的证据
+
+    prevention  v  预防；阻止
+
+    work   v  奏效（主语不是人）
+
+    manage    v  管理；处理
+
+    time  management   时间管理
+
+    emotion  management  情感管理
+
+    重点语法：
+
+    ①主干：These leaders are living proof
+
+    ②同位语从句：that prevention works and that we can manage the health problems.
+
+    ③状语从句：that come naturally with age
+
+12. Such behavior is regarded as "all too human" with the underlying assumption that other animals would not be capable of this finely developed sense of grievance.
+
+    词汇解析：
+
+    be regarded as 被认为；被看作
+
+    all too human  人之常情
+
+    underlying    adj   潜在的
+
+    assumption   n    假设
+
+    be capable of + n/ doing  有能力做某事
+
+    with  prep  伴随
+
+    grievance   n  委屈；悲伤
+
+    重点语法：
+
+    ①主干：Such behavior is regarded as "all too human" with the underlying assumption
+
+    ②同位语从句：that other animals would not be capable of this finely developed sense of grievance
+
+    参考译文：这种行为被认为是“人之常情”因为有一个潜在假设；其他动物不能具有如此高度发达的悲伤感。
+
+13. Your humor must be relevant to the audience and should help to show them that you are one of them or that you understand their situation and are in sympathy with their point of view.
+
+    词汇解析：
+
+    be relevant to  与....相关
+
+    audience  n  听众；观众
+
+    situation  n  处境
+
+    in sympathy with  支持；赞同
+
+    point of view 观点
+
+    重点语法：
+
+    ①主干：Your humor must be relevant to the audience and should help to show them
+
+    ②同位语从句：that you are one of them
+
+    ③同位语从句：that you understand their situation and are in sympathy with their point of view
+
+    参考译文：你的幽默必须与受众相关，并（应该）帮助展示给他们你是他们的一员，或你理解他们的处境并支持他们的观点。
+
+14. Often it's the delivery which causes the audience to smile, so speak slowly and remember that a raised eyebrow or an unbelieving look may help to show that you are making a light-hearted remark.
+
+    词汇解析：
+
+    delivery   v  传递；快递
+
+    eyebrow    n  眉毛
+
+    unbelieving look   难以置信的表情
+
+    remark   n  语言
+
+    light-hearted  轻松的
+
+    make a light-hearted remark  开玩笑
+
+    重点语法：
+
+    ①Often it's the delivery which causes the audience to smile
+
+    ②so speak slowly and remember
+
+    ③that a raised eyebrow or an unbelieving look may help to show 
+
+    ④that you are making a light-hearted remark
+
+    参考译文：往往正是传递方式使得听众发笑，所以说话慢一点并且记住上扬的眉毛或难以置信的表情可能有助于展示你正在开玩笑。
+
