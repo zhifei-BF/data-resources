@@ -2606,3 +2606,92 @@ These leaders are living proof that prevention works and <font color="red"><u>th
 
     参考译文：往往正是传递方式使得听众发笑，所以说话慢一点并且记住上扬的眉毛或难以置信的表情可能有助于展示你正在开玩笑。
 
+15. Then there are some specific rules, such as: if you want to know the truth about what makes a marriage last , don't necessarily go first to a tinktank that is avowedly pro-marriage——maybe try a more neutral source.
+
+    词汇解析：
+
+    source  n  来源
+
+    specific   adj    具体的
+
+    marriage   n   婚姻
+
+    last    v   持续    lasting   adj   持续的
+
+    thinktank   n   智库，智囊团
+
+    avowedly    adv   公然地，明确地
+
+    pro-marriage   支持婚姻
+
+    neutral   adj   中立的
+
+    重点语法：
+
+    ①句子主干：there be some specific rules
+
+    ②条件状语从句：if you want to know the truth about what makes a marriage last
+
+    ③祈使句（条件状从主句）：don't necessarily go first to a thinktank
+
+    ④定语从句：that is avowedly pro-marriage
+
+    参考译文：然后是一些具体的规则，比如：如果你想知道什么使婚姻持久，不一定要先去找一个公开支持婚姻的智库，也许可以试试更中立的信息来源。
+
+16. Supervising remote learning has made parents everwhere more engaged in their children's education, more aware of how they are performing in comparison to classmates and in some cases more critical of what they are being taught.
+
+    词汇解析：
+
+    critical    adj  爱挑剔的
+
+    supervise    v 监督、指导
+
+    remote learning   远程学习
+
+    engaged    adj   忙于.....的，从事.....的
+
+    aware    adj   明白的，有意识的
+
+    in comparison to 对比，与......比较
+
+    in some cases   在某些情况下，有时候
+
+    重点语法：
+
+    ①句子主干：Supervising remote learning has made perents more engaged....., more aware...... and more critical........
+
+    ②补语1：more engaged in their children's education
+
+    ③补语2：more aware of (宾从1) how they are performing
+
+    ④补语3：more critical of (宾从2) what they are being taught
+
+    ⑤状语：in comparison to  classmates; in some cases
+
+    参考译文：通过监护孩子远程学习，各地的家长们能更多地参与到孩子的教育中来，进而更加了解自己的孩子与同学相比表现如何，有时也对孩子所学内容更加挑剔。
+
+17. As a result, the modern world is increasingly  populated by  intelligent gizmos whose presence we barely notice but whose universal existence has removed much human labor.
+
+    词汇解析：
+
+    populate  v  构成人口；居住于；移民于；殖民于
+
+    intelligent  adj  智能的
+
+    gizmos    n   小发明，小装置
+
+    presence   n   出席；存在
+
+    barely    几乎不，几乎没有
+
+    universal   adj   广泛的，普遍的
+
+    existence    n   存在
+
+    重点语法：
+
+    ①定语从句：whose presence we barely notice
+
+    ②定语从句2：whose universal existence has removed much human labor.
+
+    参考译文：因此，当代世界出现了越来越多的智能化设备。这些智能设备的存在我们几乎没有注意，但是它们的普遍存在已经代替了很多人类劳动。
