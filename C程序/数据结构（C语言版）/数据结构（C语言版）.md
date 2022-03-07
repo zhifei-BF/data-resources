@@ -178,7 +178,7 @@ LocateElem(L,e,equal()) //在线性表中查找e
 ListTraverse(L,visit()) //遍历线性表
 ClearList(&L) //将L置为空表
 ListInsert(&L,i,e) //在i位置插入值为e的数据元素
-ListDelete(&L,i,e) //删除i位置的数据元素
+ListDelete(&L,i,&e) //删除i位置的数据元素
 ```
 
 # 顺序表
@@ -459,6 +459,13 @@ typedef <数据类型> <别名>
 typedef   int    No_int;
 
 int x=1;  等价于 No_int x = 1;
+
+```c
+typedef struct LNode{ //定义单链表节点类型
+    ElemType data;	//数据域
+    struct LNode *next;	//指针域
+}LNode,*LinkList;
+```
 
 要表示一个单链表时，只需声明一个头指针L，指向单链表的第一个结点
 

@@ -334,6 +334,108 @@
 
     activity   n  活动；行动
 
+# 核心词汇3
+
+1. We will further the implementation of policies to ensure fair competition and take stronger action against monopolies and unfair competition to ensure a well-ordered and fair market environment.
+
+   ——Li Keqiang
+
+   further    v   促进；推进；增进                    implementation    n   贯彻实施    implement   v   实施
+
+   ensure    v   确定，确保       fair competition  公平竞争         
+
+   take action against sth 针对某事采取措施
+
+   well-ordered 有序的
+
+   market environment 市场环境
+
+   参考译文：深入推进公平竞争政策实施，加强反垄断和反不正当竞争，维护公平有序的市场环境。——李克强
+
+2. activity   n
+
+   - Activity is a situation in which a lot of things are happening or being done.
+
+     situation  n  现状    happen  v   发生
+
+     参考译文：活动是指很多事情正在发生或正在做的情况。
+
+   - .... an extraordinary level of activity in the government bonds market.
+
+     extraordinary  adj  非同寻常的；超乎寻常的     activity   n  活跃    level  n  水平
+
+     ordinary people 老百姓
+
+     bonds market 债券市场
+
+     参考译文：政府债券市场异常活跃。
+
+   - You can take part in activities from canoeing to bird watching.
+
+     take part in 参加       canoe    n   独木舟
+
+     from A to B     从A到B
+
+     参考译文：你可以参加从划独木舟到观鸟的活动。
+
+   - A canoe is a small, narrow boat that you move through the water using a stick with a wide end called a paddle.
+
+     canoe   n  独木舟     narrow    adj  狭窄的     boat   n   船     through     adv   通过    
+
+     stick    n    棍        paddle   n  浆；船桨
+
+     参考译文：独木舟是一种小而窄的船，你可以用一根一端很宽的棍子划过水面。
+
+   - His spare-time activities include cooking, tennis and windsurfing.
+
+     spare-time  activities  空闲时间的活动；业余活动；闲暇活动
+
+     tennis    n   网球             windsurf     vi    风帆；作风帆冲浪运动
+
+     参考译文：他的业余活动包括烹饪、网球和风帆冲浪。
+
+3. actor   n    男演员
+
+   actress   n   女演员
+
+   - An  actor is someone whose job is acting in palys or films.
+
+     whose = his/her/those  从属   “什么的什么“
+
+     act    v    行为；表演        play   n   话剧
+
+     参考译文：演员的工作是在戏剧或电影中表演。
+
+   - 'Actor' in the singular usually refers to a man, but some women who act prefer to be called 'actors' rather than 'actresses'.
+
+     refer to 关于；涉及                  prefer to  喜欢            be called   被称为  
+
+     singular    adj   单数的
+
+     参考译文：单数形式的“演员”通常指的是男性，但一些表演的女性更喜欢被称为“演员”而不是“女演员”。
+
+   - someone who pretends to be someone else while performing in a film, theatrical performance, or television or radio programme
+
+     pretend to be 假装是      perform   v    表演  
+
+     radio programme   广播节目      theatrical performance   戏剧表演；文艺出演
+
+     academic  performance  学术成绩
+
+     参考译文：在电影、戏剧表演、电视或广播节目中表演时假装成别人的人    
+
+   -  She has starred with many leading actors.
+
+      leading actors 大牌演员         star  v  担任主角；主演
+
+     参考译文：她与许多主要演员一起主演。
+
+   - A woman's life isn't complete until she has rebelled.
+
+     rebel   v  反抗
+
+     参考译文：一个女人这辈子没造过反是不完整的。
+
 # 哪些情况下字母要大写？
 
 1. 句子首字母要大写。
