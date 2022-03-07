@@ -954,6 +954,20 @@ typedef struct{		//静态链表结构类型的定义
 
 # 队列
 
+【概念】队列的顺序存储
+
+假设队列的元素个数最大不超过整数MAXSIZE，所有的元素都具有同一数据类型QElemType,则顺序队列类型SeQueue定义如下：
+
+```c
+#define MaxSize 10 // 定义队列中元素的最大个数
+typedef struct {
+	ElemType data[MaxSize];	//用静态数组存放队列元素
+	int front,rear;		// 队头指针和队尾指针
+} SqQueue;	
+```
+
+
+
 # 树
 
 # 图
