@@ -2797,3 +2797,39 @@ These leaders are living proof that prevention works and <font color="red"><u>th
     ②定语从句2：whose universal existence has removed much human labor.
 
     参考译文：因此，当代世界出现了越来越多的智能化设备。这些智能设备的存在我们几乎没有注意，但是它们的普遍存在已经代替了很多人类劳动。
+
+18. The robots will have to operate with less human supervision and be able to make at least a few decisions for themselves——goals that pose a real challenge.
+
+    词汇解析：
+
+    robot   n   机器人                 supervision     v    监督；监管                operate    v   操作；运行
+
+    goal    n    目标               （pose） challenge    （提出）挑战          have to 必须；不得不；只好
+
+    have to do sth 不得不做某事               least    adj   最少的（little的最高级）
+
+    重点语法：
+
+    ①定语从句：that pose a real challenge
+
+    参考译文：机器人不得不在更少的人类监管下运行，同时能够至少为自己做出一些决定——这些目标提出了真正的挑战。
+
+19. It is already well established that dissolved pharmaceutical compounds can impact the development and reproduction of fish, and scientists fear the increased presence of antibiotics in rivers could limit their effectiveness as medicines.
+
+    词汇解析：
+
+    effectiveness   n   有效性；效力                 presence         n      存在                       established      adj         确定无疑的
+
+    dissolved   adj   溶解的                pharmaceutical compounds  药类化合物        reproduction    n   繁殖
+
+    antibiotics     n   抗生素
+
+    重点语法：
+
+    ①句子主干：It is already well established that ...... and scientists fear ....
+
+    ②形式主语句：It is already well established that dissolved pharmaceutical compounds can impact the development and reproduction of fish
+
+    ③宾语从句：the increased presence of antibiotics in rivers could limit their effectiveness as medicines
+
+    参考译文：现在确定无疑的是，溶解在水中的药类化合物会影响鱼类的发育和繁殖。科学家担心河流中所含的抗生素日益增多会限制抗生素作为药品的有效性。
