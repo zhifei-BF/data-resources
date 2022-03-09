@@ -324,15 +324,91 @@
 
 14. action   n  行为；活动；功能
 
+    take steps   采取措施
+
+    Public-sector unions are prudent in taking actions.
+
+    公共部门在采取措施上非常地谨慎。
+
     in action   在运转；正在进行
 
     act   v  行动；起作用；表演  n  行为；法令
-
+    
     active   adj  积极的；活跃的；主动的
-
+    
+    passive  adj  被动的
+    
+    positive   adj  积极的；正极的
+    
+    negative   adj   消极的；负极的
+    
+    optimistic    adj   乐观的
+    
+    pessimistic   adj   悲观的
+    
     activate   vt   激活；使活动
-
+    
     activity   n  活动；行动
+
+15. discard   v  丢掉；舍弃
+
+    They should start by discarding California's lame argument.      
+
+    他们应该从舍弃加利福尼亚站不住脚的观点开始。
+
+    start by  从....开始
+
+    abandon    v  遗弃；放弃
+
+    reject      vt   拒绝；   n   不合格产品
+
+    turn  off  关掉
+
+    turn  down  声音调低
+
+    desert    n  沙漠     v   遗弃；舍弃
+
+    dessert   n   甜点、
+
+    give up  放弃
+
+    give in  屈服
+
+    throw  away  扔掉；丢弃
+
+    victory   n  胜利
+
+16. sight   n   视力；景象；眼界；见解    vt  看见；瞄准
+
+    eyesight    n   视力
+
+    sightseer    n  观光者；游客
+
+    tourist   n   游客
+
+    traveller    n   游客；旅客
+
+    visitor    n  访客
+
+    sight-seeing    adj  观光的    n   观光
+
+    insight    n  洞察力
+
+    insightful    adj  有深刻见解的；富有洞察力的
+
+    foresight   n   先见；远见
+
+    foresee    v    预见；预报
+
+    foresighted    adj    有先见之明的；深谋远虑的
+
+    farsighted    adj   有远见的
+
+    How bad do you want it.
+
+    你究竟有多想成功。
+
+17. 
 
 # 核心词汇3
 
@@ -435,6 +511,160 @@
      rebel   v  反抗
 
      参考译文：一个女人这辈子没造过反是不完整的。
+
+# 核心词汇4
+
+**address    n**
+
+Your address is the number of the house, flat, or apartment and the name of the street and the town where you live or work.
+
+flat   n  公寓；单元房           apartment   n  公寓
+
+你的地址是房子、单元房或公寓的号码，以及你居住或工作的街道和城镇的名称。
+
+Our officers arrived at the address: house, apartment, dwelling, habitation.
+
+dwelling  n  住处；寓所     
+
+我们的军官到达了地址：房子、公寓、住所、聚居地。
+
+the details of the place where someone lives or works, that you use to send them letters, emails etc.
+
+detail the information  详细描述信息
+
+send sb sth  双宾动词|给某人寄送某物  =  send sth to sb  = 
+
+某人居住或工作的地方的细节，你用来给他们写信、发电子邮件等。
+
+**address    v**
+
+If you address a group of people, you give a speech to them.
+
+address   v   演讲；演说 ； 向....说话
+
+give a speech  = give a talk to = give a lecture to  = 演讲
+
+lecture    n   演讲；讲课；讲座
+
+如果你向一群人讲话，你就要向他们发表演讲。
+
+If you address a problem or task or if you address yourself to it, you try to understand it or deal with it.
+
+address   vt   设法解决
+
+address sb = give speech to sb 向某人讲话
+
+address a problem = deal with the problem 解决应对该问题
+
+tackle v 解决               confront  vt  解决；处理          get down to  开始干；着手做           
+
+devote oneself to 致力于
+
+如果你解决了一个问题或任务，或者你自己解决了它，你就会试图理解它或处理它。
+
+preach to 告诫；说教
+
+When you are a student and you want to address your teacher, it's generally safer to call her Ms. and not address her by her first name, Esmeralda.
+
+address    vt   称呼     generally   adv  通常地			safer  adj   安全的
+
+address a person = call a person = 称呼某人
+
+当你是一名学生，你想称呼你的老师时，通常更安全的做法是称呼她女士，而不是直呼她的名字埃斯梅拉达。
+
+The Ukrainian president has mde an historic address in the House of Commons about the invasion by Russia.
+
+Ukrainian  adj   乌克兰的；乌克兰语；乌克兰人
+
+historic   adj  有历史意义的；
+
+address   n   演讲
+
+House of Commons  下议院；众议院
+
+invasion    n   侵略；侵犯
+
+Russia  俄罗斯
+
+make an historic address = deliver an historic speech = 发表历史性讲话
+
+乌克兰总统在下议院发表了关于俄罗斯入侵的历史性讲话。
+
+In areas that are important to the public wellbeing, numerous issues need to be addressed.——Li Keqiang
+
+public wellbeing 民生
+
+wellbeing  n  健康；安乐
+
+numerous  adj  很多的；众多的；许多的
+
+need to be addressed 需要被解决
+
+wellbeing  of  a country  繁荣富强
+
+民生邻域还有不少短板。——李克强
+
+His work emphasized the physical as well as the emotional wellbeing of children.
+
+as well as 以及；既.....又.....; 此外
+
+emphasize   v   重视  =  lay great importance to 
+
+physical health = physical wellbeing = 身体健康
+
+emotional  wellbeing = emotional fitness = 情感健康
+
+他的工作不仅重视孩子们的身体健康，同时也关注他们的的情感健康。
+
+We will work hard to prevent and stop gender and age discrimination in employment, and focus on addressing acute issues that are infringing upon employees' lawful rights and interests.——Li Keqiang
+
+坚决防止和纠正性别、年龄等就业歧视，着手解决侵害劳动者合法权益的突出问题。
+
+We will work hard to do sth 我们要努力做某事
+
+We will try our best to do sth 我们将尽最大努力去做某事
+
+try our best 尽我们最大的努力
+
+prevent and stop 预防和阻止
+
+discrimination   n   歧视；区别对待
+
+focus on 关注
+
+address acute issues 解决尖锐问题
+
+**infringe   v**
+
+If someone infringes a law or a rule, they break it or do something which disobeys it.
+
+infringe sth = break sth = disobey sth = 违背
+
+如果有人违反了法律或规则，他们就会违反法律或规则，或者做出违反法律或规则的行为。
+
+If something infringes people's rights, it interferes with these rights and does not allow people the freedom they are entitled to.
+
+right  n  权利    
+
+interfere with sth 干预
+
+allow people the freedom 给人们自由
+
+the freedom (that) they are entitled to   他们被赋予的自由
+
+如果某件事侵犯了人们的权利，它就会干涉这些权利，不允许人们享有应有的自由。
+
+infringe on/upon sth   侵犯
+
+If something infringes on/upon someone's rights or freedom, it takes away some of their rights or limits their freedom.
+
+如果某件事侵犯了某人的权利或自由，就会剥夺他们的一些权利或限制他们的自由。
+
+These restrictions infringe upon basic human rights.
+
+restriction  n   限制；约束
+
+这些限制侵犯了基本的人权。
 
 # 哪些情况下字母要大写？
 
@@ -703,6 +933,136 @@ a 和 an 为不定冠词，the 为定冠词。
 球类棋类与三餐；
 
 还有交通工具前。
+
+# 代词
+
+代词：名词的替身
+
+## 人称代词
+
+人称代词：用来代替前面提到过的人或物。
+
+| 人称 | 我   | 你   | 他   | 她   | 它   | 我们 | 你们 | 他/她/它们 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---------- |
+| 主格 | I    | you  | he   | she  | it   | we   | you  | they       |
+| 宾格 | me   | you  | him  | her  | it   | us   | you  | them       |
+
+<font color="red">I</font> love China.
+
+<font color="red">He </font> is a teacher.
+
+<font color="red">He </font> thought it was <font color ="red">her</font>.
+
+I dont like <font color="red">them</font>.
+
+## 物主代词
+
+物主代词：表示所有关系。
+
+| 人称     | 我的 | 你的  | 他的 | 她的 | 它的 | 我们的 | 你们的 | 他/她/它们的 |
+| -------- | ---- | ----- | ---- | ---- | ---- | ------ | ------ | ------------ |
+| 形容词性 | my   | your  | his  | her  | its  | our    | your   | their        |
+| 名词性   | mine | yours | his  | hers | its  | ours   | your   | theirs       |
+
+<font color="red">Tips(小技巧；小窍门)：形容词性物主代词 + 名词！</font>
+
+Please open<font color="red"> your </font> eyes.
+
+The book is<font color="red"> mine</font>.
+
+I don't want <font color="red">your</font> book, I want <font color="red">hers</font>.
+
+This is not <font color="red">yours</font>. It's <font color="red">theirs</font>.
+
+## 反身代词
+
+反身代词：.......自己。
+
+| 人称     | 我自己 | 你自己   | 他自己  | 她自己  | 它自己 | 我们自己  | 你们自己   | 他/她/它们自己 |
+| -------- | ------ | -------- | ------- | ------- | ------ | --------- | ---------- | -------------- |
+| 反身代词 | myself | yourself | himself | herself | itself | ourselves | yourselves | themselves     |
+
+<font color="red">常考点：by + 反身代词！”通过自己做“</font>
+
+That is not <font color="red">my</font> kite. That kite is very small, but <font color="red">mine</font> is very big.
+
+The dress is <font color="red">hers</font>. Give it to <font color="red"> her</font>.
+
+Is this <font color="red">your</font> watch ? No, it's not <font color="red">mine</font>.
+
+<font color="red">He</font> is my brother. <font color="red">His</font> name is Jack.
+
+<font color="red">Our</font> dresses are red. What color are <font color="red">yours</font>?
+
+## 不定代词
+
+不具体指明代替任何特定名词或形容词的代词。
+
+**some & any** 
+
+意为”一些“。
+
+I have <font color="red">some</font> beautiful pictures.
+
+Is there<font color="red"> any </font> water in the bottle?
+
+<font color="red">some 多用于肯定句，any 多用于否定句/疑问句。</font>
+
+当some 用于表建议的疑问句中，可使语气变得委婉。
+
+eg：Would you like <font color="red">some</font> water?
+
+当any 用于肯定句中，意思摇身一变成“任何”。
+
+eg：You may come at <font color="red">any</font> time.
+
+**many & much**
+
+意为“许多”。
+
+<font color="red">Many </font> students like English.
+
+There is <font color="red">much </font> milk in the bottle.
+
+many + <font color="red">可数名词复数</font>, much + <font color="red">不可数名词</font>
+
+**few, a few & little , a little**
+
+| few      | 很少（用于否定句） | 可数名词   |
+| -------- | ------------------ | ---------- |
+| a few    | 一些（用于肯定句） | 可数名词   |
+| little   | 很少（用于否定句） | 不可数名词 |
+| a little | 一些（用于肯定句） | 不可数名词 |
+
+I have <font color="red">few</font> friends here. 在这里我几乎没有朋友。
+
+I have <font color="red">a few</font> friends here. 在这里我有些朋友。
+
+There<font color="red"> is little</font> water in the bottle. 瓶子里几乎没水了。
+
+There<font color="red"> is a little</font> water in the bottle. 瓶子里还有一点水。
+
+**both & all**
+
+意为“.......都”。
+
+Lily and Lucy are my students. <font color="red">Both</font> of them are good at English.
+
+<font color="red">All</font> Chinese people use chopsticks（筷子）.
+
+both "两者都 / = 2"
+
+all "三者或三者以上都 / >= 3"
+
+**either & neither**
+
+either "(两者中)任何一个"
+
+neither "(两者中)没有一个"
+
+He could write with <font color="red"> either </font>hand.
+
+I tried on two dresses, but <font color="red">neither</font> fitted me.
 
 # 时态
 
@@ -2833,3 +3193,49 @@ These leaders are living proof that prevention works and <font color="red"><u>th
     ③宾语从句：the increased presence of antibiotics in rivers could limit their effectiveness as medicines
 
     参考译文：现在确定无疑的是，溶解在水中的药类化合物会影响鱼类的发育和繁殖。科学家担心河流中所含的抗生素日益增多会限制抗生素作为药品的有效性。
+
+20. As much as 46 percent of respondents say crime is the most urgent issue facing the mega city, making it the top issue while affordable housing and homelessness issues have 14 percent and 9 percent in favor, respectively.
+
+    词汇解析：
+
+    respondent   n   受访者；调查对象                   urgent    adj   紧急的；急迫的           urgency    n 紧急；急迫
+
+    mega city 大城市（人口超过1000万）        affordable    adj  可负担的；可以承担的           
+
+    afford     v  负担；承担                             unaffordable   adj 不可负担的；不能承担的
+
+    in favor  被喜爱；被支持                        respectively    adv    分别地；依次地
+
+    as much as 多达
+
+    重点语法：
+
+    ①句子主干：respondents say .....
+
+    ②定语：As much as 46 percent of 
+
+    ③宾语从句：crime is the most urgent issue facing the mega city
+
+    ④状语：making it the top issue
+
+    ⑤状语从句：while affordable housing and homelessness issues have 14 percent and 9 percent in favor, respectively
+
+    参考译文：多达46%的受访者认为犯罪是这座特大城市面临的最紧迫问题，这也成为该市面临的首要问题。其次分别有14%和9%的受访者认为可负担住房问题和无家可归者是该市面临的最紧迫问题。
+
+21. One more reason not to lose sleep over the rise in oil prices is that it has not occurred against the background of general commodity-price inflation and global excess demand.
+
+    词汇解析：
+
+    lose sleep over 为.....失眠、焦虑                           occur against 与....相违背                 background  背景
+
+    commodity-price inflation 物价通胀                      excess  adj  过量的                  demand  n 需求
+
+    重点语法：
+
+    ①后置定语：not to lose sleep over the rise in oil prices
+
+    ②主干：One more reason ...... is
+
+    ③宾语从句：that it has not .......
+
+    参考译文：另一个不要为油价上涨而失眠的理由是此次上涨没有与通常物价通胀和全球过量需求的背景相违背。
