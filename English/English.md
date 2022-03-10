@@ -408,7 +408,723 @@
 
     你究竟有多想成功。
 
-17. 
+17. emerging    adj  新兴的；出现的
+
+    emerging technology  新兴科技
+
+    emerging  nation  新兴国家
+
+    Periodically review their emerging strengths and weaknesses with them.
+
+    定期地跟他们一起评论新出现的优势和劣势。
+
+    periodically   adv   定期地
+
+    review    v  评论
+
+    strength   n  优势
+
+    weakness   n  劣势
+
+    扩展：merge,mers (= to sink) 沉没
+
+    emerge   v   出现；浮现
+
+    emergence   n  出现；浮现
+
+    emergency    n   紧急情况；突发事件
+
+    emergency room  急诊室
+
+    merger   n   （企业等的）合并；并购
+
+    M&A = merger and acquisition = 合并和收购 = 并购
+
+    immerse   vt   沉浸；使陷入
+
+    be immersed in 沉浸在某事中
+
+18. loom   v   隐隐出现；逼近    n   隐隐呈现的事物；织布机
+
+    looming   adj   逼近的；隐约出现的
+
+    boom  n  繁荣   v  使兴旺；发隆隆声
+
+    doom   n  厄运；末日
+
+    be doomed to do sth 注定做某事
+
+    booming    adj   繁荣的
+
+    bloom    n   花；繁荣    v  开花；繁荣
+
+    blossom   n 花   v  开花；繁荣
+
+    flourish    v   繁荣
+
+    thrive    v  繁荣
+
+    prosper   v  繁荣
+
+    gloom   n  昏暗；沮丧
+
+    gloomy   adj   昏暗的；沮丧的
+
+19. imitate   v  伪装；模仿
+
+    imitation    n  伪装；模仿
+
+    sting    v   叮；刺；蛰
+
+    stimulate   vt  刺激；激励
+
+    stimulation   n   刺激；激励
+
+    simulate   vt  模仿；冒充
+
+    simulation   n  模仿；冒充
+
+    copy   n  副本； v  复制
+
+    model    n  模型；模特儿   vt  模拟；模仿
+
+    model on  模仿；模拟
+
+    modal  adj  模型的； 情态的    n  情态动词
+
+    Bing Dwen Dwen  冰墩墩
+
+20. question    n  问题；疑问   vt   询问；怀疑
+
+    <font color="red">扩展：quire，quest （=try to get； try to ask）寻求；要求</font>
+
+    in question 讨论中的；成问题的
+
+    questionable  adj   可疑的；有问题的
+
+    doubtful   adj   可疑的
+
+    suspicious   adj   可疑的
+
+    skeptical    adj  可疑的
+
+    unquestionable    adj   毫无疑问的
+
+    There is no doubt that .........     毫无疑问的是......
+
+    quest   n/v    追求；寻找
+
+    in the quest for 为了寻求/追求
+
+    request    v/n   请求；需要
+
+    relate    v   联系；陈述
+
+    relic    n    遗产；遗迹
+
+    reluctant   adj   不情愿的
+
+    require    vt   需要；要求；命令
+
+    requirement   n  要求；必要条件
+
+21. communication     n   交流；通讯
+
+    social  communication  社交
+
+    international communication  国际交流
+
+    communicate    v   通讯；传达；交流
+
+    telecommunication    n   电信；电信学    tele-  远距离的
+
+    telescope   n   望远镜
+
+    community    n   社区；【生态】群落；界；邻域
+
+    the scientific community 科学界
+
+    land community   陆地生物群落
+
+    commute   v  通勤
+
+    commuter   n  通勤者
+
+    immune     adj   免疫的；免于.....的
+
+    be/remain  immune  to  不受....的影响
+
+    The United States remain somehow immune to the nation's assimilative power.
+
+    美国在某种程度上仍然不受国家同化力的影响。
+
+    vaccine   n  疫苗
+
+22. professional     adj   职业的；专业的    n   专业人员
+
+    non-professional   adj  非专业的
+
+    <font color="red">扩展：fess  （=to speak） 说</font>
+
+    profess   v   教授；以....为职业；声称；承认
+
+    profession    n   职业； 行业； 声称； 承认
+
+    professor    n   教授
+
+    confess   v  坦白；承认；忏悔
+
+    confession    n  坦白；承认；忏悔
+
+    manifest    adj   明显的   vt   显示；证明
+
+    obvious    adj   明显的
+
+    evident  adj   明显的
+
+23. elite  n  出类拔萃的人；精英   adj   精英的；优秀的  lit = lect = 选择
+
+    excellent   adj  卓越的；杰出的
+
+    ceiling   n  天花板    ceil = cel = 高
+
+    excel   v  精通；擅长
+
+    excel in = be good at = do well in = 擅长
+
+    outstanding    adj    杰出的；显著的
+
+    stand out 突出
+
+    prominent   adj   突出的；杰出的；卓越的     min = 突出；伸出
+
+    eminent    adj  杰出的；卓越的
+
+    preeminent    adj   杰出的；卓越的
+
+    exceptional   adj   例外的；优秀的；异常的
+
+    exceptional children   特殊儿童
+
+    except    prep/conj   除....之外     v   把.....除外      cept  拿
+
+    besides   prep   除了.......还有
+
+    splendid    adj   辉煌的；杰出的
+
+24. pronounced    adj   显著的；讲出来的
+
+    扩展：nounce  （= to  say ）说
+
+    pronounce   vt   发音；宣布；宣判
+
+    pronunciation    n   发音；宣判
+
+    announce   vt   宣布；声称
+
+    sentence     n   句子；判决；宣判
+
+    sentence sb to death  判处某人死刑
+
+25. annual   adj   每年的；年度的     n  年报；年刊
+
+    扩展：annu, ann, anni (=year) 年
+
+    annual study  年度研究
+
+    pension   n  退休金；养老金
+
+    allowance   n  津贴
+
+    subsidy    n  津贴；助学金；奖金
+
+    bonus    n   奖金；红利
+
+    benefit    n  利益
+
+    annuity   n  年金（常为养老金）
+
+    anniversary   n   周年纪念
+
+    manual   adj   手工的   n   手册；指南    man-   手
+
+    menu   n  菜单；菜肴
+
+    Stick to，stand out. Give up, get out.
+
+    熬得住，出众。熬不住，出局。
+
+26. conceive   v  想出；认为；怀孕
+
+    扩展：ceive，cept（=to take，to hold）拿
+
+    receive   v  收到；接待
+
+    reception    n  招待会；接待
+
+    warm reception  热情接待
+
+    receptist   n   接待员
+
+    receipt   n   收据
+
+    Mad parents are more likely to conceive children in springtime.
+
+    疯狂的父母更可能在春天怀上孩子。
+
+    springtime  春天；春季；春令     be likely to  有可能；很可能       mad  adj   疯狂的
+
+    conception    n  思想；【抽象】概念；构想；怀孕
+
+    concept   n  【书本】概念；观念
+
+27. conduct   vt   指挥；传导；表现   n   行为
+
+    <font color="red">扩展：duc，duce，duct（=to lead）引导</font>
+
+    Your outline should smoothly conduct you from one point to the next.
+
+    你的提纲应该自然地引导你从一点到下一点。
+
+    outline   n   大纲；提纲     smoothly   adv  平稳地；流畅地；平滑地
+
+    conductor   n  指挥；售票员；导体
+
+    semi-conductor    n   半导体
+
+    conductivity     n   传导性；传导率
+
+    conductive     adj     传导的
+
+    conducive     adj    有利于.....的
+
+    be conducive to 有利于
+
+    be beneficial to 有利于
+
+    misconduct     vt    干坏事   n   不正当的行为
+
+    mistake   n  错误
+
+    mislead   v   误导
+
+    mislike    v/n   厌恶
+
+    misunderstand     vt   误会；误解
+
+28. psychology    n   心理学
+
+    <font color="red">扩展：ology  （=study）  研究；学科</font>
+
+    biology    n  生物学   bio- 生命；生物
+
+    Hi-tech   高科技
+
+    technology     n  技术；工艺
+
+    biotechnology     n   生物技术
+
+    geology    n  地质学   geo- 地；地球
+
+    gaea   n   大地
+
+    galaxy    n   星系；银河
+
+    Gaea   盖亚
+
+    Zeus  宙斯
+
+    Apollo   阿波罗
+
+    milky way  银河
+
+    lily  n  百合花    adj   纯洁的
+
+    ecology   n    生态学    eco-生态；经济
+
+    anthropology   n  人类学   authropo- 人；人类
+
+    sociology   n  社会学   soci-社会
+
+    methodology    n   方法学；方法论
+
+    archaeology    n  考古学
+
+    archaeological   adj   考古学的；考古的；考古学上的
+
+    astrology     n   占星术；占星学
+
+    astronomy    n  天文学
+
+    astronaut     n   宇航员
+
+    astrological      adj   占星术的；占星学的
+
+    astrological signs   星座
+
+    sign   n  符号
+
+    Get up，Keep moving.
+
+    站起来，勇往直前
+
+29. involve   vt    包含；使参与；牵涉
+
+    take part in = get involved in = participate in = 参与
+
+    His first experiment, nearly 30 years ago, involved memory.
+
+    近30年前，他的第一个实验涉及记忆。
+
+    experiment    n  实验     nearly   adv  几乎；差不多；将近
+
+    <font color="red">扩展：volve，volut （= to turn）转动</font>
+
+    Volvo  沃尔沃汽车
+
+    evolve    v   （使）进化；（使）发展
+
+    evolve to 发展为；进化为
+
+    evolution   n  进化；发展
+
+    the theory of evolution 进化论
+
+    revolution    n  革命
+
+    revolutionize   vt  革命；完全变革；彻底改变
+
+    revolutionary     adj   革命的；  n  革命者
+
+30. subject     n  主题；主语；学科；（试验等的）对象   adj （to）  受....支配的；易遭受.....的  vt （to）  使服从；使遭受
+
+    The importance of education in poor countries is subject to groundless doubts.
+
+    贫穷国家教育的重要性受到毫无根据的怀疑。
+
+    groundless      adj   无理由的；无根据的
+
+    The very act of being experimented upon changed subjects' behavior.
+
+    对改变了的受试者的行为进行实验的行为。
+
+    <font color="red">扩展：ject （= to throw）扔</font>
+
+    subjective   adj  主观的  
+
+    inject    vt   注射；注入
+
+    inject A with B 用B注入A
+
+    injection    n   注射；注射剂
+
+    eject  vt   喷出；驱逐；
+
+    object   n  物体；目的；宾语   vi   （to） 反对
+
+    objection    n   异议；反对
+
+    objective   adj   客观的；不带偏见的      n  目标
+
+    unbiased   adj   无偏见的；公正的
+
+    unprejudiced     adj   无偏见的；公正的
+
+    impartial    adj   无私的；公正的
+
+    purpose    n   目的
+
+    destination    n   目的地；终点
+
+    detective   n  侦探；警探；私人侦探
+
+    project    n   计划；项目；工程   vt   投射；放映
+
+    projection     n   投射；放映
+
+    project hope  希望工程
+
+    projector    n   投影仪；
+
+    reject    vt    解决；退回   n  不合格产品
+
+    deny    v    拒绝；否认
+
+    turn down   拒绝；减少
+
+    decline   v   谢绝；减少；下降；衰弱
+
+    refuse   v   拒绝；回绝
+
+    May we strive to live the brightest light in our own world.
+
+    愿我们努力向上活成自己世界里最亮的光。
+
+31. genetic  adj  遗传（学）的   n （-s）   遗传学    -ics 学
+
+    economics    n  经济学
+
+    politics    n  政治学
+
+    <font color="red">gener，gen，gn （= to produce） 生产；产生</font>
+
+    genetic diseases 遗传疾病
+
+    gene editing  基因编辑
+
+    genetically   adv   遗传学地；基因地
+
+    genetically speaking  从遗传的角度来说
+
+    gene   n  基因
+
+    general    adj   一般的；总的    n  将军
+
+    the general public 大众
+
+    generally    adv  通常地；普遍地；一般地
+
+    generally speaking  总的来说
+
+    transgene  n    转基因
+
+    generate    vt   产生（光、热、电等）；引起；导致
+
+    generate electricity  发电
+
+    generation    n  一代人（或产品）
+
+    the younger generation  年轻一代人
+
+    four generations under one roof 四世同堂
+
+    generous    adj    慷慨的；宽宏大量的
+
+    be generous  to  对.....慷慨/宽宏大量
+
+    mean   adj  吝啬的；
+
+32. random   adj   任意的；随机的
+
+    trivial   adj   琐碎的
+
+    necessary   adj  必要的
+
+    necessity    n   必要
+
+    It is of great necessity for sb to do sth       对于某人来说很有必要做某事
+
+    It is necessary for sb to do sth      对于某人来说很有必要做某事
+
+    inevitable    adj   必然的；不可避免的
+
+    evitable   adj   可以避免的
+
+    invade   v    入侵；侵略
+
+    unavoidable   adj  不可避免的
+
+    inescapable   adj  不可避免的
+
+    escape   v  逃跑；逃走
+
+    escapable   adj  可以避免的
+
+    ransom   n  赎金；  vt  赎回
+
+    The only thing harder than letting go is moving on.
+
+    唯一比放手更难的是继续前进。
+
+    letting go   放手
+
+    harder   adj   艰难的
+
+33. cognitive   adj   认识的；认识能力的
+
+    <font color="red">扩展：gno，gnore（=to know）知道；了解</font>
+
+    cognition   n  认识；知识
+
+    recognize   v   认识；认出
+
+    diagnose   vt 诊断；判断
+
+    diagnosis    n   诊断
+
+    bad  diagnosis  恶性诊断
+
+    mis diagnosis  误诊
+
+    ignore   vt  不顾；（故意）忽视    i- = im 不    gnor 知道
+
+    overlook   vt   忽视；（故意/非故意）忽略
+
+    neglect   vt   （忽视了理应做的事情）忽视
+
+    neglect one's work 玩忽职守
+
+    ignorant   adj  无知的
+
+    ignorance    n  无知；愚昧
+
+34. intuitive    adj   直觉的
+
+    The act of memorizing is more of a cognitive exercise than an intuitive one.
+
+    记忆的行为更多的是一种认知练习，而不是一种直觉练习。
+
+    more of A than B     与其说是B不如说是A
+
+    intuitive response  直觉反应
+
+    intuition     n   直觉
+
+    tuition    n    学费；教学；讲授
+
+    instinct    n   本能；直觉
+
+    stimulate   v   刺激
+
+    simulate   v    模仿
+
+    instinctive    adj   直觉的
+
+    inborn     adj     天生的；先天的
+
+    inborn differences 先天差异
+
+35. exhibit    vt    显示；展览
+
+    show   v   显示；展示
+
+    display     v    展示
+
+    demonstrate    v   显示；展示
+
+    unveil    v  展示；揭幕
+
+    veil    n  面纱；面罩
+
+    reveal    v  显示；揭示
+
+    illustrate   v  显示
+
+    manifest   vt  显示；表明
+
+    uncover   vt  发现；揭开
+
+    扩展：habit，hibit （= to hold）拿
+
+    exhibition   n  展览（会）
+
+    inhibit   vt   抑制，禁止
+
+    prohibit   vt   抑制；禁止
+
+    inhibit/prohibit/stop/ban/prevent/keep sb from doing sth 阻止某人做某事
+
+    keep sb doing sth 让某人一直做某事
+
+36. immediate   adj   立即的；直接的；紧靠的
+
+    Our immediate future is hard to conceive.
+
+    我们眼下的未来很难想象。
+
+    an immedicate cause 直接原因
+
+    instant   adj  立即的
+
+    instant noodles  方便面
+
+    instant coffee  速溶咖啡
+
+    prompt    adj   立刻的； vt   促进
+
+    direct    adj   直接的   vt  指挥；管理
+
+    director    n   主任；导演
+
+    program director 项目负责人
+
+37. concentrate    v  专心于；集中；聚集；合并
+
+    concentrate on = focus on = pay attention to = 聚焦于；集中于
+
+    Concentrate on what you are saying.
+
+    集中精力听你在说什么。
+
+    <font color="red">扩展：centr（=center）中心 </font>
+
+    center   n  中心；vt 集中
+
+    in the center of   在......中心
+
+    center on 集中
+
+    concentration    n  集中；专心；合并
+
+    central    adj   主要的；中心的
+
+38. pursuit   n  追求；（花时间和精力的）事；消遣
+
+    <font color="red">扩展：sequ，，secut（= to follow）跟随 </font>
+
+    pursue vt 追赶；追求；从事
+
+    pursuit one's goals 追求目标
+
+    consequence   n  结果；后果；重要性
+
+    in consequence 结果；因此
+
+    consequent    adj   作为结果的；随之发生的
+
+    consequently    adv  所以；因此
+
+    accordingly    adv   因此；所以 = therefore = thus = hence = henceforth
+
+    subsequence   n  随后；接着（尤指结果、效果）
+
+    subsequent   adj   随后的；后来的
+
+    subsequently   adv    随后地；后来地
+
+39. autobiography    n  自传
+
+    <font color="red">扩展：graph（= to write；to draw）写，画</font>
+
+    autobiographical   adj  自传的
+
+    automobile    n  汽车；adj  自动的
+
+    photograph   n  照片
+
+    ATM   (= automated teller machine ) 自动取款机
+
+    biography     n   传记
+
+    biographical   adj   传记的；生平的
+
+    biographical  details  生平细节
+
+    autography     n   （名人）亲笔签名
+
+    geography   n  地理学
+
+    geology   n   地质学
+
+    signature    n   （素人）签名
+
+    Life is tough, but we are tougher.
+
+    生活很艰难，但我们更坚强。
+
+    tough   adj  艰苦的
+
+    tougher   adj   坚硬的
 
 # 核心词汇3
 
@@ -3239,3 +3955,81 @@ These leaders are living proof that prevention works and <font color="red"><u>th
     ③宾语从句：that it has not .......
 
     参考译文：另一个不要为油价上涨而失眠的理由是此次上涨没有与通常物价通胀和全球过量需求的背景相违背。
+
+22. It identifies the undertreatment of pain and the aggressive use of "ineffectual and forced medical procedures that may prolong and even dishonor the period of dying" as the twin problems of end-of-life care.
+
+    词汇解析：
+
+    identify A as B    认为A是B
+
+    pain    n   疼痛；痛苦    vt  使痛苦；使疼痛
+
+    undertreatment   治疗不足
+
+    aggressive    adj    激进的；过激的
+
+    forced    adj   强制的
+
+    prolong    v    延长
+
+    dishonor    v     羞辱；使.....蒙羞
+
+    period   n  一段时间
+
+    end-of-life care 临终护理
+
+    twin problems   两大（相关的）问题
+
+    重点语法：
+
+    ①定语从句：that may prolong and even dishonor the period of dying
+
+    参考译文：它认为疼痛的治疗不足和过激使用无效且强制的医疗程序是临终护理的两大问题。这些程序可能会延长死亡过程，甚至让死亡变得毫无尊严。
+
+23. With biodiversity in decline worldwide and humans relentlessly altering underwater soundscapes, there is a need to document, quantify and understand the sources of underwater animal sounds before they potentially disappear.
+
+    词汇解析：
+
+    document   v   记录；记载
+
+    biodiversity     n    生物多样性
+
+    decline     n    减少；衰退
+
+    relentlessly    adv   残酷地；无情地
+
+    alter    v   改变；改动
+
+    underwater soundscape  水下声景
+
+    quantify    v    量化；测量....的数量
+
+    potentially      adv    潜在的
+
+    重点语法：
+
+    ①句子主干：there is a need to document, quantify and understand the sources
+
+    ②定语：of underwater animal sounds
+
+    ③状语：With biodiversity in decline worldwide and humans relentnessly altering underwater soundscapes
+
+    ④状语从句：before they potentially disappear
+
+    参考译文：随着世界范围内生物多样性下降和人类无情地改变水下声景，我们有必要在水下动物声音潜在消失之前，记录、量化和了解它们的来源。
+
+24. They found that the principal requirement for what is called "global cascades" —— the widespread propagation of influence through networks —— is the presence not of a few influentials but, rather, of a critical mass of easily influenced people.
+
+    词汇解析：
+
+    principal   adj   主要的
+
+    requirement    n    要求
+
+    what is called  所谓的
+
+    widespread    adj   普遍的；广泛的；分布广的
+
+    propagation   n  传播；宣传；培养
+
+    参考译文：他们发现，所谓的“全球瀑布流”——某种影响经由“社交网络”的广泛传播——形成的首要条件并不是少数几个有影响力人士的存在，而是大量必不可少的易受影响人士的参与。
