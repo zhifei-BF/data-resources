@@ -1126,6 +1126,688 @@
 
     tougher   adj   坚硬的
 
+40. assert   vt  声称；断言；维护；坚持（认为）
+
+    assertion    n   断言；声称；主张；结论
+
+    firm    adj   牢固的；坚定的  n  公司
+
+    affirm   v   肯定；断言
+
+    allege    vt   宣称；断言
+
+    lecture   n   演讲
+
+    claim    v   声称；索赔；认领   n  声明；要求
+
+    luggage  claim  行李认领
+
+    scientific claim  科学声明
+
+    declare   vt   宣布；断言；宣称
+
+    declaration    n   宣布   
+
+    the declaration of independence 独立宣言
+
+41. overrate   vt   过高估计；高估
+
+    Their work makes a rather startling assertion: the trait we commonly call talent is hightly overrated.
+
+    他们的研究得出了一个相当惊人的结论：我们通常称之为天赋的特质被高估了。
+
+    startling  adj   惊人的；让人震惊的
+
+    trait   n   特质；特征；特点
+
+    rate   n  比率；速度；  v   认为；评估
+
+    rat    n  老鼠；耗子   v  捕鼠；背叛
+
+    heart rate  心率
+
+    interest  rate  利率
+
+    overestimate   v/n  高估
+
+    estimate   v/n    估计；估价
+
+    overstate   v  高估
+
+    state    n   国家；州；情形  vt  声明；陈述
+
+    exaggerate    v  高估；夸张
+
+    underrate    v    低估
+
+    underestimate   v   低估
+
+    understate    v  低估；轻描淡写
+
+    downgrade    v   降级；低估
+
+    upgrade    v   升级
+
+42. stress   n  压力；重音；强调   vt   强调；重读
+
+    spotlight    n   聚光灯；   vt   突出；强调
+
+    highlight    vt    突出；强调  n  最精彩的部分
+
+    shadow     n   阴影
+
+    emphasize    vt   强调
+
+    emphasis    n   重点；强调
+
+    put/place  emphasis on  强调
+
+    The current emphasis on standardized testing highlights analysis and procedure.
+
+    目前对标准化测试的重视强调了分析和程序。
+
+    underline   vt  强调；在......下面划线   n   下划线
+
+    bold     adj   大胆的；英勇的；鲁莽的；黑体的
+
+    bald      adj    秃顶的；光秃的
+
+    italic     n   斜体字  adj   斜体的
+
+    underlie    vt   位于.....之下；成为......的基础
+
+    underlying     adj   潜在的；根本的
+
+    The one who wants to wear a crown must bear the weight.
+
+    欲戴王冠，必承其重。
+
+43. introduction     n   介绍；引进；引言
+
+    self-introduction    自我介绍
+
+    It's probably best to write the introduction last. (to write the introduction last 是真正的主语)
+
+    最好最后写一篇介绍。
+
+    <font color="red">扩展：duc，duce，duct（= to lead ）引导</font>
+
+    introduce     vt   介绍；引进
+
+    produce    n   农产品   vt  生产；繁殖
+
+    production      n   生产；（抽象）产品；（研究）成果
+
+    product     n  （工业）产品；作品
+
+    productive    adj   生产的；多产的
+
+    productivity    n   生产力
+
+    humanity's productivity  人类的生产力
+
+    reduce    vt   减少；使沦落
+
+    reduce from A to B 使.....从A沦落为B
+
+    reduction     n   减小；下降
+
+    Now a pink slip, a bad diagnosis, or a disappearing spouse can reduce a family from solidly middle class to newly poor in a few months.
+
+    现在，一张解雇通知书、一个糟糕的诊断或一个失踪的配偶都可以在几个月内让一个家庭从稳固的中产阶级变成新的穷人。
+
+    pink slip 解雇通知书
+
+    lip   n  嘴唇
+
+    lipstick    n   口红
+
+    diagnosis    n  诊断；判断
+
+    disappear    v   消失；不见；失踪
+
+    spouse    n   配偶
+
+44. process   n  程序；过程；进程   v   加工；处理；列队行进
+
+    process information  加工信息
+
+    processor   n   处理器
+
+    CPU = central process unit
+
+    <font color="red">扩展：cede，ceed，cess （=to go ）走</font>
+
+    access   n  通道；进入；使用  vt  进入；使用
+
+    assess  v  评估
+
+    asset   n  资产
+
+    have/gain access to 进入/获得/使用
+
+    accessible   adj   可进入的；可获得的
+
+    accessibility    n   可接近； 可以获得
+
+    available   adj   空闲的
+
+    concede    vt   （不情愿地）承认；退让
+
+    concession   n   让步；妥协；承认
+
+    make some concession  做出妥协
+
+    compromise    n   妥协；退让；折中
+
+    exceed    vt  超过；越出
+
+    excess      n   过量；超过   adj   过量的
+
+    an excess of  大量；许多
+
+    excessive    adj   过多的；过度的
+
+45. require   vt   需要；要求
+
+    <font color="red">扩展：quire，quest （= try to get； try to ask）寻求，要求</font>
+
+    request  vt/n   请求；要求
+
+    question   n  问题； vt  问问题；怀疑
+
+    questionable   adj  可疑的； 有问题的
+
+    quest   v/n    寻求；追求
+
+    in the pursuit of = in the quest for = 为了追求
+
+    acquire   vt   取得；获得
+
+    acquisition     n   获得；收购
+
+    Acquired Immune Deficiency Syndrome 获得性免疫缺陷综合征（艾滋病）
+
+46. dominate   v  统治、支配、在.....中占首要地位
+
+    <font color="red">扩展：dom （=home）家</font>
+
+    dome   n  圆屋顶
+
+    the dome of the sky 苍穹
+
+    dominant    adj   支配的；统治的
+
+    predominant   adj   显著的；占绝对主导地位的
+
+    domestic   adj   家内的；国内的；驯养的
+
+    present    n   礼物   v  呈现
+
+    gross  demostic product 国内生产总值
+
+    gross national product 国民生产总值
+
+47. feature   n  特征；面貌；特写   vt   特写；突出；由.....主演
+
+    feather    n   羽毛
+
+    feature A as B 由A主演B
+
+    character    n   特点；性格；角色
+
+    characteristic   adj   典型的；n  特征；特色
+
+    characterize   vt  具有........的特征
+
+    be best characterized by 典型特征是
+
+    trait   n  特点；品质；少许
+
+    a trait of   一点点；少许
+
+    linguistic  trait  语言特征
+
+48. analogous   adj  类似的
+
+    be analogous to = be similar to = 与.....类似
+
+    <font color="red">扩展：log（=saying）说</font>
+
+    dialogue   n  对话
+
+    dialog   n  对话
+
+    monologue   n  独白   mono-  单个，一个
+
+    analog   n  类似（物）
+
+    analogy   n   类似；类比（更为抽象）
+
+    compare   v   比较；将.....比作
+
+    compare A to B = liken A to B = 把A比作B
+
+    comparison     n  比较（相同）；比喻
+
+    contrast   v/n   对比（不同）
+
+    in contrast 与....相比；正相反 = by contrast 相比之下；相形之下
+
+49. envision   vt   想象；预想
+
+    vision   n  视力；美景；想象力； vt  想象；显现
+
+    envisage   vt   面对；想象
+
+    imagine   v   想象；猜想
+
+    imaginable   adj   可以想象的
+
+    image    n  图片   
+
+    image maximum  图像最大化；巨幕
+
+    expect   v  期望；认为
+
+    except       prep    除了
+
+    exclude   v  排除    
+
+50. govern    v  管理；支配；统治；控制
+
+    governor    n   统治者；州长
+
+    control    n/vt   控制；管理
+
+    remote control        遥控器
+
+    controllable    adj    可控的
+
+    regulate    vt    调节；规定；控制
+
+    regulation   n  规则；管理；控制
+
+    manipulate    vt   操纵；控制
+
+    curb     n   勒马的链条   v/n   控制；约束
+
+    operate   v  操作；经营；动手术
+
+    operation    n   操作；控制；手术
+
+    cooperate    v    合作；配合；协助
+
+    corporate    adj   公司的
+
+51. average    n  平均；平均数  adj  平均的；普通的   vt   算出.....的平均数
+
+    on average            平均；普通
+
+    the average readers    普通的读者
+
+    the average people  普通人
+
+    averagely    adv   平均地；一般地
+
+    common    adj   共同的；普通的   n  平民
+
+    common sense  常识
+
+    mean    vt   表示.....的意思；打算  n  平均    adj   吝啬的；卑鄙的；平均的
+
+    mean to do = plan to do = 打算做.....
+
+    generous   adj   慷慨的
+
+    stingy   adj   小气的；吝啬的
+
+    shabby    破旧的；低劣的；下流的
+
+52. coincide    vi   同时发生；相符
+
+    扩展：cid（=to fall）落下
+
+    accident    n  事故；意外
+
+    by accident = by chance = 偶然地
+
+    coincidence    n  巧合；一致；符合
+
+    coincident    adj   一致的；符合的
+
+53. philosopher    n  哲学家；哲人
+
+    <font color="red">扩展：phil（=love）喜欢；爱； soph （=wisdom）智慧；思考</font>
+
+    philosophy    n  哲学；哲理
+
+    sophisticated   adj  世故的；老练的；精致的
+
+    sophisticate    vt   使变得世故
+
+    sophomore   n（大学/高中）二年级学生
+
+    freshman    n  新手；大学一年级学生
+
+    junior    n  年少者；大学三年级学生
+
+    senior      n   较年长者；毕业班学生
+
+    the senior citizens 老年人
+
+    bachelor    n   学士；单身狗
+
+    master   n  硕士
+
+    doctor    n   博士
+
+    postgraduate    n   研究生
+
+    Perseverance can conquer any peak in the world.
+
+    毅力可以征服世界上任何一座高峰。
+
+54. intelligence    n  智力；情报；消息
+
+    <font color="red">扩展：lect，lig（=to choose）选择</font>
+
+    intelligent    adj    聪明的；才智的
+
+    CIA = central intelligence agency = 中央情报局
+
+    intellect   n  智力；才智非凡的人
+
+    intellectual   adj  智力的 ；文化的   n  知识分子
+
+    intellectual life 文化生活
+
+    information    n  信息；（普通）情报；知识
+
+55. element     n  元素；成分；要素
+
+    <font color="red">扩展：le，lect，lig（= to choose）选择</font>
+
+    elementary    adj   基本的；初级的；基础的
+
+    elephant   n   大象
+
+    elementary school 小学
+
+    primary school 小学
+
+    collect    vt  收集  vi  聚合
+
+    collective   adj   集体的 ；共同的   n  集体
+
+    collective goals 集体目标
+
+    collectivism 集体主义
+
+    collection    n  收藏品，集合；收集；聚集
+
+    elect    v  选举；选择
+
+    vote    n     投票
+
+    poll    n   民意测验
+
+    election     n  选举；当选；选择权
+
+    factor    n  因素；要素
+
+56. define    vt    给.....下定义；规定
+
+    define A as B 把A定义为B
+
+    <font color="red">扩展：fin（= to finish）结束；边界</font>
+
+    definition    n 定义
+
+    finding    n  调查结果；（陪审团的）裁决
+
+    fine    adj  健康的；美好的；纤细的；精致的   vt   处....以罚金    n   罚金；罚款
+
+    penalty    n  惩罚；罚款
+
+    definite    adj   明确的；肯定的
+
+    indefinite    adj   不明确的；不确定的
+
+    definitely    adv   明确地；一定地
+
+    confine   vt  限制；使局限   n  界限；范围
+
+    be confine to 局限于
+
+57. primary   adj   主要的；初级的
+
+    扩展：pri，prim，prem （= before） 前
+
+    primarily    adv   首先；主要地；根本上
+
+    previously    adv   以前；先前
+
+    elementary   adj   基本的；初级的；基础的
+
+    prime   adj   首要的；最初的    n   初期；全盛时期
+
+    premier     n   首相；总理
+
+    primitive    adj   原始的
+
+    ancient   adj   古代的；古老的；过时的
+
+58. priority    n   优先；优先权
+
+    priority seats 爱心席
+
+    <font color="red">扩展：pri，prim，prem （= before）前</font>
+
+    prior   adj   优先的；在前的
+
+    prior to 在....之前；
+
+    principle   n  原则；信念
+
+    universal principles 普通原则
+
+    principal    n  负责人；校长  adj   主要的；最重要的
+
+    privilege   n/v   特权
+
+    privileged   adj   有特权的
+
+59. scale   n 大小；规模；等级；天平；刻度  vt  攀登
+
+    on a large scale 大规模
+
+    on a small scale 小规模
+
+    scale up 扩大规模
+
+    scale back 缩小规模
+
+    <font color="red">扩展：scend，scal（=to climb）爬</font>
+
+    ascend   v  上升；攀登
+
+    ascent  n  上升；攀登
+
+    descend   v  下降；遗传
+
+    descent   n  下降；血统
+
+    innocent   adj   无辜的；n  天真的人
+
+    descendant    n  后裔；后代
+
+    offspring   n  后代
+
+    transcend   vt  超越；翻越
+
+    transcendence   n  超越
+
+    escalate   vi   逐步升高；逐步增强  vt   使逐步上升
+
+    escalator   n   电动扶梯
+
+    lift   n   电梯
+
+    elevator   n  电梯
+
+60. variation   n  变化；变异
+
+    <font color="red">扩展：var（= to change）变化</font>
+
+    very    adj  很；非常
+
+    vary   v  变化；改变
+
+    various   adj   各种各样的；多方面的
+
+    variety   n  变化；多样化
+
+61. distribution    n  分发；分配；分布
+
+    <font color="red">扩展：tribut（=to give）给</font>
+
+    distribute vt 分发；分配；使分布
+
+    tribute   n   贡品
+
+    distance   n   距离
+
+    contribute    vi  捐献；贡献；（to）有助于；促进
+
+    contribution    n  贡献；捐款
+
+    donate   vt   捐献；
+
+    contributor   n  贡献者；捐助者
+
+    attribute   vt  （to）把归因于  n  属性；特性
+
+    owe to = due to = 归因于
+
+62. patent   adj   专利的；特许的  n  专利；专利权；专利证书    v   批准专利，获得专利
+
+    parent   n  父母
+
+    patentable    adj    可取得专利权的
+
+    patented    adj   （获得）专利的
+
+    unpatented   adj    未获得专利权的
+
+    unpatentable   adj  不能取得专利的
+
+63. chronic   adj   慢性的；长期的
+
+    扩展：chron，cron（=time）时间
+
+    chronical   adj  慢性的
+
+    temporary   adj   临时的
+
+    logical    adj   符合逻辑的
+
+    chronological    adj   按年代顺序排列的
+
+    chronicle   n  编年史  vt   把....载入编年史
+
+64. predict   vt  预言；预测
+
+    predictable   adj  可预言的；可预测的
+
+    dictionary   n  字典
+
+    dictation    n  听写
+
+    <font color="red">扩展：fore（=before）前；dict，dic（=to tell）说</font>
+
+    foretell   v  预言；预告
+
+    foresee   vt  预见；预知
+
+    foreseeable   adj  可预测的
+
+    forecast   v/n  预报；预测
+
+    weather forecast 天气预报
+
+    addict  vt  使成瘾；使入迷   n  有瘾的人
+
+    be addicted to 对.....着迷上瘾
+
+    drug addict 瘾君子
+
+    work addict 工作狂
+
+    addiction   n  上瘾；沉溺
+
+    addition    n  增加
+
+    in addition 此外
+
+    dedicate   vt  题词于； 把（时间、精力等）用于
+
+    dedicate to 致力于
+
+    delicate  adj   精致的；精美的；易碎的；虚弱的
+
+    delicate situations 微妙的形势
+
+    daddy    n   爸爸；爹；
+
+    deliberate   adj   故意的
+
+    counter    vt  相反的；  n  柜台
+
+    contradict   vt  反驳；与.....发生矛盾
+
+    contradiction    n  反驳；矛盾
+
+65. component    n  组成部分    adj   组成的；构成的
+
+    <font color="red">扩展：pon，pound（=to put）放置</font>
+
+    compound   n  复合物   adj   复合的  vt  使复合
+
+    opponent    n  对手   adj  对立的
+
+    opposite    adj   相反的
+
+    postpone    vt   推迟，延期
+
+    postwar     adj   战后的
+
+    postgraduate   n  研究生
+
+66. correlate   v  相互关联
+
+    correlate with/to  与.....相关
+
+    be positively correlated with 正相关
+
+    be negatively correlated with 负相关
+
+    relate   v  关联；讲述
+
+    relate to/with  与....相关
+
+    relation  n 关联；讲述；亲属关系（近亲）
+
+    relationship   n 关系；关联
+
+    relative   n  亲属（远亲）；  adj   （大小、程度）相关的；相对的
+
+    irrelative     adj   无关系的；不相关的
+
+    relevant   adj  （问题，话题）相关的；切题的
+
+    irrelevant   adj   不相关的；不切题的
+
 # 核心词汇3
 
 1. We will further the implementation of policies to ensure fair competition and take stronger action against monopolies and unfair competition to ensure a well-ordered and fair market environment.
