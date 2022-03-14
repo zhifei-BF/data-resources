@@ -4715,3 +4715,125 @@ These leaders are living proof that prevention works and <font color="red"><u>th
     propagation   n  传播；宣传；培养
 
     参考译文：他们发现，所谓的“全球瀑布流”——某种影响经由“社交网络”的广泛传播——形成的首要条件并不是少数几个有影响力人士的存在，而是大量必不可少的易受影响人士的参与。
+
+25. The study, published in the journal Nature Human Behaviour, used data from 1,185,882 participants, aged 10 to 80 years, in Harvard' s Project Implicit, an online tool that has been used to collect data and educate people about biases they hold on gender, race and other characteristics.
+
+    词汇解析：
+
+    gender   n   性别
+
+    participant   n   参加者；参与者
+
+    journal    n   杂志；期刊
+
+    Harvard‘ s Project Implicit 哈佛大学隐形项目
+
+    biases   n   偏见
+
+    hold on 持有；坚持
+
+    characteristic   n  特征
+
+    重点语法：
+
+    ①句子主干：The study used data
+
+    ②定语1：published in the journal Nature Human Behaviour
+
+    ③定语2：from 1,185,882 participants，aged 10 to 80 years，in Harvard’ s Project Implicit
+
+    ④同位语：an online tool .....
+
+    ⑤定语从句1：that has been used to collect data and educate people about biases
+
+    ⑥定语从句2：they hold on gender, race and other characteristics
+
+    参考译文：这项发表在《自然人类行为》杂志上的研究，使用了哈佛大学隐形项目中1185882名10至80岁参与者的数据，该项目是一个在线工具，用于收集数据并教育人们改变对人性别、种族和其他特征的偏见。
+
+26. Though that experiment was hypothetical, which is one limittation of the new research, it's certainly in line with other research showing that being in a state of "flow" can be good for people's mental health.
+
+    词汇解析：
+
+    mental health 心理健康
+
+    hypothetical   adj  假定的；假设的
+
+    limitation   n  局限；限制
+
+    in line with 符合；与.....一致
+
+    a state of ”flow“ 心流状态（指一种人们在专注进行某行为时所表现的心理状态）
+
+    重点语法：
+
+    ①句子主干：it‘s certainly in line with other research
+
+    ②状语从句：Though that experiment was hypothetical
+
+    ③定语从句：which is one limitation of new research
+
+    ④定语：showing that (宾从) being in a state of "flow" can be good for people's mental health
+
+    参考译文：虽然这个实验是假设性的，这也是新研究的一个局限，但它肯定与其他研究保持一致，表明处于”心流“状态有利于人们的心理健康。
+
+27. Although Alibaba has ventured into many areas to multiply its revenue sources, its investment in the past few years was not successful, being too small in scale or in terms of returns, compared with companies with similar strategies like Tencent and ByteDance.
+
+    核心词汇：
+
+    multiply   v   大大增加；倍增
+
+    venture   v  敢于去....., 冒险
+
+    revenue sources 收入来源
+
+    scale    n  规模；范围
+
+    in terms of 依据；在....方面
+
+    strategy    n  战略；策略
+
+    重点语法：
+
+    ①句子主干：its investment was not successful
+
+    ②状语从句：Although Alibaba has ventured into many areas to multiply its revenue sources
+
+    ③状语1：in the past few years
+
+    ④状语2：being too small in scale or in terms of returns
+
+    ⑤状语3：compared with companies with similar strategies like Tencent and ByteDance
+
+    参考译文：尽管阿里巴巴在许多邻域进行了冒险尝试，以扩大其收入来源，但它在过去几年的投资并不成功。与腾讯和字节跳动等拥有类似战略的公司相比，其规模或回报都太小。
+
+28. The winner, by a large margin, was a tiny Virginia company called Open Source Soutions, whose clear advantage was its mastery of the eletronic world.
+
+    核心词汇：
+
+    winner    n   赢家；胜利者；成功者
+
+    by a large margin 巨大优势的
+
+    tiny   adj   微小的
+
+    mastery     v   掌握；精通
+
+    electronic world 电子世界
+
+    参考译文：以巨大优势获胜的是一家来自弗吉尼亚的，叫做公开信息处理的微型公司。该公司的明显优势是对于电子世界的掌握。
+
+29. Medical licensing boards "must make it clear that painful deaths are presumptively ones that are incompetently managed and should result in license suspension."
+
+    核心词汇：
+
+    board    委员会
+
+    be presumptively 假定为；推定为
+
+    incompetently   无能地；不称职地
+
+    license suspension 执照吊销
+
+    license   n   许可证；执照；特许
+
+    参考译文：医疗就业资格委员会”必须明确痛苦的死亡应推定为无能处理的结果，并导致执照吊销“。 
