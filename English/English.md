@@ -2462,6 +2462,577 @@ He could write with <font color="red"> either </font>hand.
 
 I tried on two dresses, but <font color="red">neither</font> fitted me.
 
+# 形容词
+
+——是用来描述，修饰名词或者代词的词，表示人或者事物的性质状态和特征。意为”....的“。
+
+The cake is <font color="red">delicious</font>.  蛋糕是美味的。
+
+This is a <font color="red">red</font> lantern. 这是一个红色的灯笼。
+
+He is <font color="red">asleep</font>.  他睡着了。  asleep   adj  睡着的
+
+”形容词“放哪里？——通常放在所修饰的名词之前！
+
+It is a difficult problem. 这是一个棘手的问题。
+
+This is an interesting book. 这是一本有趣的书。
+
+a blue car 一辆蓝色的小汽车
+
+a empty box 一个空箱子
+
+”形容词“放哪里？——用在系动词后面！
+
+The flowers are beautiful. 这些花真漂亮。
+
+She is smart and she always gets NO.1 in the class. 她真聪明，总是在班上拿第一名。
+
+系动词是什么？——be （am、is、are、was、were）等。
+
+”形容词”放哪里？——用在不定代词之后！
+
+There is something wrong with my bike. 我的自行车出了点问题。
+
+She wants to eat something sweet. 她想吃点甜的东西。
+
+后可接形容词的不定代词常见的有？——something、anything、nothing
+
+a tall and handsome boy. 一个又高又帅的男孩。
+
+This exam is very easy. 这次考试很简单。
+
+She bought an expensive dress, but it is very beautiful. 她买了一条很贵的裙子，但是它很漂亮。
+
+I want to do something interesting. 我想做一些有趣的事情。
+
+“形容词“ PK "副词"
+
+”.........的“  pk  "......地"
+
+eg：他努力地工作。
+
+她的表现相当地好！
+
+注意：形容词用来修饰名词或者代词！副词用来修饰动词，形容词或者其他副词！
+
+# 副词
+
+用来修饰动词、形容词、或者其他副词。
+
+用来说明时间、地点、程度和方式等。
+
+时间副词：today、yesterday、tomorrow、now。。。。
+
+地点副词：here、there、everywhere。。。。
+
+程度副词：too、quite。。。。
+
+方式副词：slowly、suddenly。。。。。
+
+副词修饰动词时，通常放在动词的后面。
+
+He works hard. 他努力工作。
+
+She dances very well. 她跳舞跳得很好。
+
+副词修饰形容词时，通常放在形容词前面。
+
+The music is too loud. 音乐声太大了。
+
+She is very friendly. 她非常地友好。
+
+副词修饰其他副词时，通常放在副词前面。
+
+He plays well. 他表现得好。
+
+He plays quite well. 他表现得相当好。
+
+<font color="red">注意：一般情况下形容词+ly 变副词。</font>
+
+She is a  <font color="red">good</font> student and she always does <font color="red">well</font>  in the class.
+
+The box is very small, but it is very <font color="red">heavy</font>.
+
+They are listening to the teacher <font color="red">carefully</font>.
+
+Don't speak <font color="red">loudly</font> in the class.
+
+Winter is a <font color="red">cold</font> season of the year.
+
+# 比较级和最高级形式
+
+| 构成方法                                        | 原级        | 比较级          | 最高级            |
+| ----------------------------------------------- | ----------- | --------------- | ----------------- |
+| 一般情况下，词尾加——er 和——est                  | tall、great | taller、greater | tallest、greatest |
+| 以发音字母-e结尾的词，词尾加——r和——st           | late、nice  | later、nicer    | latest、nicest    |
+| “辅元辅”结尾的单词，双写最后辅音，加——er和——est | big、hot    | bigger、hotter  | biggest、hottest  |
+| “辅+y”结尾的单词，变y为i，再加——er和——est       | easy、happy | easier、happier | easiest、happiest |
+| 两个或两个以上音节单词，前加more和most          | beautiful   | more beautiful  | most beautiful    |
+
+依次写出下列单词比较级和最高级。
+
+①large、larger、largest
+
+②famous、more famous 、most famous
+
+③delicious、more delicious、 most delicious
+
+④cheap、cheaper、cheapest
+
+⑤easy、easier、easiest
+
+特殊情况！！！！
+
+| 原级                     | 比较级             | 最高级               |
+| ------------------------ | ------------------ | -------------------- |
+| good（好的）well（好地） | better             | best                 |
+| bad（坏的）ill（有病的） | worse              | worst                |
+| many（多的）much（多的） | more               | most                 |
+| old                      | older（elder）     | oldest（eldest）     |
+| far（远的）              | farther（further） | farthest（furthest） |
+| little（少的）           | less               | least                |
+
+难记？别怕，绕口令来帮你！
+
+合二为一有三对，“病坏”   ”两多“   与”两好“
+
+一分为二有两个，一个”远“来一个”老“
+
+还有一个双含义，只记”少“来别记”小“。
+
+
+
+比较级和最高级，如何用？
+
+两者进行比较。
+
+比较级 + than 意为 ”比....更加......"
+
+The apple is bigger than that one.   这个苹果比那个大
+
+This penguin is taller than that one.  这只企鹅比那只高。
+
+三者或三者以上的比较
+
+...... the + 最高级，意为“最....”
+
+Yao Ming is the tallest in Chinese basketball team.  姚明是中国篮球队中个子最高的。
+
+She is the smartest girl in the class.   她是班上最聪明的女孩。
+
+
+
+比较之后，发现一样！如何用英语表示“和.....一样”呢？
+
+“as + 形容词/副词原级别 + as ” ，意为“.....和.....一样.....”
+
+I am as tall as my sister. 我和我姐姐一样高。
+
+Lily studies as hard as Lucy. Lily 和Lucy 一样刻苦学习。
+
+Jim works <font color="red">hard</font> ,but his brother works <font color="red">harder</font> than him.
+
+It's much <font color="red">hotter</font> today than yesterday.
+
+Mr.Smith is <font color="red">the richest</font> man in this office.
+
+This book is <font color="red">more interesting</font>  the than that book.
+
+This building is as <font color="red">tall</font> as that tree.
+
+# 介词
+
+常置于名词或代词之前，表示该词与其他成分之间的关系。
+
+at、in、on、before、after、from、behind、under、up、down、by、with、of。。。
+
+| 分类     | 例词                                               |
+| -------- | -------------------------------------------------- |
+| 时间介词 | at、in、on、before、after、from.....               |
+| 方位介词 | on、in、at、behind、over、above、under、below..... |
+| 方式介词 | by、with、in......                                 |
+| 动向介词 | to、into、up、down、through、across.....           |
+| 原因介词 | for.....                                           |
+
+**at、in、on “时间介词”**
+
+at后接“黎明，午夜，点与分”
+
+at dawn/ at midnight/ at 5 o'clock
+
+in 后接 “早午晚，年月季”
+
+in the morning/ afternoon / evening 
+
+in 2015/ in July / in spring
+
+<font color="red">注意啦！碰到night要用at   -----》  at night </font>
+
+on 后接 “星期，具体日子”
+
+on Sunday/ on April 1st / on Saturday morning
+
+练习：
+
+①There is nothing  <font color="red">on</font> tomorrow afternoon.
+
+②A lot of students in our school were born <font color="red">in</font> March.
+
+③My grandfather went abroad <font color="red">on</font> Oct.10,1935.
+
+④I have to go back home <font color="red">at</font> night.
+
+**across,through "方位介词"**
+
+across  “表面穿过”   through  “内部穿过”
+
+He walked <font color="red">across</font> the road carefully.
+
+He walked <font color="red">through</font> the forest alone.
+
+"in the tree" PK "on the tree"
+
+There are some apples on the tree. 树上有几个苹果。
+
+There is a bird in the tree. 树上有只鸟。
+
+<font color="red">注意：是否本身是树的一部分？“是”就“on”，“不是”就是“in”。</font>
+
+**方式介词 by**
+
+by + 交通工具 “乘坐或者使用交通工具”
+
+I go to school by bus/bike/car.
+
+I go to Peking by plane/train/boat.
+
+<font color="red">注意：步行要用“on foot”！</font>
+
+by + v-ing "通过做...."
+
+‘You can get NO.1 by working hard.
+
+**方式介词 In**
+
+in + 语言 “用......（语言）”
+
+Can you read this book <font color="red">in</font> Chinese.
+
+in + 方法方式 “用....(方式)”
+
+You can succeed in this way!
+
+**方式介词 with**
+
+with + 工具 “用...(工具)"
+
+We can write <font color="red">with</font> a pen.
+
+with + 身体器官
+
+We can see <font color="red">with</font> our eyes.
+
+We can smell <font color="red">with</font> our nose.
+
+We can hear <font color="red">with</font> our ears.
+
+
+
+练习：
+
+1. I had my breakfast <font color="red">at</font> 7 o'clock.
+2. My father will go back home <font color="red">on</font> Sunday.
+3. I am <font color="red">in</font> the hospital now.
+4. She always goes to school <font color="red">by</font> bike.
+5. You can ask me <font color="red">for</font> help !
+6. Chinese people have dinner <font color="red">with</font> chopsticks.
+7. We celebrate the new year <font color="red">by</font> singing a song.
+8. I go back home <font color="red">on</font> foot.
+9. What's this <font color="red">in</font> English?
+10. Christmas is <font color="red">on</font> the 25th of December.
+11. Look at those birds  <font color="red">in</font> the tree.
+12. Is there a cat <font color="red">behind</font> the door?
+13. I go to museum <font color="red">by</font> bus.
+14. We never go shopping <font color="red">in</font> the evening.
+
+# 动词
+
+动词的分类：
+
+| 分类     | 例词例句                                              |
+| -------- | ----------------------------------------------------- |
+| 实义动词 | I asked him a question.    The sun rises in the east. |
+| 系动词   | I am from China.    That sounds interesting.          |
+| 情态动词 | I can play the piano.     May I borrow your pen?      |
+| 助动词   | Does he like playing football.                        |
+
+**实义动词**
+
+吃-》eat    喝-》drink     玩-》play    学-》study
+
+实义动词有两类，“及物”and“不及物”
+
+及物动词+ 名词/代词
+
+I asked him a question. 我问了他一个问题。
+
+I watched the film last night. 昨晚我看了这部电影。
+
+不及物动词后不可直接加名词/代词
+
+They work in a factory. 他们在工厂工作。
+
+The sun rises in the east. 太阳从东边升起。
+
+**系动词**
+
+Be 动词（am is are）
+
+Be是一个家，家里三个娃，它们是am is are。
+
+I 跟am， you 跟are，is 跟着它他她
+
+This that 跟is
+
+These those we 和they，后面跟着are are are。
+
+感官动词（feel look smell taste sound）
+
+变化（become get turn）
+
+She <font color="red">is</font> a beautiful girl.
+
+They <font color="red">are</font> good friends.
+
+That <font color="red">sounds</font> good.
+
+This bottle of milk <font color="red">got</font> bad.
+
+"系动词"很柔弱，出门就带随从，不是“名词”就是”形容词“
+
+I <font color="red">am</font> a student. You <font color="red">are</font> a techer.
+
+He <font color="red">is</font> in Class4, Grade 1.
+
+These <font color="red">are</font> buses. Those <font color="red">are</font> oranges.
+
+It <font color="red">sounds</font> good.
+
+Mike and Ted <font color="red">are</font> at the cinema now.
+
+The salad <font color="red">tastes</font> delicious.
+
+The idea <font color="red">sounds</font> great!
+
+**情态动词**
+
+can  could  ”能够“
+
+Can you speak in English ？
+
+must  ”必须“
+
+——Must I borrow this book with my ID card?
+
+——No，you don't have to.
+
+<font color="red">must 引导的疑问句，否定回答用no，you don't have to/ need to</font>
+
+<font color="red">mustn't 表禁止 eg: You mustn't talk in the class.</font>
+
+will would "将要"
+
+I will go back home at this weekends.
+
+shall should "应该"
+
+Shall we go ? 我们该走了么？
+
+You should stay at home. 你应该留在家里。
+
+may   might  ”也许“  ”表请求“
+
+I may be late. 我也许迟到了。
+
+May I borrow your pen? 我能借你的笔用用吗？
+
+<font color="red">注意：情态动词后必有动词兄弟坦诚跟随！——情态动词+ 动词（原型）</font>
+
+I will go to the USA this summer holiday. 这个暑假，我将会去美国。
+
+You should finish your homework. 你应该完成你的家庭作业。
+
+Tom may be the NO.1 this year. Tom也许是今年的第一名。
+
+You mustn't eat food in the class. 在课堂上禁止吃东西。
+
+**助动词**
+
+be 动词 / do / have
+
+帮助实义动词构成各种时态和语态！
+
+动词的时态：一般现在时、一般过去时、一般将来时、现在进行时
+
+我经常在学校食堂吃饭。
+
+我吃过早饭了。
+
+我现在正在吃中饭。
+
+放学后，我将会回家吃晚饭！
+
+<font color="red">一般现在时：表示事物的特征。</font>
+
+The sky is blue. 天空是蓝色的。
+
+Summer in Changsha is very hot. 长沙的夏天很热。
+
+<font color="red">一般现在时：表示经常性的行为。常与always、often、usually、every day 等词连用</font>
+
+I often get up early every morning. 我通常每天早晨都早起。
+
+He always helps others. 他总是帮助别人。
+
+<font color="red">一般现在时：表示客观事实和普遍真理。</font>
+
+The sun rises in the east. 太阳从东方升起。
+
+The earth goes around the sun. 地球围着太阳转。
+
+Knowledge is power. 知识就是力量。
+
+一般现在时的形式：
+
+|                      | 形式                 | 例句                                                     |
+| -------------------- | -------------------- | -------------------------------------------------------- |
+| be动词的一般现在时   | am、is、are          | I am a student.  We are good friends.                    |
+| 实义动词的一般现在时 | 动词原形、动词单三式 | We play football on Sundays. He likes English very much. |
+
+当第三人称单数主语碰上动词，会发生什么？
+
+动词会变为单三式。
+
+He likes playing football.
+
+She always helps people.
+
+The sun rises in the east.
+
+
+
+动词单三式变形规则
+
+| 情况                             | 形式          | 例句                                                 |
+| -------------------------------- | ------------- | ---------------------------------------------------- |
+| 一般情况                         | 词尾加-s      | get-gets、play-plays、help-helps、look-looks、       |
+| 以-s、-x、-ch、-sh、-o结尾的动词 | 词尾加-es     | guess-guesses、fix-fixes、teach-teaches、wash-washes |
+| ”辅音字母”+y 结尾的动词          | 变y为i，加-es | fly-flies、cry-cries                                 |
+
+<font color="red">注意：情态动词无人称变化！</font>
+
+写出下列动词的第三人称单数:
+
+drink-dinks    go-goes  stay-stays
+
+make-makes   look-looks   have-has
+
+pass-passes   carry-carries   come-comes
+
+watch-watches  fly-flies   brush-brushes
+
+1. She <font color="red">looks</font> beautiful in her new dress.
+2. He is 12 years old. He can <font color="red">take</font> care of himself.
+3. He always <font color="red">goes</font> to work by bus.
+4. A doctor <font color="red">helps</font> people.
+5. He often <font color="red">has</font> dinner at home.
+6. Mike <font color="red">goes</font> to the zoo on Sundays.
+7. Light <font color="red">travels</font> faster than sound.
+
+一般过去时：动词的一般过去时表示过去某个时间发生的动作或者存在的状态。
+
+eg：I met my classmate last night. 昨天晚上，我遇见了我的同学。
+
+如何分辨是否要用过去时？
+
+关键就是它，过去时间信号。
+
+last ：last year、last winter、last month、 last week、 last night .....
+
+ago：two years ago、 three months ago、 one hour ago.....
+
+明确表示过去的词：yesterday、in 1990、 in the old days ......
+
+
+
+动词如何变为一般过去式：
+
+| 情况                                 | 变身                | 例句                       |
+| ------------------------------------ | ------------------- | -------------------------- |
+| 一般情况                             | 词尾加-ed           | look-looked、want-wanted   |
+| 以不发音字母e结尾的词                | 词尾加-d            | live-lived、like-liked     |
+| 以“辅音字母+y"结尾的词               | 变y为i，加-ed       | study-studied、fly-flied   |
+| 末尾只有一个辅音字母的重读闭音节动词 | 双写辅音字母，加-ed | stop-stopped、plan-planned |
+
+重读闭音节——元音字母+辅音字母结尾的重读音节。
+
+
+
+写出下列动词的过去式
+
+plant-planted   worry-worried
+
+play-played    ask-asked
+
+dance-danced   taste-tasted
+
+<font color="red">特殊情况，格外注意！</font>
+
+| 意思 | 原形   | 过去式 |
+| ---- | ------ | ------ |
+| 是   | am/is  | was    |
+| 是   | are    | were   |
+| 做   | do     | did    |
+| 有   | have   | had    |
+| 成为 | become | became |
+| 来   | come   | came   |
+| 去   | go     | went   |
+| 开始 | begin  | began  |
+| 坐   | sit    | sat    |
+| 给   | give   | gave   |
+| 得到 | get    | got    |
+| 买   | buy    | bought |
+| 教   | teach  | taught |
+| 说   | say    | said   |
+| 看见 | see    | saw    |
+| 制作 | make   | made   |
+| 感觉 | feel   | felt   |
+| 睡觉 | sleep  | slept  |
+| 保持 | keep   | kept   |
+| 花费 | spend  | spent  |
+| 跑   | run    | ran    |
+| 唱歌 | sing   | sang   |
+
+<font color="red">”原形“”过去式“，一样的！</font>
+
+| 意思 | 原形与过去式 |
+| ---- | ------------ |
+| 放   | put          |
+| 切   | cut          |
+| 阅读 | read         |
+| 让   | let          |
+
+写出下列动词的过去式：
+
+is/am-was    make-made    are-were   eat-ate     drink-drank    put-put     go-went
+
+1. He <font color="red">was</font> sick yesterday.
+2. They <font color="red">visited</font> their teacher last Sunday.
+3. She <font color="red">lived</font> in Beijing two years ago.
+4. We <font color="red">had</font> a party last Halloween.
+5. I <font color="red">was</font> born in 1990.
+
 # 时态
 
 had done 过去完成时的主动语态
@@ -4837,3 +5408,91 @@ These leaders are living proof that prevention works and <font color="red"><u>th
     license   n   许可证；执照；特许
 
     参考译文：医疗就业资格委员会”必须明确痛苦的死亡应推定为无能处理的结果，并导致执照吊销“。 
+
+30. Digging into Britain's national accounts, we estimate that the nominal profit in pounds per unit of goods and services sold is only roughly as high as it was in early 2019, even as unit labour costs are rising by about 3% per year.
+
+    词汇解析：
+
+    roughly   adv  大约；粗略地          estimate   v  估计；判断      dig into  钻研；深入		 sold   v  出售、售卖、销售		
+
+    national accounts  国民账户       nominal profit 名义利润；名义利益
+
+    per unit of goods 单位商品              unit labour costs 单位劳动成本
+
+    重点语法：
+
+    ①句子主干：we estimate that.....
+
+    ②宾语从句：the nominal profit in pounds per unit of goods and services sold is only roughly as high as it was in early 2019
+
+    ③状语从句：even as unit labour costs are rising by about 3% per year
+
+    ④状语：Digging into Britain's national accounts
+
+    参考译文：深入研究英国国民账户后，我们估计，单位商品和服务销售的名义利润（以英镑计）仅与2019年除大致持平，尽管单位劳动力成本正以每年约3%的幅度上涨。
+
+31. In many European countries a service charge is included in the bill and customers are not expected to pay much extra but they often round the figure up, leaving a few coins or a modest note on the table, amounting to an extra percentage or two.
+
+    核心词汇：
+
+    amount to 相当于    service charge 服务费     extra  adj 额外的  n 另外付费     bill      n  账单     coin   n  硬币
+
+    round the figure up 凑整数    a modest note 一张面额不大的纸币
+
+    重点语法：
+
+    ①句子主干：a service charge is included in the bill and customers are not expected to pay much extra but they often round the figure up
+
+    ②状语1：In many European countries
+
+    ③状语2：leaving a few coins or a modest note on the table
+
+    ④定语：amounting to an extra percentage or two
+
+    参考译文：在许多欧洲国家，账单中包含了服务费，顾客并不需要额外支付太多费用，但人们通常会凑整数，在桌上留下几枚硬币或一张面额不大的纸币，相当于多付了账单金额的1%或2%。
+
+32. Among the firms making the biggest splash in this new world is Straitford, Inc., a private intelligence-analysis firm based in Austin, Texas.
+
+    核心词汇：
+
+    among   prep     ....之一      firm    n  公司
+
+    make a splash 溅起水花；引发轰动；取得成功
+
+    private   私人的      intelligence   n   智力；情报
+
+    Texas    n   德克萨斯州 
+
+    Austin   n  奥斯汀
+
+    参考译文：坐落于德州奥斯汀市的一家名为Straitford， Inc.的私人情报分析公司是新世界取得最大成功的公司之一。
+
+33. A grandmothely woman staffing an animal rights booth at a recent street fair was distributing a brochure that encouraged readers not to  use anything that comes from or is tested in animals——no meat, no fur, no medicines.
+
+    核心词汇：
+
+    grandmothely   adj    老奶奶般的；慈祥的  right    n  权利
+
+    staff   v  在....工作；任职于；  n  工作人员    booth   n   临时货摊；售货棚
+
+    brochure   n  小册子     fair   adj  公平的；合理的   n  集市
+
+    fur   n 皮毛
+
+    参考译文：在最近的集市上，一个老太太正在动物权利摊位上分发小册子。该册子鼓励读者不要使用任何来自于，或由动物测试得到的东西——拒绝肉类、皮毛和医药。
+
+34. To those who are unaware that animal research was needed to produce these treatments, as well as new treatments and vaccines, animal research seems wasteful at best and cruel at worst.
+
+    核心词汇：
+
+    unaware   adj   不知道；没意识到      treatment   n  治疗；处理；疗法  
+
+    vaccine   n  疫苗   vaccinee  n  接种者     wasteful   adj   浪费的；挥霍的  
+
+    cruel   adj   残酷的；  worst   adj   最差的
+
+    at worst 在最坏的情况下；在最糟糕的情况下
+
+    at best  充其量；顶多；至多
+
+    参考译文：对于那些不知道需要动物研究来生产这些治疗方法以及新的治疗方法和疫苗的人来说，动物研究充其量是浪费，充其量是残酷的。
