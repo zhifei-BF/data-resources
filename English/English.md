@@ -1808,6 +1808,38 @@
 
     irrelevant   adj   不相关的；不切题的
 
+67. opportunity    n   机会，良机
+68. furnace     n   火炉；熔炉
+69. fare     n    费用；车费；船费
+70. portion    n  部分；份
+71. virtually    adv   几乎；差不多；实际上；事实上；虚拟地
+72. sample    n  样品；样本
+73. crisp    adj  脆的；酥脆的   n  薯片
+74. combine    v  结合；联合
+75. irritate     v   激怒；使发怒；使烦恼
+76. spine     n   脊柱；脊椎
+77. stack    n  堆；叠；大量；烟囱；排气管
+78. patent    n  专利权   v  申请专利   adj   显然的；显著的；
+79. mission   n  任务；代表团；使命
+80. static    adj  静止的；静态的；不变化的
+81. submerge    v  浸没；潜入水中
+82. acknowledge     v  承认；
+83. portable     adj   轻便的；便携的；手提式的    n  手提电脑
+84. confirm    v  证实；肯定；批准
+85. camel    n  骆驼
+86. spray   n  水沫；喷雾    v  喷洒；喷射
+87. screen    n  屏幕；屏风 ；  v  放映
+88. hazard   n  危险；危害      
+89. adventure     n  冒险；奇遇   v  去探险
+90. distract   v  转移；分散；使分心
+91. snack    n  小吃；点心    v  吃零食；吃点心
+92. position   n  地位；位置；职务；立场
+93. explode      v  爆炸；爆发
+94. element   n  成分；要素；元素
+95. thrive    v  兴旺发达；繁荣；旺盛
+96. odd     adj   剩余的；额外的；古怪的
+97. 
+
 # 核心词汇3
 
 1. We will further the implementation of policies to ensure fair competition and take stronger action against monopolies and unfair competition to ensure a well-ordered and fair market environment.
@@ -3032,6 +3064,138 @@ is/am-was    make-made    are-were   eat-ate     drink-drank    put-put     go-w
 3. She <font color="red">lived</font> in Beijing two years ago.
 4. We <font color="red">had</font> a party last Halloween.
 5. I <font color="red">was</font> born in 1990.
+
+
+
+一般将来时的定义：表示将来某一时刻的动作或者状态！
+
+I will visit my grandmother tomorrow. 我明天要去看奶奶。
+
+将来时间信号：
+
+next + 时间 “下一个”
+
+next year, next month, next week, next hour .....
+
+tomorrow  “明天”
+
+tomorrow morning/afternoon/evening....
+
+in + 时间   ”.....时间后“
+
+in three days "三天后"         in one week "一个星期后"
+
+明确表示未来时间
+
+in 2025, after school ......
+
+**一般将来时态的构成**
+
+shall/will + 动词原形（shall多用于第一人称I/we）表示将来某个时间将要发生的动作或状态。
+
+I/We shall meet him at six o‘clock tomorrow. 
+
+It will rain tommorrow.
+
+问对方是否愿意或表示客气的邀请
+
+Will you please sign your name here?你能在这里签名吗？
+
+be going to + 动词原形  表示将来打算计划决定要做某事
+
+I am going to watch a movie tonight. 今晚，我打算去看部电影。
+
+We are going to play basketball after class. 下课后，我们打算去打篮球。
+
+用动词的适当形式填空。
+
+1. He <font color="red"><u>will be</u></font> (be) twelve next week.
+2. They <font color="red"><u>will visit</u></font> (visit) their teacher next Sunday.
+3. She <font color="red"><u>will move</u></font> (move) to Beijing in two years.
+4. We <font color="red"><u>shall/will go</u></font> (go) to America next summer.
+
+- Tom  _______D__ here next month.
+
+  A. isn't working  B. doesn't working   C. isn't going to working D. won't work
+
+- He ______A_ busy this week, but he  _________ free next week.
+
+  A. is,will be   B. is, is    C will be, will be
+
+- He _C__ in three days.
+
+  A. coming back B. comes back C. will come back D. is going to coming back
+
+- They ___ an English class this afternoon.
+
+  A. have B. will having C. are going to have
+
+
+
+现在进行时态：
+
+What are you doing now ? 你在干吗呢？
+
+I am having an English class now. 我在上英语课。
+
+现在进行时的构成：be + v-ing（动词分词） （注意be动词随主语变化而变化）！
+
+I'm doing my homework now. 我正在做作业。
+
+It is raining now. 正在下雨。
+
+He is working in a company. 他现在正在一家公司上班。
+
+”be + v-ing“ 现在进行时！
+
+| 主语                       | be   | v-ing                  |
+| -------------------------- | ---- | ---------------------- |
+| 第一人称单数I              | am   | speaking               |
+| 第三人称单数He/She/It      | is   | running                |
+| 第二人称单数you/各人称复数 | are  | listening to the class |
+
+动词大变身之”现在分词“
+
+| 情况                                 | 变身                   | 例词                      |
+| ------------------------------------ | ---------------------- | ------------------------- |
+| 一般情况                             | 词尾加--ing            | go--going，play--playing  |
+| 以不发音字母e结尾的词                | 去e，词尾加--ing       | live--living，come-coming |
+| 以--ie结尾的词                       | 变--ie为--y，再加--ing | die-dying，lie-lying      |
+| 末尾只有一个辅音字母的重读闭音节动词 | 双写辅音字母，加--ing  | get--getting,run--running |
+
+重读闭音节：--元音字母 + 辅音字母结尾的重读音节！
+
+现在进行时的定义：表示此时此刻正在进行或发生的动作。常与now，right now， at the moment， at present 等时间词连用。
+
+I am watching a movie now. 我正在看电影。
+
+He is having a dinner with his friends at the moment. 他现在和他的朋友在吃饭。
+
+Look ！ Listen！后面的句子多用现在进行时态！
+
+Look！The baby girl is crying.
+
+Listen! The bird is singing.
+
+现在进行时的定义：表示一段时间或现阶段进行或发生的动作，常与these days, this week/month 等时间词连用。
+
+We are working on a farm these days. 这几天我们在农场干活。
+
+He is staying at home this week. 这个星期，他一直待在家。
+
+现在进行时的定义：表示”计划，安排好“即将要发生的事情。
+
+The spring is coming. 春天来了。
+
+My uncle is leaving for Beijing next week. 我叔叔下个星期就要离开去北京了。
+
+用动词的适当形式填空.
+
+1. Look! Some boys <font color="red">are playing</font> (play) basketball.
+2. It <font color="red">is raining</font> (rain) now.
+3. He <font color="red">is coming</font> (come). He is on his way now.
+4. Listen! Tom <font color="red">is singing</font>/ (sing) an English song.
+5. Where is Lily? She <font color="red">is having</font> (have) a dinner with her friends.
 
 # 时态
 
@@ -5496,3 +5660,34 @@ These leaders are living proof that prevention works and <font color="red"><u>th
     at best  充其量；顶多；至多
 
     参考译文：对于那些不知道需要动物研究来生产这些治疗方法以及新的治疗方法和疫苗的人来说，动物研究充其量是浪费，充其量是残酷的。
+
+35. The number of girls who seek to hide their problems from others has also risen, with 60% of girls going to great lengths to hide feelings of unhappiness before the pandemic compared with 80% now.
+
+    核心词汇：
+
+    seek to 试图；设法；力图
+
+    seek     v  寻找；寻求
+
+    hide     v   隐藏；隐瞒
+
+    pandemic   n  流行病；大流行病   adj   大流行的；普遍的；全世界的
+
+    go to great length  竭尽全力；不遗余力
+
+    compared with 和...比起来
+
+    重点语法：
+
+    ①句子主干：The number has also risen 
+
+    ②定语：of girls
+
+    ③定语从句：who seek to hide their problems from others
+
+    ④状语1：with 60% of girls going to great lengths to hide feelings of unhappiness before the pandemic
+
+    ⑤状语2：compared with 80% now
+
+    参考译文：试图向他人隐藏自己问题的女孩数量也有所上升，60%的女孩在疫情之前会竭尽全力隐藏自己的不快，而现在这一比例为80%。
+
