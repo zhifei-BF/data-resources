@@ -1809,36 +1809,126 @@
     irrelevant   adj   不相关的；不切题的
 
 67. opportunity    n   机会，良机
+
 68. furnace     n   火炉；熔炉
+
 69. fare     n    费用；车费；船费
+
 70. portion    n  部分；份
+
 71. virtually    adv   几乎；差不多；实际上；事实上；虚拟地
+
 72. sample    n  样品；样本
+
 73. crisp    adj  脆的；酥脆的   n  薯片
+
 74. combine    v  结合；联合
+
 75. irritate     v   激怒；使发怒；使烦恼
+
 76. spine     n   脊柱；脊椎
+
 77. stack    n  堆；叠；大量；烟囱；排气管
+
 78. patent    n  专利权   v  申请专利   adj   显然的；显著的；
+
 79. mission   n  任务；代表团；使命
+
 80. static    adj  静止的；静态的；不变化的
+
 81. submerge    v  浸没；潜入水中
+
 82. acknowledge     v  承认；
+
 83. portable     adj   轻便的；便携的；手提式的    n  手提电脑
+
 84. confirm    v  证实；肯定；批准
+
 85. camel    n  骆驼
+
 86. spray   n  水沫；喷雾    v  喷洒；喷射
+
 87. screen    n  屏幕；屏风 ；  v  放映
+
 88. hazard   n  危险；危害      
+
 89. adventure     n  冒险；奇遇   v  去探险
+
 90. distract   v  转移；分散；使分心
+
 91. snack    n  小吃；点心    v  吃零食；吃点心
+
 92. position   n  地位；位置；职务；立场
+
 93. explode      v  爆炸；爆发
+
 94. element   n  成分；要素；元素
+
 95. thrive    v  兴旺发达；繁荣；旺盛
+
 96. odd     adj   剩余的；额外的；古怪的
-97. 
+
+97. exclusive    adj  排斥的；
+
+98. monster    n  怪物；巨物；恶人   adj  巨大的；庞大的
+
+99. plastic    adj  塑料的；可塑的；不自然的   n  塑料；信用卡
+
+100. turnover    n  营业额；人事变动率
+
+101. forum    n   公共讨论场所；论坛；讨论会
+
+102. corridor    n  走廊
+
+103. superb    adj   极佳的；卓越的；质量极高的
+
+104. fitness    n  健壮；健康；适合
+
+105. species    n    （动植物的）种类；类群
+
+106. replace      v  取代；代替；更换
+
+107. flip    v  快速翻转；抛掷
+
+108. desert   n 沙漠；荒地    v  抛弃；遗弃；舍弃
+
+109. principal    n  校长；院长    adj   主要的；首要的；
+
+110. figure   n  数字；图形；  v  计算；认为；描绘
+
+111. evacuate   v  疏散；撤离
+
+112. nurture     v  培养；培育   n  教育
+
+113. removal    n  除去；拿开；移动
+
+114. intensify    v   使增强；使加剧
+
+115. milestone    n  里程碑；重大事件；转折点
+
+116. terminal     n  航空站；终端机；终点；末端   adj  终点的；按期的
+
+117. shore    n  海岸；河岸；湖滨
+
+118. perform    v  表演；执行；演出
+
+119. attraction   n  吸引；吸引力
+
+120. transmute   v  变形；变化；变质
+
+121. synthesis    n  综合；结合；综合体
+
+122. throughout    prep  遍及；贯穿    adv  到处；自始至终
+
+123. pepper   n  胡椒粉；辣椒粉   v   在......上撒；使布满
+
+124. relieve    v   减轻；缓和；使解脱
+
+125. investigate    v  调查；研究；审查
+
+126. jostle    v  推挤；撞
+
+127. 
 
 # 核心词汇3
 
