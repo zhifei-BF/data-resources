@@ -786,7 +786,7 @@
 
     evolve to 发展为；进化为
 
-    evolution   n  进化；发展
+    evolution   n  进化；演变；发展
 
     the theory of evolution 进化论
 
@@ -1928,7 +1928,447 @@
 
 126. jostle    v  推挤；撞
 
-127. 
+127. entitle    v   给予....权利；给....命名
+
+128. upper     adj   上面的；顶部的；地位较高的  n  鞋面
+
+129. charter   n  宪章；章程    v 特许成立；给予....特权
+
+130. stream    n  小河；溪流；水流    v  流动；流出；
+
+131. content    adj   满意的   n  内容；含量   v  使满意
+
+132. disagree   v  不同意；不一致
+
+133. ultimately   adv   最后地；最终地；根本上
+
+134. competition    n   比赛；竞争
+
+135. envisage   v  想象；设想；正视；面对
+
+136. demographic    adj   人口学的；人口统计学的；  n  人口统计数据
+
+137. finance    n  资金；财政；金融  v  提供资金
+
+138. staff   n  棒；杆 ；全体职员  
+
+139. productive   adj   多产的；高产的；富有成效的
+
+140. equal    adj   相等的；平等的   v  等于；比得上
+
+141. superior   adj   比...好的；比.....强的；上级的；  n   上级；长官
+
+142. identity    n  身份；特性；同一性
+
+143. launch   v  发动；发起；开始从事
+
+144. appropriate    adj   适当的；相称的   v  占用；拨出（款项）
+
+145. helicopter    n  直升飞机
+
+146. nourish    v  抚养；滋养；培养；组长
+
+147. vague    adj   模糊的；不明确的；含糊其词的
+
+148. wean    v   断奶；戒掉
+
+149. innovation   n  创新；革新；新观念；新方法
+
+150. antidote     n  解毒剂
+
+151. iris    n   （眼球的）虹膜；鸢尾属植物
+
+152. burst   v  破裂；爆发
+
+153. mutual    adj  共同的；相互的
+
+154. bolster    vt   支撑；加固；支持；提高    n  长垫；靠枕；
+
+155. silver   n  银；银器
+
+156. expedition    n  探险；考察；考察队
+
+157. definite    adj   明确的；一定的；确凿的
+
+     define     v   下定义；说明；解释；
+
+158. hostel    n  招待所；旅社
+
+159. contain    v  包含；容纳；含有
+
+160. division    n  分开；分隔；分配
+
+     cell division  细胞分裂
+
+161. architect   n  建筑师；设计师；缔造者；创造者
+
+162. photocopy    n  复印件；影印本   v  复印；影印；复制
+
+163. parliament    n  议会；国会；英国议会
+
+164. jaw    n  颌；颚
+
+     the top/upper jaw 上颌
+
+165. emit    v   发出；散发
+
+166. commercial    adj   商业的    n  商业广告
+
+     commerce    n  商业
+
+167. intermediate   adj   中级的；中间的
+
+168. substance    n   物质；材料；重要性；实质
+
+169. drum    n  鼓；滚筒    v   击鼓；有节奏地击打
+
+170. underneath     prep   在....下面    adv   在下面；在内心深处；心底里
+
+171. emerge     v   出现；浮现；显露；兴起
+
+172. refreshment    n   饮料；小食；恢复活力；焕发精神
+
+173. squash       v   压扁；挤扁；挤压
+
+174. residence     n  住处；住所；居住；定居；居住权
+
+175. constitution     n   宪法；构成；组成；体质；体格
+
+176. negotiate    v  谈判
+
+177. dome     n   穹顶；圆屋顶；穹顶建筑物
+
+178. probe    v  盘问；追问；探查；探测
+
+179. amorphous   adj   无定形的；无固定形状的
+
+180. buckle    n  金属扣环；带扣   v  扣紧；变形；弯曲
+
+     buckle up 扣紧安全带
+
+181. source    n   源头；来源；根源
+
+182. orient      n  东方；东半球；东部    adj   东方的；
+
+183. evolve    v  进化；演变；发展
+
+184. virus    n  病毒
+
+185. clue    n   线索；提示
+
+186. suppose    v  认为；假定；假设；设想
+
+187. dominant    adj   首要的；主导的；占优势的 
+
+188. profitable     adj   有益的；有用的；
+
+189. preference    n  喜好；偏好；偏爱
+
+190. backbone   n   脊椎；骨干；支柱
+
+191. confidence    n   信心；信任；秘密
+
+192. stainless   adj   不生锈的；防生锈的
+
+193. enlarge    v  扩大；增大
+
+194. renew   v   重新开始；更新；更换
+
+195. origin    n   起源；开端；出身
+
+196. tendency    n  趋势；倾向
+
+197. strike   v 撞击；击打；罢工   n  罢工；击；打
+
+198. extend    v  延长；扩展
+
+199. correspond     v  符合；相当；通信
+
+200. quota     n   配额；限额
+
+201. gauge   v  测量；判定  n  厚度；计量器
+
+     guage    n   线规；进度指示
+
+202. rigorous     adj   谨慎的；细致的；严格的；
+
+203. differ   v  不一致；不同意
+
+204. migrant   n  移居者；迁徙动物    adj   迁移的；迁徙的
+
+     migrate   v   移动；迁移；（鸟类、动物等）随季节而迁徙
+
+205. ability   n  能力；本领；才能
+
+206. owe    v   欠；把.....归功于；把....归因于
+
+207. embrace    v   欣然接受；拥抱；包含   n  拥抱
+
+208. mite    n  螨虫；小孩子；极小量
+
+209. corps    n   特种部队；一群人
+
+210. concrete    adj   混凝土的；具体的；有形的   n  水泥；混凝土
+
+211. temper    n  脾气；性情；    v   使缓和；使温和
+
+212. bounce    v  弹跳；跳动   n  弹跳
+
+213. banner    n  横幅；旗帜
+
+214. badge    n   徽章；奖章；警徽；象征
+
+215. administration   n  行政；管理；（尤其指美国）政府
+
+216. neglect    v   疏忽；忽视   n  疏忽；忽视
+
+217. equivalent   adj  等价的；相等的   n  相等的东西；对应词
+
+218. submarine    n  潜水艇；adj   水底的；海底的
+
+     marine   adj   海的；海产的；海生的   
+
+219. leap  v  跳跃；跃过；猛冲   n  跳跃；剧增；急变
+
+220. weakness   n  虚弱；弱点；缺点
+
+221. senior    adj   高级的；资深的；年长的   n  年长者；上司；毕业班学生
+
+222. receiver     n  收件人；接待者；接收器；耳机；（电话）听筒；收音机
+
+     receive   v  接收；
+
+     re——再；ceive——拿
+
+223. hypothesis    n  假设；假说；（凭空的）猜测
+
+224. conduct    v   进行；组织；实施；处理；传导；引导；执行  n  举止；行为；
+
+225. stark    adj   赤裸的；明摆着的   adv   完全地；极端地
+
+226. bulb    n   灯泡；球茎；
+
+     light bulb    灯泡
+
+227. benefit    n   利益；好处   v  有益于；得益
+
+     beneficial    adj   有益的；有利的
+
+228. tropical    adj   热带的；炎热的 ；有热带特征的
+
+     rainforest   n  （热带）雨林
+
+     tropical rainforest 热带雨林
+
+     tropical fish 热带鱼
+
+229. minimum    n  最小量；最低限度    adj   最低的；最小的
+
+230. scope      n  范围；眼界；   v   仔细看；彻底检查
+
+     score    n  得分；分数   v  评分；得分；记分
+
+231. tend   v   倾向于；  n  照顾；护理
+
+232. litter    v  乱扔；乱丢垃圾    n   垃圾；废弃物；杂物
+
+233. threaten   v  威胁；恐吓
+
+234. magic    n   魔术；巫术；魔法；魅力   adj  有魔力的；魔术般的；奇迹的
+
+235. decrease    v   减少；变小    n  减少；减少的量
+
+236. crack    v   破裂，断裂；重击；猛击    n  裂缝；缝隙；爆裂声
+
+237. integral    adj   构成整体所必需的；不可或缺的；完整的；整体的
+
+238. therapy    n   治疗；疗法
+
+239. influence    n  影响；作用；支配力；势力   v  影响；对.....起作用
+
+240. contrary    adj   相反的；截然不同的   n  相反
+
+241. calculate    v   计算；核算
+
+242. instruct     v   讲授；指导；指示；命令
+
+243. foil    n  箔；箔纸
+
+244. diameter    n  直径
+
+     ridius   n  半径
+
+245. pilot    n  飞行员；领航员；引水员；（航空器）驾驶员     v  试点；引导；施行   adj   试验性的；试点的；指引的；引导的
+
+246. crisis     n   危急关头；危机
+
+247. revise    v  修订；修正；复习；温习
+
+248. geometry    n  几何；几何学
+
+249. adapt     v  使适应；改编
+
+250. analyse    v  分析；分解
+
+251. consist    v  组成；构成；存在于
+
+252. interest    n  兴趣；利息；利益   v  使感兴趣
+
+253. demand     n  要求；需要；需求     v  要求；请求；需要；询问
+
+254. concern    n   担心；关注；关系；公司；企业    v  与....有关；关于；使担心
+
+255. remote    adj   遥远的；偏远的； n  遥控器
+
+256. essence    n  本质；精髓；要素；香精
+
+     essential    adj   必要的；本质的；基本的；精华的   n  必需品；基本要素；必不可少的东西
+
+257. marsupial   n  有袋动物   adj   有袋动物的
+
+258. apt    adj   恰当的；有....倾向的；聪明的
+
+259. establish    v  建立；建造；设立；安顿；制定
+
+260. creation    n  创造；作品
+
+261. diminish   v  减少；减弱；降低；
+
+262. opponent   n  对手；敌手；反对者
+
+263. track     n  小路；足迹；踪迹；   v  跟踪；追踪；留下印迹
+
+264. twist   v  拧；扭；盘绕；缠绕；扭曲；曲解   n  旋转；扭曲；
+
+265. veil    n   面纱；面罩；头巾 ；掩饰；掩盖；托辞  v  戴面纱；戴面罩；遮掩；掩饰
+
+266. mechanical   adj   机械的；呆板的；不加思考的
+
+267. signature    n  签名；署名
+
+268. thunder    n  雷；雷声；  v  打雷；轰隆响
+
+269. irrigation    n  灌溉
+
+270. degrade    v   贬低；侮辱；降级；降解；退化
+
+     upgrade    v   提升；提高；改进；改善
+
+271. unyielding    adj   顽强的；不屈的；坚挺的
+
+     yielding   adj   柔软的；易弯曲的；顺从的；服从的
+
+272. sponsor   n  赞助商；赞助者；发起者   v  发起；赞助   adv  偶发地；零星地
+
+273. miserable    adj   悲惨的 ；痛苦的
+
+274. depart   v  离开；动身
+
+275. discount    n  减价；折扣   v  忽视 ；减价出售
+
+276. endeavour    v  努力；尽力；尝试    n  努力；尽力；尝试
+
+277. clip    v  剪辑；修剪   n  夹子；钳；视频片段
+
+278. approve    v  赞同；批准；核准
+
+     disapprove    v    不赞成；反对
+
+279. convert    v   转变；转化；转换  n  改变宗教(或信仰、观点)的人;皈依者
+
+280. mature    adj   成熟的；发育完全的；明白事理的v  变成熟
+
+281. withstand   v  抵挡；经受
+
+282. lever  n  撬棒；杠杆；控制杆   v  撬动；使用杠杆
+
+283. capture   v   俘获；俘虏；捕获   n  俘获
+
+284. shipment   n  运输；装运 ；运输的货物
+
+285. durable    adj   持久的；耐用的
+
+286. criminal    adj   犯罪的；刑事的  n  罪犯
+
+     crime   n  罪行；罪   v  指控犯罪；判定犯罪；
+
+287. illustrate    v  举例说明；作图解
+
+288. obtain   v  获得；得到；流行；存在
+
+289. loose   adj  宽松的；不牢固的   v  释放；松开
+
+290. implication   n  暗示；含义；
+
+291. appetite   n  胃口；食欲；欲望；爱好
+
+292. bind   v  绑；约束；装订   n  捆绑（物）；窘境；困境
+
+293. decent   adj  得体的；适当的；体面的   
+
+294. optimism    n  乐观；乐观主义
+
+295. equator    n  赤道
+
+296. compromise   n  妥协；折中  v  妥协；让步； adj  妥协的；折中的
+
+297. clinic   n  诊所；门诊部；科室
+
+298. underground    adj  地下的；  adv  在地下   n  地铁
+
+     cable  n   缆绳；钢索；电缆；电报   v   发电报
+
+     underground cables 地下电缆
+
+299. aptitude   n  天赋；天资
+
+300. insignificant   adj   无关紧要的；不重要的
+
+     significant   adj   重要的；显著的；意味深长的
+
+301. flora   n  植物群
+
+302. rear   adj  后面的；后部的   n  后面；后部；臀部   v  抚养；养育；饲养；竖起；抬高
+
+303. resist    v  抵抗；抵制；耐得住；忍住
+
+304. muscle    n  肌肉；力量；实力
+
+305. avoid    v  避免；躲开    
+
+306. crawl    v   爬；爬行；缓慢地行进
+
+307. stout    adj   肥胖的；肥壮的；顽强的；不屈不挠的  n  烈性黑啤酒
+
+308. summit    n  最高点；顶点；山顶；峰会；首脑会议
+
+309. eliminate   v  排除；剔除；消除
+
+310. heritage   n  遗产；传统；继承物；遗留物
+
+311. similarly   adv  同样地；类似地
+
+312. decipher   v  破译；解释
+
+313. compensate   v  补偿；弥补；赔偿；赔款
+
+314. mushroom   n  蘑菇；   v  迅速成长
+
+315. sequence   n  一系列；一连串；顺序  v  安排....的顺序
+
+316. divide    v  划分；分隔；除以   n  明显差异；分歧
+
+317. application    n  应用程序；申请
+
+318. ash   n  灰；灰烬
+
+319. dimension   n  尺寸；容积；维度
+
+320. major   adj   主要的；n  专业；主修课程   v  主修；专攻
+
+321. surpass   v  超过；胜过；优于
+
+322. 
 
 # 核心词汇3
 
@@ -5781,3 +6221,58 @@ These leaders are living proof that prevention works and <font color="red"><u>th
 
     参考译文：试图向他人隐藏自己问题的女孩数量也有所上升，60%的女孩在疫情之前会竭尽全力隐藏自己的不快，而现在这一比例为80%。
 
+36. As the automobile industry shifts its focus to new-energy vehicles while integrating the production of new-energy vehicles with smart vehicles, the industry needs resources and technologies such as algorithms to support the formation of relevant smart systems with functions such as autopilot.
+
+    核心词汇：
+
+    automobile industry 汽车行业
+
+    shift    v  转变
+
+    focus    n  重点；中心点
+
+    new-energy vehicles  新能源汽车
+
+    integrate   v  整合
+
+    algorithm     n   算法
+
+    formation    n   形成
+
+    relevant    adj   有关的；切题的；正确的
+
+    function    n   功能
+
+    autopilot    n   自动驾驶；自动驾驶装置
+
+    重点语法：
+
+    ①句子主干：the industry needs resources and technologies
+
+    ②状语从句1：As the automobile industry shifts its focus to new-energy vehicles 
+
+    ③状语从句2：while integrating the production of new-energy vehicles with smart vehicles
+
+    ④目的状语： to support the formation of relevant smart systems with functions such as autopilot
+
+    参考译文：随着汽车行业将重点转向新能源汽车，同时将新能源汽车的生产与智能汽车整合在一起，该行业就需要更多的资源和技术，比如算法，来形成具有自动驾驶等功能的相关智能系统。
+
+37. Shippers who feel they are being overcharged have the right to appeal to the federal government's Surface Transportation Board for rate relief, but the process is expensive, time-consuming, and will work only in truly extreme cases.
+
+    核心词汇：
+
+    shippers   货运商
+
+    overcharge    过高收费
+
+    appeal to 吸引；上诉
+
+    rate relief  费率下调
+
+    time-consuming 耗时的
+
+    work   奏效
+
+    extreme cases 极端案例
+
+    参考译文：感觉被过高收费的货运商有权利向联邦政府的路面交通管理局申诉以获得费率减轻，但是过程是昂贵的、耗时的，同时只有在真正的极端案例中才能奏效。
