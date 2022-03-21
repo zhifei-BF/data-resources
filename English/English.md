@@ -3727,6 +3727,144 @@ My uncle is leaving for Beijing next week. 我叔叔下个星期就要离开去�
 4. Listen! Tom <font color="red">is singing</font>/ (sing) an English song.
 5. Where is Lily? She <font color="red">is having</font> (have) a dinner with her friends.
 
+# 陈述句
+
+陈述句用来叙述一件事情或者表达一种看法的句子。
+
+句末逗号，朗读降调。
+
+He always goes to bed at 10 in the evening.
+
+I think so.
+
+陈述句的分类有两种：肯定 and 否定
+
+1. 陈述句肯定式构成形式：主语+系动词+表语
+
+   This is my English teacher. 这是我的英语老师。
+
+   It is getting dark. 天变黑了。
+
+   You are the best one. 你是最棒的。
+
+   系动词：be动词/感官动词/”变化“（become、get、turn）
+
+   表语：名词/形容词
+
+2. 陈述句肯定式构成形式：主语+谓语动词+其他成分
+
+   I like staying at home at weekends. 周末我喜欢待在家。
+
+   He usually plays basketball after school. 放学后，他经常会去打篮球。
+
+   I believe you can make it. 我相信你能做到的。
+
+**谓语动词变否定**
+
+| 谓语动词种类   | 否定构成                            | 例句                                                         |
+| -------------- | ----------------------------------- | ------------------------------------------------------------ |
+| be动词         | ”be + not“                          | I am not a student.                                                                                                                                            They were not late for school yesterday. |
+| 实义动词       | ”do/does/did + not " + 实义动词原形 | We do not have any money.                                                                                                                               He does not like shopping.                                                                                                                                    I did not do my homework. |
+| 情态动词助动词 | “情态动词+not” / “助动词+not”       | You should not go back home now.   I am not going to visit you. |
+
+一般现在时
+
+He is at home now.
+
+He <font color="red">is not (isn't)</font> at home now.
+
+She works in a big company.
+
+She <font color="red">does not (doesn't)</font> work in a big company.
+
+一般过去时
+
+He was twelve years old at that time.
+
+He <font color="red">was not (wasn't)</font> twelve years old at that time.
+
+He want to his uncle's home.
+
+He <font color="red">did not (didn't)</font> go to his uncle's home.
+
+一般将来时
+
+They will go back to school three days later.
+
+They <font color="red">will not (won't)</font> go back to school three days later.
+
+He is going to meet his old friend.
+
+He <font color="red">is not (isn't)</font> going to meet his old friend.
+
+一般现在进行时
+
+He is talking to his friend.
+
+He <font color="red">is not (isn't)</font> talking to his friend.
+
+They are having a class right now. 
+
+They <font color="red">are not (aren't)</font> having a class right now.
+
+
+
+**否定式缩写**
+
+is not = isn't 
+
+was not = wasn't 
+
+are not = aren't 
+
+were not = weren't
+
+do not = don't 
+
+does not = doesn't
+
+did not = didn't
+
+will not = won't
+
+can not = can't 
+
+
+
+将下列句子改为否定句。
+
+My brother does his homework at school.
+
+My brother <font color="red">doesn't (does not) do</font> his homework at school.
+
+I finished my homework last night.
+
+I <font color="red">didn't (did not)</font> finish my homework last night.
+
+I can speak in Japanese.
+
+I <font color="red">can't (can not)</font> speak in Japanese.
+
+
+
+用英语翻译下列句子！
+
+在晚上，我喜欢读书。我不喜欢和朋友出去。
+
+I like reading in the evening. I don't like going outside with my friends.
+
+我不认识他。
+
+I don't know him.
+
+现在我没有在家。我在学校。
+
+I am not at home now. I am in the school.
+
+明年，她不会去北京。
+
+She won't go to Beijing next year.
+
 # 时态
 
 had done 过去完成时的主动语态
