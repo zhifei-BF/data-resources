@@ -2032,6 +2032,8 @@
 
 174. residence     n  住处；住所；居住；定居；居住权
 
+     resident     n   居民；定居者   adj   常驻的；住校的；住院的
+
 175. constitution     n   宪法；构成；组成；体质；体格
 
 176. negotiate    v  谈判
@@ -2208,9 +2210,15 @@
 
 249. adapt     v  使适应；改编
 
+     adopt     v   收养；采纳；接受
+
 250. analyse    v  分析；分解
 
 251. consist    v  组成；构成；存在于
+
+     consist of   由.....组成
+
+     consist in 存在于
 
 252. interest    n  兴趣；利息；利益   v  使感兴趣
 
@@ -2368,7 +2376,267 @@
 
 321. surpass   v  超过；胜过；优于
 
-322. 
+322. limited    adj  有限的；定量的
+
+323. global   adj   全球的；全世界的；整体的；全面的
+
+324. breeze    n   微风；和风
+
+325. literal     adj   字面意义的；本义的；
+
+326. fossil     n    化石；老人；老顽固；老古董
+
+327. vigorous    adj   充满活力的；精力充沛的；强健的
+
+328. simulate    v  模仿；模拟
+
+329. numerous    adj   为数众多的；许多的
+
+330. transmit    v   传输；传送；传达；传导
+
+331. staircase   n   楼梯
+
+332. foremost   adj   最好的；最重要的
+
+333. negative   adj  坏的；有害的；消极的   n  底片；否定词；不好的方面
+
+334. barbecue    n  金属烤肉架；烧烤野餐
+
+335. tough   adj   坚韧的；牢固的   v  忍耐困难   n  恶棍；暴徒；粗暴的人
+
+336. meaningful    adj  有意义的；意味深长的
+
+337. silt    n  淤泥；泥沙   v  被淤泥阻塞
+
+338. detect    v   测出；发现；查明
+
+339. attend   v   参加；注意；照料
+
+340. undertake    v   着手做；从事；承担；保证
+
+341. notable    adj   值得注意的；显著的；重要的  n  名人；重要人物
+
+342. horror     n   害怕；恐怖
+
+343. hide     n  皮革；兽皮   v  （躲）藏
+
+344. conference    n  会议
+
+345. band    n  乐队；带子；波段；一群   v  用带绑扎
+
+346. harsh   adj   严厉的；恶劣的；粗糙的；刺耳的
+
+347. gross    adj   总共的；严重的；恶心的
+
+348. settle    v   解决；
+
+349. technical     adj   技术的；工艺的；专业的；专门的
+
+350. exhibition    n   展览；展览会
+
+351. fallow     n  休耕地   adj   休耕的
+
+352. proportion    n   比例；部分   vt  使成比例
+
+353. apart    adv   相间隔；分离；除去  adj  分离的
+
+354. terrace    n  露天平台；阳台；阶梯看台
+
+355. maximum   adj   最高的；最大极限的   n  最大量；极大
+
+356. endure    v   忍耐；容忍；持久；持续
+
+357. exceed   v  超过；超出；超越
+
+358. tremendous    adj   巨大的；惊人的；极好的
+
+359. reproduce   v  生殖；繁殖；复制
+
+360. forthcoming    adj   即将到来的
+
+361. gear    n   排挡；齿轮；传动装置    adj  时髦的；好极了
+
+362. supervise   v  监督；管理；指导
+
+363. level    n  高度；水平；水准；层次；级别
+
+364. breakdown    n   崩溃；故障；失败；分类
+
+365. strategy    n   战略；策略
+
+366. fold    v   折叠；  n  褶皱；折痕
+
+367. pack   v  收拾行李；打包；挤满；塞满   
+
+368. assess   v  评价；评定；估价；估计
+
+369. flavour    n   味道；特点；特色   v  调味；加味于
+
+370. compulsory    adj   必须做的；义务的；强制的；强迫的
+
+371. swift   adj  快的；敏捷的；迅速的
+
+372. intelligent    adj  聪明的；智能的
+
+373. convey    v  传达；运输
+
+374. block   n  块；街区；  v   阻止；阻塞
+
+375. decline    v  减少；下降；衰退
+
+376. logic    n  逻辑；逻辑思维；逻辑学
+
+377. lead   vt   指引；引领  adj  领导的；领先的
+
+378. address   地址；演说；讲话；网址
+
+379. cite    v  引用；提及；举例
+
+380. commitment    n  委托；许诺；承担义务
+
+381. maintenance    n   维护；维修；维持
+
+382. draft    n   草稿；  v  起草
+
+383. respect    n  尊敬；敬重
+
+384. appraisal   n  估计；评价
+
+385. voyage   n  航海；航行   v  旅行
+
+386. violence   n  暴力；狂暴
+
+387. fantasy    n   想象；幻想
+
+388. alight   v  飞落；下来  adj   燃烧的
+
+389. exotic    adj   异国风情的；奇异的
+
+390. sculpture   n  雕像；雕塑品；雕刻术；
+
+391. maritime    adj   海的；海事的；海运的；近海的
+
+392. grab   v  抓住；抓取   n  争夺
+
+393. academic   adj   学术的；学院的；大学的    n  学者
+
+394. mountainous    adj  多山的；巨大的；山一般的
+
+395. abstraction    n  抽象概念；心不在焉；出神
+
+396. evaporate    v   蒸发；挥发；消失；消散；衰减
+
+397. extract   v  取出；拔出   n  提取物；萃取物
+
+398. impose   v  推行；（强制）执行；把....强加于
+
+399. appliance    n  器具；器械；装置；
+
+400.  threshold   n  门槛；门口；阈；界；起点；临界点
+
+401. coarse   adj  粗的；粗糙的；粗劣的
+
+402. anticipate   v  预期；预料；预计
+
+403. volunteer    n  志愿者；志愿兵；义务工作者  v   自愿做；义务做
+
+404. interior    adj   内部的；内地的；国内的   n  内部
+
+405. respond   v  回复；答复；反应；响应
+
+     responsible   adj  对。。。负有责任的；可靠的；可信任的；负有责任心的
+
+406. determine   v  下决心；做出决定；确定；查明
+
+407. labour   n  劳动；劳动力；分娩；工人   v  努力做；干苦力活
+
+408. congested   adj   堵塞的；拥挤不堪的；充血的
+
+409. pension    n  养老金；抚恤金；退休金
+
+410. enquiry   n  查询；调查；询问；探索
+
+411. optimistic   adj  乐观的；乐观主义的
+
+412. relay    v   转送；转发；播放；转播   n  接力赛；接替者；中继设备
+
+413. offspring   n  子女；后代；幼崽；幼苗
+
+414. brilliant   adj   光辉灿烂的；卓越的
+
+415. blast   n  爆炸；冲击波；强风  v  爆炸；爆破
+
+416. conflict   n  冲突；抵触；战斗；矛盾冲突
+
+417. scrap   n  碎片；小块；丝毫；废料   v  废弃；取消
+
+418. indulge   v  沉迷于；纵情于；放任；放纵；迁就；满足
+
+419. wander   v  游荡；漫步；闲逛
+
+420. poverty   n  贫穷；贫困
+
+421. dynamic   adj   有活力的；精力充沛的；动态的  n  动力；活力
+
+422. lane    n  小巷；小街；跑道；航道   
+
+423. continent    n  洲；大陆   adj  自制的；禁欲的
+
+424. destruction    n  破坏；毁灭
+
+425. promise    v  承诺；保证；有希望；有可能
+
+426. sector   n  部门；邻域；行业
+
+427. virtue    n  美德；优点；善行
+
+428. chorus   n  齐声；异口同声；合唱团   v  合唱；齐声说
+
+429. consultant   n  咨询；顾问
+
+430. undergraduate  n   大学生
+
+431. seduction   n  诱惑；诱奸
+
+432. romance   n  浪漫；爱情；恋爱
+
+433. theatre   n  剧院
+
+434. drama   n   戏；剧
+
+435. art   n  艺术；人文科学；美术作品；技能
+
+     arts coverage 艺术报道
+
+     cover the cost 支付费用
+
+     the arts and the sciences 人文和科学 
+
+436. quarter   n  四等分之一
+
+     quarter century 四分之一世纪
+
+437. far-reaching    adj   深远的；广泛的
+
+     the most far-reaching  最深远的
+
+438. seriousness   n  严肃
+
+439. particular    adj   特别的；独有的
+
+     particular thing 特别的事
+
+440. inexorable    adj   不可阻挡的；无法改变的
+
+     exorable   adj   可说服的；心软的；
+
+441. advising   v  劝告；忠告；建议
+
+     advising sb on sth 建议某人做某事
+
+442. literature   n  文学
+
+443. 
 
 # 核心词汇3
 
