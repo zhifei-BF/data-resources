@@ -88,6 +88,8 @@
 
 5. cover  vt 覆盖；包括；报道；支付   n  封面；封皮
 
+   cover costs 覆盖成本（费用）
+
    recover   vt  恢复；痊愈
 
    recovery   n   恢复；痊愈
@@ -123,6 +125,8 @@
    insignificant   adj  无关紧要的
 
    significance   n  意义；重要性
+
+   of great significance 非常重要的
 
    important   adj  重要的；重大的
 
@@ -333,21 +337,21 @@
     in action   在运转；正在进行
 
     act   v  行动；起作用；表演  n  行为；法令
-    
+
     active   adj  积极的；活跃的；主动的
-    
+
     passive  adj  被动的
-    
+
     positive   adj  积极的；正极的
-    
+
     negative   adj   消极的；负极的
-    
+
     optimistic    adj   乐观的
-    
+
     pessimistic   adj   悲观的
-    
+
     activate   vt   激活；使活动
-    
+
     activity   n  活动；行动
 
 15. discard   v  丢掉；舍弃
@@ -561,6 +565,8 @@
     vaccine   n  疫苗
 
 22. professional     adj   职业的；专业的    n   专业人员
+
+    professional opinion  专业的建议
 
     non-professional   adj  非专业的
 
@@ -1139,6 +1145,10 @@
     lecture   n   演讲
 
     claim    v   声称；索赔；认领   n  声明；要求
+
+    discovery claims 发现声明
+
+    stake （out）a claim 公开声称对......所有权
 
     luggage  claim  行李认领
 
@@ -2532,7 +2542,7 @@
 
 399. appliance    n  器具；器械；装置；
 
-400.  threshold   n  门槛；门口；阈；界；起点；临界点
+400. threshold   n  门槛；门口；阈；界；起点；临界点
 
 401. coarse   adj  粗的；粗糙的；粗劣的
 
@@ -2626,17 +2636,141 @@
 
      particular thing 特别的事
 
+     start to change 开始改变
+
+     develop into 发展成；变成。。。
+
+     characteristic mentioned 所提及的特征
+
 440. inexorable    adj   不可阻挡的；无法改变的
 
      exorable   adj   可说服的；心软的；
 
 441. advising   v  劝告；忠告；建议
 
+     advice    n   劝告；忠告；建议
+
+     take medical advice 遵医嘱
+
+     advise   v    劝告；忠告；建议
+
      advising sb on sth 建议某人做某事
+
+     advise sb to do sth 建议某人做某事
+
+     advise sb of sth （正式地）通知
+
+     strongly advise against sth 强烈反对
+
+     make a decision 做决定
 
 442. literature   n  文学
 
-443. 
+443. industry    n   工业；行业
+
+444. difficult      adj   困难的
+
+     increasingly difficult 越来越困难
+
+445. smoking   n  吸烟
+
+     give up smoking 戒烟
+
+446. fat   adj   肥胖的
+
+447. irritable    adj   易怒的；暴躁的
+
+448. dwindle    vi   缩小；减少；变小
+
+     less and less 越来越少（小）地
+
+     smaller and smaller 越来越少（小）
+
+449. workforce   n  全体员工；劳动力；劳动人口；劳动大军
+
+450. credibility   n  可靠性；可信性
+
+     credibility process 取信过程
+
+451. individual    adj  个体的
+
+     individual researcher 个体研究人员
+
+     be though of as 被认为是
+
+452. scrutiny    n    仔细检查
+
+453. gradually   adv  逐步地；渐渐地
+
+454. acceptance    n   接受；接纳
+
+455. suitable    adj   合适的；适当的
+
+     be suitable for  适于；合适的
+
+456. attractive     adj    有吸引力的
+
+457. misfortune     n  厄运；不幸
+
+458. rehearsal    n  排练
+
+459. recommendation   n  推荐；建议
+
+460. prosecute   v  起诉
+
+     be prosecuted by sb 被某人起诉
+
+461. practical   adj  实用的
+
+462. suspect   n  嫌疑犯
+
+463. afraid    adj   害怕的
+
+     don‘t be afraid to do sth 不要怕做某事
+
+     ask for 询问；要求
+
+     order the meal 点餐
+
+464. Chinese nation 中华民族
+
+465. New York Philharmonic 纽约爱乐（美国交响乐团）
+
+466. originate from 源自；来源于
+
+467. cross-border  adj   跨国的；跨界的
+
+468. jointly    adv  共同地；连带地
+
+469. Shanghai Symphony Orchestra 上海交响乐团
+
+     Orchestra   n  管弦乐队
+
+     Symphony    n   交响曲
+
+470. treasured  adj  珍贵的；宝贵的
+
+     treasure    n   珠宝；财富；金银财宝   vt   珍视；珍爱；珍藏
+
+471. possession    n   财富；财产
+
+     possess   vt  有；拥有；
+
+472. curiosity   n  好奇心
+
+     curious   adj   好奇的
+
+473. stranger   n  陌生人
+
+474. through   prep   透过；经由；通过
+
+475. go on 继续；进行；发生
+
+476. and that 而且；并且
+
+477. share   v  有同样的感觉；分享；共享
+
+478. 
 
 # 核心词汇3
 
