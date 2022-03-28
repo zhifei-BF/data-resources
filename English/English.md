@@ -1226,7 +1226,7 @@
 
     underlie    vt   位于.....之下；成为......的基础
 
-    underlying     adj   潜在的；根本的
+    underlying     adj   潜在的；根本的；实际的
 
     The one who wants to wear a crown must bear the weight.
 
@@ -2770,7 +2770,403 @@
 
 477. share   v  有同样的感觉；分享；共享
 
-478. 
+478. carbon dioxide 二氧化碳
+
+479. driver  n 推动力；驱动因素
+
+480. emit   v  排放
+
+481. net emission  净排放
+
+482. lion's share   最大份额；大部分
+
+483. translate   v  转移；转变
+
+484. logical     adj   逻辑上的；
+
+485. liver     n   肝
+
+486. outward    adj   表面的；外表的；外出的
+
+487. marble    n  大理石；弹珠
+
+488. maintain    v  维持；保持；维修；保养
+
+489. sinister     adj   不吉祥的；邪恶的；有凶兆的
+
+490. attempt   n  尝试；企图；试图
+
+491. format    n   格式；版式   v   使格式化
+
+492. ambitious   adj   有野心的；有雄心的
+
+493. explosive    n  爆炸物质    adj    爆炸的；
+
+494. empire    n   帝国；大企业；商业王国
+
+495. manipulate    v   熟练地操作；控制；操纵
+
+496. remind    v   提醒；使想起
+
+497. district    n   区
+
+498. generalize    v  概括；归纳
+
+499. indication    n   指示；表明；显示
+
+500. rig    v  操纵；安装；装配    n  钻井装备
+
+501. extraordinary     adj   不同寻常的；非常的
+
+502. incendiary    adj   引起燃烧的；煽动性的
+
+503. county     n  （英）郡；（美）县
+
+504. kidney    n  肾；动物腰子
+
+505. fraction    n  一部分；小部分；碎片
+
+506. absorb    v   吸收；吸引....的注意
+
+507. delivery    n  递送；交付；分娩
+
+508. bit    n   比特；少量；一点儿
+
+509. fuel    n  燃料     v  给....加燃料
+
+510. restrict    v   限制；约束；限定
+
+511. external    adj   外部的；外面的；外来的   adv  外表上；外形上
+
+512. mixture    n   混合
+
+513. collapse    v   倒塌；崩溃；瓦解
+
+514. coordinate   v   协调；整合；使一致   n  坐标；套装
+
+515. parallel    adj   平行的；并列的；类似的
+
+516. strip    n   （纸、布、食物等的）条；带；狭长区域  v  除去；剥去；剥夺
+
+517. fountain    n  喷泉；泉水；源头
+
+518. conservation    n   保存；保护
+
+519. intend    v   打算；计划；想要
+
+520. overcome    v  战胜；克服
+
+521. trivial    adj   不重要的；琐碎的；微不足道的
+
+522. deplete    v   枯竭；消耗
+
+523. devise    v  设计；发明    n  遗赠的财产
+
+524. minimal    adj   最小的；最低限度的；极小的
+
+525. frock    n  连衣裙；女装
+
+526. latitude   n  纬度；
+
+527. posture    n  姿态；姿势；态度；立场
+
+528. drought    n  干旱；旱灾
+
+529. vertebrate   n  脊椎动物   adj   有脊椎的
+
+530. concert     n  音乐会；演奏会
+
+531. array    n   数组；v   排列
+
+532. primitive   adj   原始的；早期的；简陋的
+
+533. divine    adj   敬神的；神圣的   v  探测；猜测
+
+534. credible   adj   可信的；可靠的
+
+535. display    v  展示；显示；表现   n  显示；陈列
+
+536. federal     adj   联邦的
+
+537. digest    v  消化；理解；领悟
+
+538. intention    n   意图；意向；目的
+
+539. output   n  产量；输出信息   v  输出
+
+     input   n   输入信息  v  输入
+
+540. session   n  会议；开庭
+
+541. melt    v   使融化；使溶解；变得心软
+
+542. squeeze    v  握紧；挤压  n  挤；榨；削减
+
+543. debate   v/n  争论；辩论
+
+544. texture    n   质地；质感；（艺术作品的）韵味
+
+545. scheme   n  计划；方案；诡计；阴谋   v  计划；图谋
+
+546. splash    v   溅湿；洒水
+
+547. retain    v  保留；保持；保存
+
+548. probability    n  可能性；概率
+
+549. stripe   n  条纹；（表示军阶的）臂章
+
+550. lecture   n  演讲；讲课
+
+551. batch    n  一批；一批生产量
+
+552. inhabitant    n  居民；住户；常住居民；栖居的动物
+
+553. clot   n  凝块   v  使凝结成块
+
+554. vanish    v  消失不见；绝迹   n  弱化音
+
+555. trial   n  审讯；审判；试验；试用   adj   试验的；试用的；审讯的；审判的
+
+556. jungle   n  （热带）丛林；密林
+
+557. issue    n  问题；发行物；分发  v  发表；颁布；正式发行
+
+558. nerve    n  神经；勇气；胆量
+
+559. decade    n  十年
+
+560. retire     v  退休；退职；离开；退出；就寝
+
+561. mental    adj  精神的；心理的；脑力的   n  精神病患者
+
+562. devastating    adj  毁灭性的；骇人的；强有力的
+
+563. intensity   n  强烈；剧烈
+
+564. champion   n 冠军；拥护者  v  保卫；拥护
+
+565. urge   v  敦促；催促；力劝
+
+566. trend  n  倾向；趋势
+
+567. accommodation    n   住处；住宿
+
+568. consultant    n  顾问；会诊医生
+
+569. technician    n   技术员
+
+570. scenery   n  景色；风景；舞台布景
+
+571. leadership    n   领导；领导层；领导能力
+
+572. denote    v   象征；预示；表示；
+
+573. abound    v  大量存在；有很多
+
+574. disorder    n   杂乱；混乱；失调；
+
+575. continuity    n  连续（性）；持续（性）
+
+576. counter   n  计算器；柜台   v   反驳；抵消    adv   逆向地；相反地；反对地
+
+577. canoe     n  独木舟
+
+578. monitor    n  班长；监视器  v  监视；监测
+
+579. intent    adj   专心的；专注的；决心的   n  意图；意向；目的
+
+580. lag   v  落后；赶不上；滞后  n  间隔；间歇；时间差
+
+581. edible   adj  可食用的
+
+582. institution    n   协会；制度；机构；惯例
+
+583. induction    n  就职；入门；诱导
+
+584. scream    n  尖叫声   v   尖叫
+
+585. assignment    n   作业；任务
+
+586. fault    n  缺点；瑕疵；错误
+
+587. leaflet    n  宣传册；传单   v  散发传单
+
+588. advance    n  前进；进展   adj   先行的；前面的；预先的
+
+589. recycle    v  回收利用；再利用
+
+590. sufficient    adj   足够的；充分的
+
+591. acquire   v  取得；获得
+
+592. stage    n  阶段；步骤；舞台；驿站   v 举行；上演；举办；组织
+
+593. frequent    adj   频繁的；经常发生的   v  常去；常到（某处）
+
+594. panic    n  惊恐；恐慌
+
+595. consult   v  咨询；查阅；商讨
+
+596. destructive   adj   破坏性的；毁灭性的；有害的
+
+597. physician   n  内科医生；医师
+
+     physicist   n  物理学家
+
+598. mainly    adv   大体上；主要地
+
+599. attribute   v  把.....归因于；把.....归咎于；
+
+600. procession    n  行列；列队行进；游行
+
+601. stake   n  股份；桩；赌注
+
+602. appoint    v  任命；指定
+
+603. govern   v  统治；支配；治理
+
+604. limitation    n  限制；局限
+
+605. cancel   v  取消；撤销；废除
+
+606. privacy    n  隐私；私事；隐私权；独处
+
+607. telescope   v  叠套缩短 ；精简  n  望远镜
+
+608. overall   adv  全部；总计  n 外套；罩衣  adj  全面的；综合的；总体的
+
+609. supply   n  补给；供给；供应；
+
+610. insight   n  洞察力；洞悉；领悟；深刻见解
+
+611. anecdotal   adj  轶话的；轶闻趣事的
+
+612. attack    v  袭击；抨击   n  进攻；抨击
+
+613. dispute   n  争论；争吵   v  质疑
+
+614. excitement   n  激动；兴奋；
+
+615. bride   n  新娘
+
+     bridegroom   n  新郎
+
+616. the business climate   营商环境；商业环境
+
+     business leader  商业领袖
+
+617. unleash   v   释放
+
+618. vitality    n   活力；生机；生命力 
+
+     vital   adj   至关重要的  
+
+619. resilience    n  弹力；恢复力
+
+620. propel    v  推动；驱动
+
+621. analyst    n   分析师；分析人士
+
+622. refinement   n  精炼；提炼
+
+623. solar   adj   太阳的；太阳能的
+
+624. amplify    v   放大；增强；详述
+
+625. craft   n  工艺；手艺   v  精心制作
+
+626. shaft   n 轴；杆  v  蒙骗；欺骗
+
+627. compete    v  竞争；争夺
+
+628. budget    n  预算   v  做预算；节省开支   adj   不贵的；廉价的
+
+629. contrast     n  对比；对照  
+
+630. spit    v  吐唾沫；吐口水   n  唾沫；口水
+
+631. conventional   adj  传统的；习惯的；常规的
+
+632. compete    v  竞争；争夺
+
+633. organize    v  组织；筹划；整理
+
+634. mount    v  登上（山等）；骑上（马、车)等    
+
+635. luxury    n  奢侈；豪华；奢侈品
+
+636. arrangement    n  安排；筹划；准备
+
+637. accumulate    v  积聚；累加；堆积
+
+638. horizon   n  地平线；视野；见识
+
+639. cap    n  帽子；最高限额   v  覆盖；限制
+
+640. glove    n   手套
+
+641. excursion    n  远足；短途旅行
+
+642. smell    n  气味；气息；嗅觉   v  闻；嗅
+
+643. consortium   n  联合企业；财团
+
+644. promote    v  促进；提升；
+
+645. hall   n 门厅；走廊；礼堂
+
+646. abandon    v  放弃；遗弃；沉溺
+
+647. mastery    n  精通；熟练；控制
+
+648. distinguish   v  区别；辨别
+
+649. fatal   adj  致命的；毁灭性的
+
+650. sensible   adj  明智的；理智的；合理的
+
+651. significance    n  意义；含义；重要性；显著性
+
+652. pressure   n  压力；困扰   v  对.....施压；强迫
+
+653. seek    v  寻求；寻找；
+
+654. clutch   v  紧抓；紧握
+
+655. spoil    v  宠坏；溺爱；破坏  n  战利品
+
+656. collate   v  校对；核对；整理
+
+657. quantity   n  量；数量；分量
+
+658. pattern   n  图案；花样 ；模式 v 仿制；仿造
+
+659. irregularity   n  不规则性；不规则的事物
+
+660. visible    adj  可见的；有形的；明显的
+
+661. prescription    n  药方；开处方；诀窍；秘诀
+
+662. proposal    n  提出；建议；提议；计划；提案；求婚
+
+663. license   n  许可证；执照；特许
+
+664. design   n  设计；图案  v  设计；构思
+
+665. apparent   adj  显然的；表面上的；似乎真实的
+
+666. intense    adj   强烈的；紧张的；热情的
+
+667. mood   n  心情；情绪
+
+668. mercury   n  水银；汞
+
+     Mercury   n  水星
+
+669. beehive    n  蜂箱；蜂房
+
+670. 
 
 # 核心词汇3
 
